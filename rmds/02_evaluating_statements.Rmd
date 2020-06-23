@@ -1,0 +1,728 @@
+---
+title: | 
+  **Supplemental Materials:** Statements issued by academic medical
+  institutions after George Floyd’s killing by police and subsequent 
+  unrest in the United States: cross-sectional study'
+author: Mathew V Kiang and Alexander C Tsai
+output: 
+  html_document:
+    code_folding: 'hide'
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(error = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+```
+
+```{r imports}
+library(tidyverse)
+library(here)
+library(DT)
+library(knitr)
+```
+
+```{r}
+## Read in processed data
+analytic_df <- readRDS(here("data_private", "analytic_df.RDS"))
+word_df <- readRDS(here("data_private", "tokenized_words.RDS"))
+sentence_df <- readRDS(here("data_private", "tokenized_sentences.RDS"))
+ngram2_df <- readRDS(here("data_private", "tokenized_bigrams.RDS"))
+ngram3_df <- readRDS(here("data_private", "tokenized_trigrams.RDS"))
+summary_df <- readRDS(here("data_private", "keyword_summary_df.RDS"))
+```
+
+## Evaluating statements
+
+Below, we define a set of criteria for evaluating each statement in both plain English and code. 
+
+1. Use of victims’ names
+2. Reference to the Black community specifically
+3. Reference to the role of the police
+4. Specifies the act resulting in Floyd's death
+5. Explicitly naming racism
+6. Active support against racism
+7. Reference to negative sequelae resulting from racism
+8. Use of hopeful language
+
+First, we create a helper function that converts each rule into a binary variable for all institutions:
+
+```{r}
+reshape_criterion <- function(analytic_df,
+                              rule_name,
+                              institutions_with_rule) {
+    tibble(institution_id = sort(unique(analytic_df$random_id)),
+           criterion = rule_name,) %>%
+        mutate(value = 1 * institution_id %in% institutions_with_rule)
+}
+
+quick_plot <- function(reshaped_df) {
+    ggplot(reshaped_df,
+           aes(
+               x = as.factor(institution_id),
+               y = criterion,
+               fill = as.factor(value)
+           )) +
+        geom_tile(color = "white") +
+        scale_fill_manual(NULL, values = c("white", "grey50")) + 
+        scale_x_discrete("Institution ID", expand = c(0, 0), 
+                         breaks = seq(0, NROW(analytic_df), 5)) + 
+        scale_y_discrete(NULL, expand = c(0, 0)) + 
+        theme_light() + 
+        theme(legend.position = 'none')
+}
+```
+
+### 1. Use of victims’ names
+
+- A statement must have at least one of the following:
+    - George Floyd: contain "George Floyd*" (e.g., "George Floyd" or "George Floyd's death") at least one time. 
+    - Breonna Taylor: contain "Breonna Taylor*" at least one time.
+    - Ahmaud Arbery: contain "Ahmaud Arbery*" at least one time.
+
+```{r}
+x_george_floyd <- ngram2_df %>%
+    filter(grepl("\\<george floyd", ngram2)) %>%
+    pull(random_id) %>%
+    unique() %>%
+    sort()
+
+x_breonna_taylor <- ngram2_df %>% 
+  filter(grepl("\\<breonna taylor", ngram2)) %>% 
+  pull(random_id) %>% 
+  unique() %>% 
+  sort()
+
+x_ahmaud_arbery <- ngram2_df %>% 
+  filter(grepl("\\<ahmaud arbery", ngram2)) %>% 
+  pull(random_id) %>% 
+  unique() %>% 
+  sort()
+
+mention_george_floyd <-
+    reshape_criterion(analytic_df, "george_floyd", x_george_floyd) %>%
+    mutate(category_type = "sub")
+
+mention_breonna_taylor <-
+    reshape_criterion(analytic_df, "breonna_taylor", x_breonna_taylor) %>%
+    mutate(category_type = "sub")
+
+mention_ahmaud_arbery <-
+    reshape_criterion(analytic_df, "ahmaud_arbery", x_ahmaud_arbery) %>%
+    mutate(category_type = "sub")
+
+mention_victims_names <- bind_rows(
+    mention_george_floyd,
+    mention_breonna_taylor,
+    mention_ahmaud_arbery,
+    reshape_criterion(
+        analytic_df,
+        "names_victims",
+        c(x_george_floyd, x_breonna_taylor, x_ahmaud_arbery)
+    ) %>%
+        mutate(category_type = "main")
+) %>%
+    mutate(category = "names_victims")
+```
+
+```{r fig.height=1, fig.width=6}
+quick_plot(mention_victims_names)
+```
+
+Which ones did not mention George Floyd? `r setdiff(1:NROW(analytic_df), x_george_floyd)`. We manually verified each of these statements did not mention George Floyd. 
+
+### 2. Reference to the Black community specifically
+
+- Statement must contain "black\*" or "african[-]american\*" at least once. 
+
+```{r}
+x_black <- word_df %>% 
+    filter(grepl("\\<black", word)) %>% 
+    pull(random_id) %>% 
+    unique() %>% 
+    sort()
+
+x_african_american <- ngram2_df %>% 
+    filter(grepl("\\<african american", ngram2)) %>% 
+    pull(random_id) %>% 
+    unique() %>% 
+    sort()
+```
+
+```{r}
+mention_black_community <- bind_rows(
+    reshape_criterion(analytic_df, "black", x_black) %>%
+        mutate(category_type = "sub"),
+    reshape_criterion(analytic_df, "african_american", x_african_american) %>%
+        mutate(category_type = "sub"),
+    reshape_criterion(
+        analytic_df,
+        "mentions_black_community",
+        c(x_black, x_african_american)
+    ) %>%
+        mutate(category_type = "main")
+) %>%
+    mutate(category = "mentions_black_community")
+```
+
+```{r fig.height=1, fig.width=6}
+quick_plot(mention_black_community)
+```
+
+### 3. Reference to the role of the police
+
+- Statement must contain any of the following at least once:
+    - "police\*" (i.e., not "policing" or "policy") 
+    - "police officer\*"
+    - "law enforcement"
+
+```{r}
+x_police <- word_df %>% 
+    filter(grepl("\\<police", word)) %>% 
+    pull(random_id) %>% 
+    unique() %>% 
+    sort()
+
+x_law_enforcement <- ngram2_df %>% 
+    filter(ngram2 == "law enforcement") %>% 
+    pull(random_id) %>% 
+    unique() %>% 
+    sort()
+
+x_police_officer <- ngram2_df %>% 
+    filter(grepl("\\<police officer", ngram2)) %>% 
+    pull(random_id) %>% 
+    unique() %>% 
+    sort()
+```
+
+```{r}
+mention_police <-
+    reshape_criterion(analytic_df, "police", x_police) %>%
+    mutate(category_type = "sub")
+
+mention_police_officer <-
+    reshape_criterion(analytic_df, "police_officer", x_police_officer) %>%
+    mutate(category_type = "sub")
+
+mention_law_enforcement <-
+    reshape_criterion(analytic_df, "law_enforcement", x_law_enforcement) %>%
+    mutate(category_type = "sub")
+
+role_of_police <-
+    bind_rows(
+        mention_police,
+        mention_police_officer,
+        mention_law_enforcement,
+        reshape_criterion(
+            analytic_df,
+            "role_of_police",
+            c(x_police, x_law_enforcement, x_police_officer)
+        ) %>%
+            mutate(category_type = "main")
+    ) %>% 
+    mutate(category = "role_of_police")
+```
+
+```{r fig.height=1, fig.width=6}
+quick_plot(role_of_police)
+```
+
+### 4. Specifies the act resulting in Floyd's death
+
+- Statement must either:
+    - Contain "murder\*", "kill\*", "suffocat\*" at least once or
+    - Contain {"knee\*" or "knelt"} and "neck" in the same sentence. 
+
+```{r}
+x_murder <- word_df %>%
+    filter(grepl("\\<murder", word)) %>%
+    pull(random_id) %>%
+    unique() %>%
+    sort()
+
+x_kill <- word_df %>%
+    filter(grepl("\\<kill", word)) %>%
+    pull(random_id) %>%
+    unique() %>%
+    sort()
+
+x_suffocate <- word_df %>%
+    filter(grepl("\\<suffoca", word)) %>%
+    pull(random_id) %>%
+    unique() %>%
+    sort()
+
+x_kneeling_neck <- sentence_df %>%
+    filter(grepl("\\sknee|\\sknelt", sentence),
+           grepl("\\sneck", sentence)) %>%
+    pull(random_id) %>%
+    unique() %>%
+    sort()
+```
+
+```{r}
+mention_murder <-
+    reshape_criterion(analytic_df, "murder", x_murder) %>%
+    mutate(category_type = "sub")
+
+mention_kill <-
+    reshape_criterion(analytic_df, "killing", x_kill) %>%
+    mutate(category_type = "sub")
+
+mention_suffocate <-
+    reshape_criterion(analytic_df, "suffocating", x_suffocate) %>%
+    mutate(category_type = "sub")
+
+mention_kneeling_neck <-
+    reshape_criterion(analytic_df, "kneeling_on_neck", x_kneeling_neck) %>%
+    mutate(category_type = "sub")
+
+describes_the_act <-
+    bind_rows(
+        mention_murder,
+        mention_kill,
+        mention_suffocate,
+        mention_kneeling_neck, 
+        reshape_criterion(
+            analytic_df,
+            "describes_the_act",
+            c(x_murder, x_kill, x_suffocate, x_kneeling_neck)
+        ) %>%
+            mutate(category_type = "main")
+    ) %>% 
+    mutate(category = "describes_the_act")
+```
+
+```{r fig.height=1.2, fig.width=6}
+quick_plot(describes_the_act)
+```
+
+### 5. Explicitly naming racism
+
+- Statement must contain any of the following at least once:
+    - "racist\*" (e.g., racist or racists)
+    - "racism\*" 
+    - "white suprem\*" (e.g., white supremacy)
+
+```{r}
+x_racist <- word_df %>% 
+    filter(grepl("\\<racist", word)) %>% 
+    pull(random_id) %>% 
+    unique() %>% 
+    sort()
+
+x_racism <- word_df %>% 
+    filter(grepl("\\<racism", word)) %>% 
+    pull(random_id) %>% 
+    unique() %>% 
+    sort()
+
+x_white_supremacy <- ngram2_df %>% 
+    filter(grepl("\\<white suprem", ngram2)) %>% 
+    pull(random_id) %>% 
+    unique() %>% 
+    sort()
+```
+
+```{r}
+mention_racist <-
+    reshape_criterion(analytic_df, "racist", x_racist) %>%
+    mutate(category_type = "sub")
+
+mention_racism <-
+    reshape_criterion(analytic_df, "racism", x_racism) %>%
+    mutate(category_type = "sub")
+
+mention_white_supremacy <-
+    reshape_criterion(analytic_df, "white_supremacy", x_white_supremacy) %>%
+    mutate(category_type = "sub")
+
+role_of_racism <-
+    bind_rows(
+        mention_racist,
+        mention_racism,
+        mention_white_supremacy,
+        reshape_criterion(
+            analytic_df,
+            "role_of_racism",
+            c(x_racist, x_racism, x_white_supremacy)
+        ) %>%
+            mutate(category_type = "main")
+    ) %>% 
+    mutate(category = "role_of_racism")
+```
+
+```{r fig.height=1, fig.width=6}
+quick_plot(role_of_racism)
+```
+
+### 6. Active support against racism
+
+- Statement must contain any of the following at least once: 
+  - "anti[-]racis\*" (e.g., anti-racism, anti-racists)
+  - "Black Lives Matter" (as a trigram) or "BlackLivesMatter" (word) or "BLM" (word)
+  - "Black", "Lives", and "Matter" in the same sentence (e.g., "the lives of our Black community matter"). 
+
+```{r}
+antiracist1 <- word_df %>% 
+    filter(grepl("\\<antiraci|\\<anti-raci", word)) %>% 
+    pull(random_id) %>% 
+    unique() %>% 
+    sort()
+
+antiracist2 <- ngram2_df %>% 
+    filter(grepl("\\<anti raci|\\<anti-raci", ngram2)) %>% 
+    pull(random_id) %>% 
+    unique() %>% 
+    sort()
+
+x_antiracism <- sort(unique(c(antiracist1, antiracist2)))
+
+x_blm <- word_df %>% 
+  filter(grepl("\\<blm|\\<blacklivesmatter", word)) %>% 
+  pull(random_id) %>% 
+  unique() %>% 
+  sort()
+
+x_blm2 <- ngram3_df %>% 
+  filter(grepl("black lives matter*", ngram3)) %>% 
+  pull(random_id) %>% 
+  unique() %>% 
+  sort()
+
+x_blm3 <- sentence_df %>%
+  filter(grepl("black", sentence) &
+           grepl("lives", sentence) & 
+           grepl("matter", sentence)) %>%
+  pull(random_id) %>%
+  unique() %>%
+  sort()
+```
+
+```{r}
+mention_antiracist <-
+    reshape_criterion(analytic_df, "antiracism", x_antiracism) %>%
+    mutate(category_type = "sub") 
+
+mention_blm <-
+    reshape_criterion(analytic_df, "black_lives_matter", c(x_blm, x_blm2)) %>%
+    mutate(category_type = "sub")
+
+mention_active_support <- bind_rows(
+    mention_antiracist,
+    mention_blm,
+    reshape_criterion(analytic_df, "active_support", c(x_antiracism, x_blm, x_blm2)) %>%
+        mutate(category_type = "main")
+) %>%
+    mutate(category = "active_support")
+```
+
+```{r fig.height=1, fig.width=6}
+quick_plot(mention_active_support)
+```
+
+### 7. Reference to negative sequelae resulting from racism
+
+Statement contains “inequal\*”, “injustice”, “inequit\*”, or “disparit\*” at least once. 
+
+```{r}
+x_inequal <- word_df %>% 
+    filter(grepl("\\<inequal", word)) %>% 
+    pull(random_id) %>% 
+    unique() %>% 
+    sort()
+
+x_injustice <- word_df %>% 
+    filter(grepl("\\<injustice", word)) %>% 
+    pull(random_id) %>% 
+    unique() %>% 
+    sort()
+
+x_inequity <- word_df %>% 
+    filter(grepl("\\<inequit", word)) %>% 
+    pull(random_id) %>% 
+    unique() %>% 
+    sort()
+
+x_disparity <- word_df %>% 
+    filter(grepl("\\<disparit", word)) %>% 
+    pull(random_id) %>% 
+    unique() %>% 
+    sort()
+```
+
+```{r}
+mention_inequal <-
+    reshape_criterion(analytic_df, "inequality", x_inequal) %>%
+    mutate(category_type = "sub")
+
+mention_injustice <-
+    reshape_criterion(analytic_df, "injustice", x_injustice) %>%
+    mutate(category_type = "sub")
+
+mention_inequity <-
+    reshape_criterion(analytic_df, "inequity", x_inequity) %>%
+    mutate(category_type = "sub")
+
+mention_disparity <-
+    reshape_criterion(analytic_df, "disparity", x_disparity) %>%
+    mutate(category_type = "sub")
+
+mention_enemy_words <- bind_rows(
+    mention_inequal,
+    mention_injustice,
+    mention_inequity,
+    mention_disparity,
+    reshape_criterion(
+        analytic_df,
+        "enemy_words",
+        c(x_inequal, x_injustice, x_inequity, x_disparity)
+    ) %>%
+        mutate(category_type = "main")
+) %>% 
+    mutate(category = "enemy_words")
+```
+
+```{r fig.height=1.25, fig.width=6}
+quick_plot(mention_enemy_words)
+```
+
+### 8. Use of hopeful language
+
+- Statement contains:
+    - “communit\*”, 
+    - “inclus\*”, 
+    - “justice\*”, 
+    - “divers\*”, 
+    - “solidarity”, 
+    - “equal\*”, 
+    - "equit\*”, or
+    - “support\*” 
+    
+at least once.
+
+```{r}
+x_community <- word_df %>%
+    filter(grepl("\\<communit", word)) %>%
+    pull(random_id) %>%
+    unique() %>%
+    sort()
+
+mention_community <-
+    reshape_criterion(analytic_df, "community", x_community) %>%
+    mutate(category_type = "sub")
+
+x_inclusion <- word_df %>%
+    filter(grepl("\\<inclus", word)) %>%
+    pull(random_id) %>%
+    unique() %>%
+    sort()
+
+mention_inclusion <-
+    reshape_criterion(analytic_df, "inclusion", x_inclusion) %>%
+    mutate(category_type = "sub")
+
+x_justice <- word_df %>%
+    filter(grepl("\\<justice", word)) %>%
+    pull(random_id) %>%
+    unique() %>%
+    sort()
+
+mention_justice <-
+    reshape_criterion(analytic_df, "justice", x_justice) %>%
+    mutate(category_type = "sub")
+
+x_diversity <- word_df %>%
+    filter(grepl("\\<divers", word)) %>%
+    pull(random_id) %>%
+    unique() %>%
+    sort()
+
+mention_diversity <-
+    reshape_criterion(analytic_df, "diversity", x_diversity) %>%
+    mutate(category_type = "sub")
+
+x_solidarity <- word_df %>%
+    filter(grepl("\\<solidarity", word)) %>%
+    pull(random_id) %>%
+    unique() %>%
+    sort()
+
+mention_solidarity <-
+    reshape_criterion(analytic_df, "solidarity", x_solidarity) %>%
+    mutate(category_type = "sub")
+
+x_equality <- word_df %>%
+    filter(grepl("\\<equal", word)) %>%
+    pull(random_id) %>%
+    unique() %>%
+    sort()
+
+mention_equality <-
+    reshape_criterion(analytic_df, "equality", x_equality) %>%
+    mutate(category_type = "sub")
+
+x_equity <- word_df %>%
+    filter(grepl("\\<equit", word)) %>%
+    pull(random_id) %>%
+    unique() %>%
+    sort()
+
+mention_equity <-
+    reshape_criterion(analytic_df, "equity", x_equity) %>%
+    mutate(category_type = "sub")
+
+x_support <- word_df %>%
+    filter(grepl("\\<support", word)) %>%
+    pull(random_id) %>%
+    unique() %>%
+    sort()
+
+mention_support <-
+    reshape_criterion(analytic_df, "support", x_support) %>%
+    mutate(category_type = "sub")
+```
+
+```{r}
+mention_hopeful_words <- bind_rows(
+    mention_community,
+    mention_inclusion,
+    mention_justice,
+    mention_diversity,
+    mention_solidarity,
+    mention_equality,
+    mention_equity,
+    mention_support,
+    reshape_criterion(
+        analytic_df,
+        "hopeful_words",
+        c(
+            x_support,
+            x_equity,
+            x_equality,
+            x_solidarity,
+            x_diversity,
+            x_justice,
+            x_inclusion,
+            x_community
+        )
+    ) %>%
+        mutate(category_type = "main")
+) %>% 
+    mutate(category = "hopeful_words")
+```
+
+```{r fig.height=2.25, fig.width=6}
+quick_plot(mention_hopeful_words)
+```
+
+## Results 
+
+### Plot of all criteria and institutions (reordered)
+
+```{r}
+t_faces <-
+    rev(c(
+        "bold",
+         rep("plain", 3),
+        "bold",
+         rep("plain", 2),
+        "bold",
+        rep("plain", 3),
+        "bold",
+        rep("plain", 4),
+        "bold",
+        rep("plain", 3),
+        "bold",
+        rep("plain", 2),
+        "bold",
+        rep("plain", 4),
+        "bold",
+        rep("plain", 8)
+    ))
+```
+
+```{r fig.height=7, fig.width=5}
+p1 <- ggplot(
+    summary_df,
+    aes(
+        x = p_rank,
+        y = criterion_cat,
+        fill = interaction(category),
+        alpha = interaction(category_type, value)
+    )
+) +
+    geom_tile(color = "white", size = .4) +
+    scale_alpha_manual(NULL, values = c(0, 0, 1, .4)) +
+    theme_minimal() +
+    scale_x_continuous("Institution", expand = c(0, 0)) +
+    scale_y_discrete(NULL, expand = c(0, 0)) +
+    theme(
+        legend.position = "none",
+        panel.border = element_rect(fill = NA, color = "black"), 
+        axis.text.x = element_blank(),
+        axis.text.y = element_text(face = t_faces,
+                                   hjust = 1,
+                                   size = 10),
+        axis.title.x = element_text(size = 11), 
+        panel.grid = element_blank(),
+    ) + 
+  # coord_equal() + 
+    ggsci::scale_fill_aaas()
+print(p1)
+```
+### Proportion of major criteria covered by each statement
+
+```{r}
+summary_df %>% 
+  filter(category_type == "main") %>% 
+  group_by(institution_id) %>% 
+  summarize(sum_main_cats = sum(value), 
+            prop_main_cats = mean(value)) %>%
+  arrange(desc(prop_main_cats)) %>% 
+  datatable(rownames = FALSE)
+```
+
+
+### Summary table of all criteria and institutions
+
+```{r}
+summary_df %>%
+    group_by(criterion_cat) %>% 
+    summarize(n_true = sum(value), p_true = mean(value)) %>% 
+    arrange(desc(criterion_cat)) %>% 
+    mutate(criterion_cat = gsub('\\"', "", as.character(criterion_cat))) %>% 
+    datatable(rownames = FALSE)
+```
+
+### Summary table of major criteria
+
+```{r}
+summary_df %>%
+    filter(category_type == "main") %>% 
+    group_by(criterion_cat) %>% 
+    summarize(n_true = sum(value), p_true = mean(value)) %>% 
+    arrange(desc(criterion_cat)) %>% 
+    mutate(criterion_cat = gsub('\\"', "", as.character(criterion_cat))) %>% 
+    datatable(rownames = FALSE)
+```
+
+### Summary table by institution
+
+```{r}
+left_join(
+  summary_df %>%
+    group_by(institution_id) %>%
+    summarize(all_criterion = sum(value)),
+  summary_df %>%
+    filter(category_type == "main") %>%
+    group_by(institution_id) %>%
+    summarize(main_criterion = sum(value))
+) %>%
+  arrange(desc(main_criterion)) %>%
+  datatable(rownames = FALSE)
+```

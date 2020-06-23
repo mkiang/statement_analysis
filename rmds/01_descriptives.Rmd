@@ -1,0 +1,275 @@
+---
+title: | 
+  **Supplemental Materials:** Statements issued by academic medical
+  institutions after George Floyd’s killing by police and subsequent 
+  unrest in the United States: cross-sectional study'
+author: Mathew V Kiang and Alexander C Tsai
+output: 
+  html_document:
+    code_folding: 'hide'
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(error = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+```
+
+```{r imports}
+library(tidyverse)
+library(here)
+library(DT)
+library(knitr)
+```
+
+```{r}
+## Read in processed data
+analytic_df <- readRDS(here("data_private", "analytic_df.RDS"))
+word_df <- readRDS(here("data_private", "tokenized_words.RDS"))
+sentence_df <- readRDS(here("data_private", "tokenized_sentences.RDS"))
+ngram2_df <- readRDS(here("data_private", "tokenized_bigrams.RDS"))
+ngram3_df <- readRDS(here("data_private", "tokenized_trigrams.RDS"))
+summary_df <- readRDS(here("data_private", "keyword_summary_df.RDS"))
+```
+
+## Introduction
+
+Here, we present analytic code for our paper, "Analytic code and additional analyses for 
+  *Statements issued by academic medical institutions after George Floyd’s 
+  killing by police and subsequent unrest in the United States: 
+  cross-sectional study". By default, the code is hidden — to view the code, simply click on the "Code" button to the right of each chunk. We used *`r R.version$version.string`* for all analyses and full session information can be viewed at the end of the document. When possible, we save the de-identified intermediate data frames in `csv` format. 
+
+## About the data
+
+Here, we import the original, raw data, clean it a bit and assign random ID numbers to each of the institutions. This is what the processing code looks like (found in `./code/01_01_process_raw_data.R`):
+```{r, eval = FALSE, code = readLines('../code/01_process_raw_data.R')}
+```
+
+### Dimensions
+
+The analytic data frame contains `r NCOL(analytic_df)` columns and `r NROW(analytic_df)` rows (i.e., medical school statements). The columns are: 
+
+```{r}
+print(names(analytic_df))
+```
+
+In order, the columns represent the institution rank in terms of NIH funding (2018) and US News and World Report (2021), institution name, whether or not the statement is publicly available, date of statement, name of the person who signed the statement (in event of co-signatories the dean and then chancellor were selected), the academic position of the signatory, the text of the statement after removing unnecessary text (i.e., salutations, signature, a list of suggested resources), the full statement, and our newly created random ID variable. 
+
+## List institutions included in the data set
+
+A total of `r n_distinct(analytic_df$institution)` statements are included in the data set. The institutions, listed in alphabetical order, are:
+
+```{r}
+analytic_df %>%
+  arrange(institution) %>%
+  transmute(institution,
+            institution_star =
+              paste0(
+                institution,
+                ifelse(public == 0, "*", ""),
+                ifelse(!grepl("[Dd]{1}ean", position), "^", "")
+              ),
+            nih_rank,
+            usnwr_rank) %>%
+  select(-institution_star) %>%
+  knitr::kable(
+    format = "html",
+    digits = 0,
+    col.names = c("Institution", "NIH Funding Rank (2018)", "USN&WR Rank (2021)")
+  )
+```
+
+
+Of the `r n_distinct(analytic_df$institution)` statements, `r sum(analytic_df$public == 0)` (`r sprintf("%0.1f%%", round(sum(analytic_df$public == 0) / n_distinct(analytic_df$institution) * 100, 1))`) were not easily accessible on the institution's website or official social media accounts and `r sum(!grepl("[Dd]{1}ean", analytic_df$position))` (`r sprintf("%0.1f%%", round(sum(!grepl("[Dd]{1}ean", analytic_df$position)) / n_distinct(analytic_df$institution) * 100, 1))`) were not from a medical school dean. 
+
+## Dates of statements
+
+All statements occurred between `r min(analytic_df$date, na.rm = TRUE)` and `r max(analytic_df$date, na.rm = TRUE)` with `r x <- sum(is.na(analytic_df$date)); x` undated `r ifelse(x > 1, "statements", "statement")`.
+
+```{r}
+analytic_df %>%
+  count(date)
+```
+
+The median and IQR of dates is:
+
+```{r}
+sort(analytic_df$date)[c(round(.5 * NROW(analytic_df)), 
+                         round(.25 * NROW(analytic_df)),
+                         round(.75 * NROW(analytic_df)))]
+```
+
+## Descriptive statistics of statements
+
+### Total number of unique words (excluding stop words)
+
+```{r}
+word_df %>% 
+  filter(keep_word) %>% 
+  pull(word) %>% 
+  n_distinct()
+```
+
+### Total number of words (including repeats, excluding stop words)
+
+```{r}
+word_df %>% 
+  filter(keep_word) %>% 
+  NROW()
+```
+
+### Total number of sentences
+
+```{r}
+sentence_df %>% 
+  NROW()
+```
+
+Note that counting sentences is a rough approximation because things like "Mr." will count as their own sentence.
+
+### Words by institution (including repeats and stop words)
+
+```{r}
+x <- word_df %>% 
+    count(random_id, sort = TRUE)
+
+ggplot(x, aes(x = random_id, y = n)) + 
+    geom_col() + 
+    theme_light()
+```
+
+```{r}
+summary(x$n)
+```
+
+### Words by institution (including repeats, excluding stop words)
+
+```{r}
+x <- word_df %>% 
+    filter(keep_word) %>% 
+    count(random_id, sort = TRUE)
+
+ggplot(x, aes(x = random_id, y = n)) + 
+    geom_col() + 
+    theme_light()
+```
+
+```{r}
+summary(x$n)
+```
+
+## Most common words and n-grams
+
+### 100 most common words and word stems
+
+Here, we tabulate the frequency of each `word_stem` and `word`. The `n_word_stem` and `n_word` columns show the frequency of stems and words, respectively. The `n_inst_*` columns show the number of unique institutes that used each word. Sorting by `n_inst_word` will result in the words that were used by the highest number of different institutions. 
+
+```{r}
+x <- word_df %>%
+    filter(keep_word) %>%
+    group_by(word_stem) %>%
+    mutate(n_word_stem = n(),
+           n_inst_word_stem = n_distinct(random_id)) %>%
+    group_by(word) %>%
+    mutate(n_word = n(), n_inst_word = n_distinct(random_id)) %>%
+    select(word_stem,
+           word,
+           n_word_stem,
+           n_inst_word_stem,
+           n_word,
+           n_inst_word) %>%
+    distinct() %>% 
+    ungroup() %>% 
+    mutate(stem_rank = min_rank(desc(n_word_stem))) %>% 
+    filter(stem_rank <= 100) %>% 
+    arrange(desc(n_word_stem))
+
+write_csv(x, here("data", "top_100_words.csv"))
+
+x %>% 
+    datatable(rownames = FALSE)
+```
+
+### 100 most common 2-gram phases
+
+Below, we show the top 100 most commonly used 2-gram phrases in both the stemmed and unstemmed format. Similar to above, we show the counts (`n_ngram_stem` for the stemmed version and `n_ngram` for the unstemmed version) as well as the number of unique institutions that used the phrase (e.g., `n_inst_ngram_stem` for the stemmed version). 
+
+```{r}
+x <- ngram2_df %>% 
+    group_by(ngram2_stem) %>%
+    mutate(n_ngram_stem = n(),
+           n_inst_ngram_stem = n_distinct(random_id)) %>%
+    group_by(ngram2) %>%
+    mutate(n_ngram = n(), 
+           n_inst_ngram = n_distinct(random_id)) %>%
+    select(ngram2_stem,
+           ngram2,
+           n_ngram_stem,
+           n_inst_ngram_stem,
+           n_ngram,
+           n_inst_ngram) %>%
+    distinct() %>% 
+    ungroup() %>% 
+    mutate(stem_rank = min_rank(desc(n_ngram_stem))) %>% 
+    filter(stem_rank <= 100) %>% 
+    arrange(desc(n_ngram_stem))
+
+write_csv(x, here("data", "top_100_bigrams.csv"))
+
+x %>% 
+    datatable(rownames = FALSE)
+```
+
+### Most common 3-gram phrases
+
+Like above but for three word phrases
+
+I filter on the phrase being said more than two times. 
+
+```{r}
+x <- ngram3_df %>% 
+    group_by(ngram3_stem) %>%
+    mutate(n_ngram_stem = n(),
+           n_inst_ngram_stem = n_distinct(random_id)) %>%
+    group_by(ngram3) %>%
+    mutate(n_ngram = n(), 
+           n_inst_ngram = n_distinct(random_id)) %>%
+    select(ngram3_stem,
+           ngram3,
+           n_ngram_stem,
+           n_inst_ngram_stem,
+           n_ngram,
+           n_inst_ngram) %>%
+    distinct() %>% 
+    ungroup() %>% 
+    filter(n_ngram_stem > 1) %>% 
+    arrange(desc(n_ngram_stem))
+
+write_csv(x, here("data", "top_trigrams.csv"))
+
+x %>% 
+    datatable(rownames = FALSE)
+```
+
+### 5 most common word stems for each institution
+
+```{r}
+x <- word_df %>% 
+    filter(keep_word) %>% 
+    group_by(random_id, word_stem) %>% 
+    mutate(n = n()) %>% 
+    select(random_id, word_stem, word, n) %>%
+    distinct() %>%
+    group_by(random_id) %>% 
+    arrange(desc(n), .by_group = TRUE) %>% 
+    slice(1:5) %>% 
+    ungroup()
+
+write_csv(x, here("data", "top_5_common_wordstems_by_institution.csv"))
+
+x %>% 
+    datatable(rownames = FALSE)
+```
