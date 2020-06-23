@@ -1,0 +1,2073 @@
+institution_id,criterion,value,category_type,category,criterion_cat,n_true,p_true,p_rank
+1,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",24,0.6486486486486487,3
+2,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",14,0.3783783783783784,36
+3,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",13,0.35135135135135137,41
+4,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",9,0.24324324324324326,53
+5,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",16,0.43243243243243246,29
+6,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",23,0.6216216216216216,4
+7,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",13,0.35135135135135137,42
+8,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",15,0.40540540540540543,32
+9,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",19,0.5135135135135135,14
+10,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",10,0.2702702702702703,51
+11,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",13,0.35135135135135137,43
+12,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",20,0.5405405405405406,11
+13,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",22,0.5945945945945946,5
+14,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",14,0.3783783783783784,37
+15,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",19,0.5135135135135135,15
+16,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",16,0.43243243243243246,30
+17,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",20,0.5405405405405406,12
+18,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",18,0.4864864864864865,20
+19,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",17,0.4594594594594595,25
+20,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",20,0.5405405405405406,13
+21,george_floyd,0,sub,names_victims,"    ""George Floyd""    ",14,0.3783783783783784,38
+22,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",21,0.5675675675675675,6
+23,george_floyd,0,sub,names_victims,"    ""George Floyd""    ",15,0.40540540540540543,33
+24,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",19,0.5135135135135135,16
+25,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",18,0.4864864864864865,21
+26,george_floyd,0,sub,names_victims,"    ""George Floyd""    ",10,0.2702702702702703,52
+27,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",26,0.7027027027027027,1
+28,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",17,0.4594594594594595,26
+29,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",11,0.2972972972972973,50
+30,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",13,0.35135135135135137,44
+31,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",21,0.5675675675675675,7
+32,george_floyd,0,sub,names_victims,"    ""George Floyd""    ",15,0.40540540540540543,34
+33,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",25,0.6756756756756757,2
+34,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",9,0.24324324324324326,54
+35,george_floyd,0,sub,names_victims,"    ""George Floyd""    ",8,0.21621621621621623,55
+36,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",19,0.5135135135135135,17
+37,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",16,0.43243243243243246,31
+38,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",18,0.4864864864864865,22
+39,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",12,0.32432432432432434,49
+40,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",13,0.35135135135135137,45
+41,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",17,0.4594594594594595,27
+42,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",19,0.5135135135135135,18
+43,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",21,0.5675675675675675,8
+44,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",19,0.5135135135135135,19
+45,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",7,0.1891891891891892,56
+46,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",15,0.40540540540540543,35
+47,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",14,0.3783783783783784,39
+48,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",21,0.5675675675675675,9
+49,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",13,0.35135135135135137,46
+50,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",17,0.4594594594594595,28
+51,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",18,0.4864864864864865,23
+52,george_floyd,0,sub,names_victims,"    ""George Floyd""    ",21,0.5675675675675675,10
+53,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",18,0.4864864864864865,24
+54,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",13,0.35135135135135137,47
+55,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",13,0.35135135135135137,48
+56,george_floyd,1,sub,names_victims,"    ""George Floyd""    ",14,0.3783783783783784,40
+1,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",24,0.6486486486486487,3
+2,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",14,0.3783783783783784,36
+3,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",13,0.35135135135135137,41
+4,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",9,0.24324324324324326,53
+5,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",16,0.43243243243243246,29
+6,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",23,0.6216216216216216,4
+7,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",13,0.35135135135135137,42
+8,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",15,0.40540540540540543,32
+9,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",19,0.5135135135135135,14
+10,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",10,0.2702702702702703,51
+11,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",13,0.35135135135135137,43
+12,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",20,0.5405405405405406,11
+13,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",22,0.5945945945945946,5
+14,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",14,0.3783783783783784,37
+15,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",19,0.5135135135135135,15
+16,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",16,0.43243243243243246,30
+17,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",20,0.5405405405405406,12
+18,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",18,0.4864864864864865,20
+19,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",17,0.4594594594594595,25
+20,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",20,0.5405405405405406,13
+21,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",14,0.3783783783783784,38
+22,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",21,0.5675675675675675,6
+23,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",15,0.40540540540540543,33
+24,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",19,0.5135135135135135,16
+25,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",18,0.4864864864864865,21
+26,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",10,0.2702702702702703,52
+27,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",26,0.7027027027027027,1
+28,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",17,0.4594594594594595,26
+29,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",11,0.2972972972972973,50
+30,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",13,0.35135135135135137,44
+31,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",21,0.5675675675675675,7
+32,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",15,0.40540540540540543,34
+33,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",25,0.6756756756756757,2
+34,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",9,0.24324324324324326,54
+35,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",8,0.21621621621621623,55
+36,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",19,0.5135135135135135,17
+37,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",16,0.43243243243243246,31
+38,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",18,0.4864864864864865,22
+39,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",12,0.32432432432432434,49
+40,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",13,0.35135135135135137,45
+41,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",17,0.4594594594594595,27
+42,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",19,0.5135135135135135,18
+43,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",21,0.5675675675675675,8
+44,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",19,0.5135135135135135,19
+45,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",7,0.1891891891891892,56
+46,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",15,0.40540540540540543,35
+47,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",14,0.3783783783783784,39
+48,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",21,0.5675675675675675,9
+49,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",13,0.35135135135135137,46
+50,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",17,0.4594594594594595,28
+51,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",18,0.4864864864864865,23
+52,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",21,0.5675675675675675,10
+53,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",18,0.4864864864864865,24
+54,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",13,0.35135135135135137,47
+55,breonna_taylor,0,sub,names_victims,"    ""Breonna Taylor""    ",13,0.35135135135135137,48
+56,breonna_taylor,1,sub,names_victims,"    ""Breonna Taylor""    ",14,0.3783783783783784,40
+1,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",24,0.6486486486486487,3
+2,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",14,0.3783783783783784,36
+3,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",13,0.35135135135135137,41
+4,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",9,0.24324324324324326,53
+5,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",16,0.43243243243243246,29
+6,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",23,0.6216216216216216,4
+7,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",13,0.35135135135135137,42
+8,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",15,0.40540540540540543,32
+9,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",19,0.5135135135135135,14
+10,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",10,0.2702702702702703,51
+11,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",13,0.35135135135135137,43
+12,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",20,0.5405405405405406,11
+13,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",22,0.5945945945945946,5
+14,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",14,0.3783783783783784,37
+15,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",19,0.5135135135135135,15
+16,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",16,0.43243243243243246,30
+17,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",20,0.5405405405405406,12
+18,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",18,0.4864864864864865,20
+19,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",17,0.4594594594594595,25
+20,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",20,0.5405405405405406,13
+21,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",14,0.3783783783783784,38
+22,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",21,0.5675675675675675,6
+23,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",15,0.40540540540540543,33
+24,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",19,0.5135135135135135,16
+25,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",18,0.4864864864864865,21
+26,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",10,0.2702702702702703,52
+27,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",26,0.7027027027027027,1
+28,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",17,0.4594594594594595,26
+29,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",11,0.2972972972972973,50
+30,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",13,0.35135135135135137,44
+31,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",21,0.5675675675675675,7
+32,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",15,0.40540540540540543,34
+33,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",25,0.6756756756756757,2
+34,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",9,0.24324324324324326,54
+35,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",8,0.21621621621621623,55
+36,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",19,0.5135135135135135,17
+37,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",16,0.43243243243243246,31
+38,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",18,0.4864864864864865,22
+39,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",12,0.32432432432432434,49
+40,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",13,0.35135135135135137,45
+41,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",17,0.4594594594594595,27
+42,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",19,0.5135135135135135,18
+43,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",21,0.5675675675675675,8
+44,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",19,0.5135135135135135,19
+45,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",7,0.1891891891891892,56
+46,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",15,0.40540540540540543,35
+47,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",14,0.3783783783783784,39
+48,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",21,0.5675675675675675,9
+49,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",13,0.35135135135135137,46
+50,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",17,0.4594594594594595,28
+51,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",18,0.4864864864864865,23
+52,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",21,0.5675675675675675,10
+53,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",18,0.4864864864864865,24
+54,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",13,0.35135135135135137,47
+55,ahmaud_arbery,0,sub,names_victims,"    ""Ahmaud Arbery""    ",13,0.35135135135135137,48
+56,ahmaud_arbery,1,sub,names_victims,"    ""Ahmaud Arbery""    ",14,0.3783783783783784,40
+1,names_victims,1,main,names_victims,Use of victims' names,24,0.6486486486486487,3
+2,names_victims,1,main,names_victims,Use of victims' names,14,0.3783783783783784,36
+3,names_victims,1,main,names_victims,Use of victims' names,13,0.35135135135135137,41
+4,names_victims,1,main,names_victims,Use of victims' names,9,0.24324324324324326,53
+5,names_victims,1,main,names_victims,Use of victims' names,16,0.43243243243243246,29
+6,names_victims,1,main,names_victims,Use of victims' names,23,0.6216216216216216,4
+7,names_victims,1,main,names_victims,Use of victims' names,13,0.35135135135135137,42
+8,names_victims,1,main,names_victims,Use of victims' names,15,0.40540540540540543,32
+9,names_victims,1,main,names_victims,Use of victims' names,19,0.5135135135135135,14
+10,names_victims,1,main,names_victims,Use of victims' names,10,0.2702702702702703,51
+11,names_victims,1,main,names_victims,Use of victims' names,13,0.35135135135135137,43
+12,names_victims,1,main,names_victims,Use of victims' names,20,0.5405405405405406,11
+13,names_victims,1,main,names_victims,Use of victims' names,22,0.5945945945945946,5
+14,names_victims,1,main,names_victims,Use of victims' names,14,0.3783783783783784,37
+15,names_victims,1,main,names_victims,Use of victims' names,19,0.5135135135135135,15
+16,names_victims,1,main,names_victims,Use of victims' names,16,0.43243243243243246,30
+17,names_victims,1,main,names_victims,Use of victims' names,20,0.5405405405405406,12
+18,names_victims,1,main,names_victims,Use of victims' names,18,0.4864864864864865,20
+19,names_victims,1,main,names_victims,Use of victims' names,17,0.4594594594594595,25
+20,names_victims,1,main,names_victims,Use of victims' names,20,0.5405405405405406,13
+21,names_victims,0,main,names_victims,Use of victims' names,14,0.3783783783783784,38
+22,names_victims,1,main,names_victims,Use of victims' names,21,0.5675675675675675,6
+23,names_victims,0,main,names_victims,Use of victims' names,15,0.40540540540540543,33
+24,names_victims,1,main,names_victims,Use of victims' names,19,0.5135135135135135,16
+25,names_victims,1,main,names_victims,Use of victims' names,18,0.4864864864864865,21
+26,names_victims,0,main,names_victims,Use of victims' names,10,0.2702702702702703,52
+27,names_victims,1,main,names_victims,Use of victims' names,26,0.7027027027027027,1
+28,names_victims,1,main,names_victims,Use of victims' names,17,0.4594594594594595,26
+29,names_victims,1,main,names_victims,Use of victims' names,11,0.2972972972972973,50
+30,names_victims,1,main,names_victims,Use of victims' names,13,0.35135135135135137,44
+31,names_victims,1,main,names_victims,Use of victims' names,21,0.5675675675675675,7
+32,names_victims,0,main,names_victims,Use of victims' names,15,0.40540540540540543,34
+33,names_victims,1,main,names_victims,Use of victims' names,25,0.6756756756756757,2
+34,names_victims,1,main,names_victims,Use of victims' names,9,0.24324324324324326,54
+35,names_victims,0,main,names_victims,Use of victims' names,8,0.21621621621621623,55
+36,names_victims,1,main,names_victims,Use of victims' names,19,0.5135135135135135,17
+37,names_victims,1,main,names_victims,Use of victims' names,16,0.43243243243243246,31
+38,names_victims,1,main,names_victims,Use of victims' names,18,0.4864864864864865,22
+39,names_victims,1,main,names_victims,Use of victims' names,12,0.32432432432432434,49
+40,names_victims,1,main,names_victims,Use of victims' names,13,0.35135135135135137,45
+41,names_victims,1,main,names_victims,Use of victims' names,17,0.4594594594594595,27
+42,names_victims,1,main,names_victims,Use of victims' names,19,0.5135135135135135,18
+43,names_victims,1,main,names_victims,Use of victims' names,21,0.5675675675675675,8
+44,names_victims,1,main,names_victims,Use of victims' names,19,0.5135135135135135,19
+45,names_victims,1,main,names_victims,Use of victims' names,7,0.1891891891891892,56
+46,names_victims,1,main,names_victims,Use of victims' names,15,0.40540540540540543,35
+47,names_victims,1,main,names_victims,Use of victims' names,14,0.3783783783783784,39
+48,names_victims,1,main,names_victims,Use of victims' names,21,0.5675675675675675,9
+49,names_victims,1,main,names_victims,Use of victims' names,13,0.35135135135135137,46
+50,names_victims,1,main,names_victims,Use of victims' names,17,0.4594594594594595,28
+51,names_victims,1,main,names_victims,Use of victims' names,18,0.4864864864864865,23
+52,names_victims,0,main,names_victims,Use of victims' names,21,0.5675675675675675,10
+53,names_victims,1,main,names_victims,Use of victims' names,18,0.4864864864864865,24
+54,names_victims,1,main,names_victims,Use of victims' names,13,0.35135135135135137,47
+55,names_victims,1,main,names_victims,Use of victims' names,13,0.35135135135135137,48
+56,names_victims,1,main,names_victims,Use of victims' names,14,0.3783783783783784,40
+1,black,1,sub,mentions_black_community,"    ""Black""    ",24,0.6486486486486487,3
+2,black,0,sub,mentions_black_community,"    ""Black""    ",14,0.3783783783783784,36
+3,black,1,sub,mentions_black_community,"    ""Black""    ",13,0.35135135135135137,41
+4,black,0,sub,mentions_black_community,"    ""Black""    ",9,0.24324324324324326,53
+5,black,0,sub,mentions_black_community,"    ""Black""    ",16,0.43243243243243246,29
+6,black,0,sub,mentions_black_community,"    ""Black""    ",23,0.6216216216216216,4
+7,black,0,sub,mentions_black_community,"    ""Black""    ",13,0.35135135135135137,42
+8,black,1,sub,mentions_black_community,"    ""Black""    ",15,0.40540540540540543,32
+9,black,0,sub,mentions_black_community,"    ""Black""    ",19,0.5135135135135135,14
+10,black,0,sub,mentions_black_community,"    ""Black""    ",10,0.2702702702702703,51
+11,black,0,sub,mentions_black_community,"    ""Black""    ",13,0.35135135135135137,43
+12,black,1,sub,mentions_black_community,"    ""Black""    ",20,0.5405405405405406,11
+13,black,1,sub,mentions_black_community,"    ""Black""    ",22,0.5945945945945946,5
+14,black,0,sub,mentions_black_community,"    ""Black""    ",14,0.3783783783783784,37
+15,black,1,sub,mentions_black_community,"    ""Black""    ",19,0.5135135135135135,15
+16,black,0,sub,mentions_black_community,"    ""Black""    ",16,0.43243243243243246,30
+17,black,1,sub,mentions_black_community,"    ""Black""    ",20,0.5405405405405406,12
+18,black,0,sub,mentions_black_community,"    ""Black""    ",18,0.4864864864864865,20
+19,black,0,sub,mentions_black_community,"    ""Black""    ",17,0.4594594594594595,25
+20,black,1,sub,mentions_black_community,"    ""Black""    ",20,0.5405405405405406,13
+21,black,1,sub,mentions_black_community,"    ""Black""    ",14,0.3783783783783784,38
+22,black,1,sub,mentions_black_community,"    ""Black""    ",21,0.5675675675675675,6
+23,black,1,sub,mentions_black_community,"    ""Black""    ",15,0.40540540540540543,33
+24,black,1,sub,mentions_black_community,"    ""Black""    ",19,0.5135135135135135,16
+25,black,1,sub,mentions_black_community,"    ""Black""    ",18,0.4864864864864865,21
+26,black,0,sub,mentions_black_community,"    ""Black""    ",10,0.2702702702702703,52
+27,black,1,sub,mentions_black_community,"    ""Black""    ",26,0.7027027027027027,1
+28,black,1,sub,mentions_black_community,"    ""Black""    ",17,0.4594594594594595,26
+29,black,0,sub,mentions_black_community,"    ""Black""    ",11,0.2972972972972973,50
+30,black,0,sub,mentions_black_community,"    ""Black""    ",13,0.35135135135135137,44
+31,black,1,sub,mentions_black_community,"    ""Black""    ",21,0.5675675675675675,7
+32,black,1,sub,mentions_black_community,"    ""Black""    ",15,0.40540540540540543,34
+33,black,1,sub,mentions_black_community,"    ""Black""    ",25,0.6756756756756757,2
+34,black,0,sub,mentions_black_community,"    ""Black""    ",9,0.24324324324324326,54
+35,black,1,sub,mentions_black_community,"    ""Black""    ",8,0.21621621621621623,55
+36,black,0,sub,mentions_black_community,"    ""Black""    ",19,0.5135135135135135,17
+37,black,0,sub,mentions_black_community,"    ""Black""    ",16,0.43243243243243246,31
+38,black,1,sub,mentions_black_community,"    ""Black""    ",18,0.4864864864864865,22
+39,black,0,sub,mentions_black_community,"    ""Black""    ",12,0.32432432432432434,49
+40,black,1,sub,mentions_black_community,"    ""Black""    ",13,0.35135135135135137,45
+41,black,0,sub,mentions_black_community,"    ""Black""    ",17,0.4594594594594595,27
+42,black,1,sub,mentions_black_community,"    ""Black""    ",19,0.5135135135135135,18
+43,black,1,sub,mentions_black_community,"    ""Black""    ",21,0.5675675675675675,8
+44,black,1,sub,mentions_black_community,"    ""Black""    ",19,0.5135135135135135,19
+45,black,0,sub,mentions_black_community,"    ""Black""    ",7,0.1891891891891892,56
+46,black,0,sub,mentions_black_community,"    ""Black""    ",15,0.40540540540540543,35
+47,black,0,sub,mentions_black_community,"    ""Black""    ",14,0.3783783783783784,39
+48,black,1,sub,mentions_black_community,"    ""Black""    ",21,0.5675675675675675,9
+49,black,0,sub,mentions_black_community,"    ""Black""    ",13,0.35135135135135137,46
+50,black,1,sub,mentions_black_community,"    ""Black""    ",17,0.4594594594594595,28
+51,black,0,sub,mentions_black_community,"    ""Black""    ",18,0.4864864864864865,23
+52,black,1,sub,mentions_black_community,"    ""Black""    ",21,0.5675675675675675,10
+53,black,0,sub,mentions_black_community,"    ""Black""    ",18,0.4864864864864865,24
+54,black,0,sub,mentions_black_community,"    ""Black""    ",13,0.35135135135135137,47
+55,black,0,sub,mentions_black_community,"    ""Black""    ",13,0.35135135135135137,48
+56,black,1,sub,mentions_black_community,"    ""Black""    ",14,0.3783783783783784,40
+1,african_american,0,sub,mentions_black_community,"    ""African-American""    ",24,0.6486486486486487,3
+2,african_american,1,sub,mentions_black_community,"    ""African-American""    ",14,0.3783783783783784,36
+3,african_american,1,sub,mentions_black_community,"    ""African-American""    ",13,0.35135135135135137,41
+4,african_american,0,sub,mentions_black_community,"    ""African-American""    ",9,0.24324324324324326,53
+5,african_american,0,sub,mentions_black_community,"    ""African-American""    ",16,0.43243243243243246,29
+6,african_american,1,sub,mentions_black_community,"    ""African-American""    ",23,0.6216216216216216,4
+7,african_american,1,sub,mentions_black_community,"    ""African-American""    ",13,0.35135135135135137,42
+8,african_american,1,sub,mentions_black_community,"    ""African-American""    ",15,0.40540540540540543,32
+9,african_american,1,sub,mentions_black_community,"    ""African-American""    ",19,0.5135135135135135,14
+10,african_american,0,sub,mentions_black_community,"    ""African-American""    ",10,0.2702702702702703,51
+11,african_american,0,sub,mentions_black_community,"    ""African-American""    ",13,0.35135135135135137,43
+12,african_american,0,sub,mentions_black_community,"    ""African-American""    ",20,0.5405405405405406,11
+13,african_american,1,sub,mentions_black_community,"    ""African-American""    ",22,0.5945945945945946,5
+14,african_american,1,sub,mentions_black_community,"    ""African-American""    ",14,0.3783783783783784,37
+15,african_american,1,sub,mentions_black_community,"    ""African-American""    ",19,0.5135135135135135,15
+16,african_american,0,sub,mentions_black_community,"    ""African-American""    ",16,0.43243243243243246,30
+17,african_american,0,sub,mentions_black_community,"    ""African-American""    ",20,0.5405405405405406,12
+18,african_american,0,sub,mentions_black_community,"    ""African-American""    ",18,0.4864864864864865,20
+19,african_american,1,sub,mentions_black_community,"    ""African-American""    ",17,0.4594594594594595,25
+20,african_american,0,sub,mentions_black_community,"    ""African-American""    ",20,0.5405405405405406,13
+21,african_american,0,sub,mentions_black_community,"    ""African-American""    ",14,0.3783783783783784,38
+22,african_american,0,sub,mentions_black_community,"    ""African-American""    ",21,0.5675675675675675,6
+23,african_american,0,sub,mentions_black_community,"    ""African-American""    ",15,0.40540540540540543,33
+24,african_american,0,sub,mentions_black_community,"    ""African-American""    ",19,0.5135135135135135,16
+25,african_american,0,sub,mentions_black_community,"    ""African-American""    ",18,0.4864864864864865,21
+26,african_american,1,sub,mentions_black_community,"    ""African-American""    ",10,0.2702702702702703,52
+27,african_american,0,sub,mentions_black_community,"    ""African-American""    ",26,0.7027027027027027,1
+28,african_american,1,sub,mentions_black_community,"    ""African-American""    ",17,0.4594594594594595,26
+29,african_american,0,sub,mentions_black_community,"    ""African-American""    ",11,0.2972972972972973,50
+30,african_american,1,sub,mentions_black_community,"    ""African-American""    ",13,0.35135135135135137,44
+31,african_american,0,sub,mentions_black_community,"    ""African-American""    ",21,0.5675675675675675,7
+32,african_american,0,sub,mentions_black_community,"    ""African-American""    ",15,0.40540540540540543,34
+33,african_american,1,sub,mentions_black_community,"    ""African-American""    ",25,0.6756756756756757,2
+34,african_american,0,sub,mentions_black_community,"    ""African-American""    ",9,0.24324324324324326,54
+35,african_american,0,sub,mentions_black_community,"    ""African-American""    ",8,0.21621621621621623,55
+36,african_american,1,sub,mentions_black_community,"    ""African-American""    ",19,0.5135135135135135,17
+37,african_american,0,sub,mentions_black_community,"    ""African-American""    ",16,0.43243243243243246,31
+38,african_american,1,sub,mentions_black_community,"    ""African-American""    ",18,0.4864864864864865,22
+39,african_american,1,sub,mentions_black_community,"    ""African-American""    ",12,0.32432432432432434,49
+40,african_american,0,sub,mentions_black_community,"    ""African-American""    ",13,0.35135135135135137,45
+41,african_american,1,sub,mentions_black_community,"    ""African-American""    ",17,0.4594594594594595,27
+42,african_american,0,sub,mentions_black_community,"    ""African-American""    ",19,0.5135135135135135,18
+43,african_american,0,sub,mentions_black_community,"    ""African-American""    ",21,0.5675675675675675,8
+44,african_american,1,sub,mentions_black_community,"    ""African-American""    ",19,0.5135135135135135,19
+45,african_american,0,sub,mentions_black_community,"    ""African-American""    ",7,0.1891891891891892,56
+46,african_american,0,sub,mentions_black_community,"    ""African-American""    ",15,0.40540540540540543,35
+47,african_american,0,sub,mentions_black_community,"    ""African-American""    ",14,0.3783783783783784,39
+48,african_american,1,sub,mentions_black_community,"    ""African-American""    ",21,0.5675675675675675,9
+49,african_american,0,sub,mentions_black_community,"    ""African-American""    ",13,0.35135135135135137,46
+50,african_american,0,sub,mentions_black_community,"    ""African-American""    ",17,0.4594594594594595,28
+51,african_american,1,sub,mentions_black_community,"    ""African-American""    ",18,0.4864864864864865,23
+52,african_american,1,sub,mentions_black_community,"    ""African-American""    ",21,0.5675675675675675,10
+53,african_american,1,sub,mentions_black_community,"    ""African-American""    ",18,0.4864864864864865,24
+54,african_american,0,sub,mentions_black_community,"    ""African-American""    ",13,0.35135135135135137,47
+55,african_american,0,sub,mentions_black_community,"    ""African-American""    ",13,0.35135135135135137,48
+56,african_american,1,sub,mentions_black_community,"    ""African-American""    ",14,0.3783783783783784,40
+1,mentions_black_community,1,main,mentions_black_community,Reference to Black people,24,0.6486486486486487,3
+2,mentions_black_community,1,main,mentions_black_community,Reference to Black people,14,0.3783783783783784,36
+3,mentions_black_community,1,main,mentions_black_community,Reference to Black people,13,0.35135135135135137,41
+4,mentions_black_community,0,main,mentions_black_community,Reference to Black people,9,0.24324324324324326,53
+5,mentions_black_community,0,main,mentions_black_community,Reference to Black people,16,0.43243243243243246,29
+6,mentions_black_community,1,main,mentions_black_community,Reference to Black people,23,0.6216216216216216,4
+7,mentions_black_community,1,main,mentions_black_community,Reference to Black people,13,0.35135135135135137,42
+8,mentions_black_community,1,main,mentions_black_community,Reference to Black people,15,0.40540540540540543,32
+9,mentions_black_community,1,main,mentions_black_community,Reference to Black people,19,0.5135135135135135,14
+10,mentions_black_community,0,main,mentions_black_community,Reference to Black people,10,0.2702702702702703,51
+11,mentions_black_community,0,main,mentions_black_community,Reference to Black people,13,0.35135135135135137,43
+12,mentions_black_community,1,main,mentions_black_community,Reference to Black people,20,0.5405405405405406,11
+13,mentions_black_community,1,main,mentions_black_community,Reference to Black people,22,0.5945945945945946,5
+14,mentions_black_community,1,main,mentions_black_community,Reference to Black people,14,0.3783783783783784,37
+15,mentions_black_community,1,main,mentions_black_community,Reference to Black people,19,0.5135135135135135,15
+16,mentions_black_community,0,main,mentions_black_community,Reference to Black people,16,0.43243243243243246,30
+17,mentions_black_community,1,main,mentions_black_community,Reference to Black people,20,0.5405405405405406,12
+18,mentions_black_community,0,main,mentions_black_community,Reference to Black people,18,0.4864864864864865,20
+19,mentions_black_community,1,main,mentions_black_community,Reference to Black people,17,0.4594594594594595,25
+20,mentions_black_community,1,main,mentions_black_community,Reference to Black people,20,0.5405405405405406,13
+21,mentions_black_community,1,main,mentions_black_community,Reference to Black people,14,0.3783783783783784,38
+22,mentions_black_community,1,main,mentions_black_community,Reference to Black people,21,0.5675675675675675,6
+23,mentions_black_community,1,main,mentions_black_community,Reference to Black people,15,0.40540540540540543,33
+24,mentions_black_community,1,main,mentions_black_community,Reference to Black people,19,0.5135135135135135,16
+25,mentions_black_community,1,main,mentions_black_community,Reference to Black people,18,0.4864864864864865,21
+26,mentions_black_community,1,main,mentions_black_community,Reference to Black people,10,0.2702702702702703,52
+27,mentions_black_community,1,main,mentions_black_community,Reference to Black people,26,0.7027027027027027,1
+28,mentions_black_community,1,main,mentions_black_community,Reference to Black people,17,0.4594594594594595,26
+29,mentions_black_community,0,main,mentions_black_community,Reference to Black people,11,0.2972972972972973,50
+30,mentions_black_community,1,main,mentions_black_community,Reference to Black people,13,0.35135135135135137,44
+31,mentions_black_community,1,main,mentions_black_community,Reference to Black people,21,0.5675675675675675,7
+32,mentions_black_community,1,main,mentions_black_community,Reference to Black people,15,0.40540540540540543,34
+33,mentions_black_community,1,main,mentions_black_community,Reference to Black people,25,0.6756756756756757,2
+34,mentions_black_community,0,main,mentions_black_community,Reference to Black people,9,0.24324324324324326,54
+35,mentions_black_community,1,main,mentions_black_community,Reference to Black people,8,0.21621621621621623,55
+36,mentions_black_community,1,main,mentions_black_community,Reference to Black people,19,0.5135135135135135,17
+37,mentions_black_community,0,main,mentions_black_community,Reference to Black people,16,0.43243243243243246,31
+38,mentions_black_community,1,main,mentions_black_community,Reference to Black people,18,0.4864864864864865,22
+39,mentions_black_community,1,main,mentions_black_community,Reference to Black people,12,0.32432432432432434,49
+40,mentions_black_community,1,main,mentions_black_community,Reference to Black people,13,0.35135135135135137,45
+41,mentions_black_community,1,main,mentions_black_community,Reference to Black people,17,0.4594594594594595,27
+42,mentions_black_community,1,main,mentions_black_community,Reference to Black people,19,0.5135135135135135,18
+43,mentions_black_community,1,main,mentions_black_community,Reference to Black people,21,0.5675675675675675,8
+44,mentions_black_community,1,main,mentions_black_community,Reference to Black people,19,0.5135135135135135,19
+45,mentions_black_community,0,main,mentions_black_community,Reference to Black people,7,0.1891891891891892,56
+46,mentions_black_community,0,main,mentions_black_community,Reference to Black people,15,0.40540540540540543,35
+47,mentions_black_community,0,main,mentions_black_community,Reference to Black people,14,0.3783783783783784,39
+48,mentions_black_community,1,main,mentions_black_community,Reference to Black people,21,0.5675675675675675,9
+49,mentions_black_community,0,main,mentions_black_community,Reference to Black people,13,0.35135135135135137,46
+50,mentions_black_community,1,main,mentions_black_community,Reference to Black people,17,0.4594594594594595,28
+51,mentions_black_community,1,main,mentions_black_community,Reference to Black people,18,0.4864864864864865,23
+52,mentions_black_community,1,main,mentions_black_community,Reference to Black people,21,0.5675675675675675,10
+53,mentions_black_community,1,main,mentions_black_community,Reference to Black people,18,0.4864864864864865,24
+54,mentions_black_community,0,main,mentions_black_community,Reference to Black people,13,0.35135135135135137,47
+55,mentions_black_community,0,main,mentions_black_community,Reference to Black people,13,0.35135135135135137,48
+56,mentions_black_community,1,main,mentions_black_community,Reference to Black people,14,0.3783783783783784,40
+1,police,1,sub,role_of_police,"    ""Police""    ",24,0.6486486486486487,3
+2,police,0,sub,role_of_police,"    ""Police""    ",14,0.3783783783783784,36
+3,police,1,sub,role_of_police,"    ""Police""    ",13,0.35135135135135137,41
+4,police,1,sub,role_of_police,"    ""Police""    ",9,0.24324324324324326,53
+5,police,0,sub,role_of_police,"    ""Police""    ",16,0.43243243243243246,29
+6,police,1,sub,role_of_police,"    ""Police""    ",23,0.6216216216216216,4
+7,police,0,sub,role_of_police,"    ""Police""    ",13,0.35135135135135137,42
+8,police,0,sub,role_of_police,"    ""Police""    ",15,0.40540540540540543,32
+9,police,1,sub,role_of_police,"    ""Police""    ",19,0.5135135135135135,14
+10,police,0,sub,role_of_police,"    ""Police""    ",10,0.2702702702702703,51
+11,police,1,sub,role_of_police,"    ""Police""    ",13,0.35135135135135137,43
+12,police,0,sub,role_of_police,"    ""Police""    ",20,0.5405405405405406,11
+13,police,1,sub,role_of_police,"    ""Police""    ",22,0.5945945945945946,5
+14,police,0,sub,role_of_police,"    ""Police""    ",14,0.3783783783783784,37
+15,police,1,sub,role_of_police,"    ""Police""    ",19,0.5135135135135135,15
+16,police,0,sub,role_of_police,"    ""Police""    ",16,0.43243243243243246,30
+17,police,1,sub,role_of_police,"    ""Police""    ",20,0.5405405405405406,12
+18,police,0,sub,role_of_police,"    ""Police""    ",18,0.4864864864864865,20
+19,police,0,sub,role_of_police,"    ""Police""    ",17,0.4594594594594595,25
+20,police,1,sub,role_of_police,"    ""Police""    ",20,0.5405405405405406,13
+21,police,0,sub,role_of_police,"    ""Police""    ",14,0.3783783783783784,38
+22,police,1,sub,role_of_police,"    ""Police""    ",21,0.5675675675675675,6
+23,police,1,sub,role_of_police,"    ""Police""    ",15,0.40540540540540543,33
+24,police,0,sub,role_of_police,"    ""Police""    ",19,0.5135135135135135,16
+25,police,0,sub,role_of_police,"    ""Police""    ",18,0.4864864864864865,21
+26,police,0,sub,role_of_police,"    ""Police""    ",10,0.2702702702702703,52
+27,police,1,sub,role_of_police,"    ""Police""    ",26,0.7027027027027027,1
+28,police,1,sub,role_of_police,"    ""Police""    ",17,0.4594594594594595,26
+29,police,0,sub,role_of_police,"    ""Police""    ",11,0.2972972972972973,50
+30,police,0,sub,role_of_police,"    ""Police""    ",13,0.35135135135135137,44
+31,police,0,sub,role_of_police,"    ""Police""    ",21,0.5675675675675675,7
+32,police,1,sub,role_of_police,"    ""Police""    ",15,0.40540540540540543,34
+33,police,1,sub,role_of_police,"    ""Police""    ",25,0.6756756756756757,2
+34,police,1,sub,role_of_police,"    ""Police""    ",9,0.24324324324324326,54
+35,police,0,sub,role_of_police,"    ""Police""    ",8,0.21621621621621623,55
+36,police,1,sub,role_of_police,"    ""Police""    ",19,0.5135135135135135,17
+37,police,0,sub,role_of_police,"    ""Police""    ",16,0.43243243243243246,31
+38,police,1,sub,role_of_police,"    ""Police""    ",18,0.4864864864864865,22
+39,police,0,sub,role_of_police,"    ""Police""    ",12,0.32432432432432434,49
+40,police,0,sub,role_of_police,"    ""Police""    ",13,0.35135135135135137,45
+41,police,0,sub,role_of_police,"    ""Police""    ",17,0.4594594594594595,27
+42,police,0,sub,role_of_police,"    ""Police""    ",19,0.5135135135135135,18
+43,police,1,sub,role_of_police,"    ""Police""    ",21,0.5675675675675675,8
+44,police,1,sub,role_of_police,"    ""Police""    ",19,0.5135135135135135,19
+45,police,0,sub,role_of_police,"    ""Police""    ",7,0.1891891891891892,56
+46,police,0,sub,role_of_police,"    ""Police""    ",15,0.40540540540540543,35
+47,police,0,sub,role_of_police,"    ""Police""    ",14,0.3783783783783784,39
+48,police,1,sub,role_of_police,"    ""Police""    ",21,0.5675675675675675,9
+49,police,1,sub,role_of_police,"    ""Police""    ",13,0.35135135135135137,46
+50,police,0,sub,role_of_police,"    ""Police""    ",17,0.4594594594594595,28
+51,police,0,sub,role_of_police,"    ""Police""    ",18,0.4864864864864865,23
+52,police,1,sub,role_of_police,"    ""Police""    ",21,0.5675675675675675,10
+53,police,1,sub,role_of_police,"    ""Police""    ",18,0.4864864864864865,24
+54,police,0,sub,role_of_police,"    ""Police""    ",13,0.35135135135135137,47
+55,police,1,sub,role_of_police,"    ""Police""    ",13,0.35135135135135137,48
+56,police,0,sub,role_of_police,"    ""Police""    ",14,0.3783783783783784,40
+1,police_officer,1,sub,role_of_police,"    ""Police officer""    ",24,0.6486486486486487,3
+2,police_officer,0,sub,role_of_police,"    ""Police officer""    ",14,0.3783783783783784,36
+3,police_officer,1,sub,role_of_police,"    ""Police officer""    ",13,0.35135135135135137,41
+4,police_officer,1,sub,role_of_police,"    ""Police officer""    ",9,0.24324324324324326,53
+5,police_officer,0,sub,role_of_police,"    ""Police officer""    ",16,0.43243243243243246,29
+6,police_officer,1,sub,role_of_police,"    ""Police officer""    ",23,0.6216216216216216,4
+7,police_officer,0,sub,role_of_police,"    ""Police officer""    ",13,0.35135135135135137,42
+8,police_officer,0,sub,role_of_police,"    ""Police officer""    ",15,0.40540540540540543,32
+9,police_officer,0,sub,role_of_police,"    ""Police officer""    ",19,0.5135135135135135,14
+10,police_officer,0,sub,role_of_police,"    ""Police officer""    ",10,0.2702702702702703,51
+11,police_officer,0,sub,role_of_police,"    ""Police officer""    ",13,0.35135135135135137,43
+12,police_officer,0,sub,role_of_police,"    ""Police officer""    ",20,0.5405405405405406,11
+13,police_officer,1,sub,role_of_police,"    ""Police officer""    ",22,0.5945945945945946,5
+14,police_officer,0,sub,role_of_police,"    ""Police officer""    ",14,0.3783783783783784,37
+15,police_officer,0,sub,role_of_police,"    ""Police officer""    ",19,0.5135135135135135,15
+16,police_officer,0,sub,role_of_police,"    ""Police officer""    ",16,0.43243243243243246,30
+17,police_officer,1,sub,role_of_police,"    ""Police officer""    ",20,0.5405405405405406,12
+18,police_officer,0,sub,role_of_police,"    ""Police officer""    ",18,0.4864864864864865,20
+19,police_officer,0,sub,role_of_police,"    ""Police officer""    ",17,0.4594594594594595,25
+20,police_officer,0,sub,role_of_police,"    ""Police officer""    ",20,0.5405405405405406,13
+21,police_officer,0,sub,role_of_police,"    ""Police officer""    ",14,0.3783783783783784,38
+22,police_officer,0,sub,role_of_police,"    ""Police officer""    ",21,0.5675675675675675,6
+23,police_officer,0,sub,role_of_police,"    ""Police officer""    ",15,0.40540540540540543,33
+24,police_officer,0,sub,role_of_police,"    ""Police officer""    ",19,0.5135135135135135,16
+25,police_officer,0,sub,role_of_police,"    ""Police officer""    ",18,0.4864864864864865,21
+26,police_officer,0,sub,role_of_police,"    ""Police officer""    ",10,0.2702702702702703,52
+27,police_officer,1,sub,role_of_police,"    ""Police officer""    ",26,0.7027027027027027,1
+28,police_officer,0,sub,role_of_police,"    ""Police officer""    ",17,0.4594594594594595,26
+29,police_officer,0,sub,role_of_police,"    ""Police officer""    ",11,0.2972972972972973,50
+30,police_officer,0,sub,role_of_police,"    ""Police officer""    ",13,0.35135135135135137,44
+31,police_officer,0,sub,role_of_police,"    ""Police officer""    ",21,0.5675675675675675,7
+32,police_officer,0,sub,role_of_police,"    ""Police officer""    ",15,0.40540540540540543,34
+33,police_officer,0,sub,role_of_police,"    ""Police officer""    ",25,0.6756756756756757,2
+34,police_officer,0,sub,role_of_police,"    ""Police officer""    ",9,0.24324324324324326,54
+35,police_officer,0,sub,role_of_police,"    ""Police officer""    ",8,0.21621621621621623,55
+36,police_officer,0,sub,role_of_police,"    ""Police officer""    ",19,0.5135135135135135,17
+37,police_officer,0,sub,role_of_police,"    ""Police officer""    ",16,0.43243243243243246,31
+38,police_officer,0,sub,role_of_police,"    ""Police officer""    ",18,0.4864864864864865,22
+39,police_officer,0,sub,role_of_police,"    ""Police officer""    ",12,0.32432432432432434,49
+40,police_officer,0,sub,role_of_police,"    ""Police officer""    ",13,0.35135135135135137,45
+41,police_officer,0,sub,role_of_police,"    ""Police officer""    ",17,0.4594594594594595,27
+42,police_officer,0,sub,role_of_police,"    ""Police officer""    ",19,0.5135135135135135,18
+43,police_officer,0,sub,role_of_police,"    ""Police officer""    ",21,0.5675675675675675,8
+44,police_officer,1,sub,role_of_police,"    ""Police officer""    ",19,0.5135135135135135,19
+45,police_officer,0,sub,role_of_police,"    ""Police officer""    ",7,0.1891891891891892,56
+46,police_officer,0,sub,role_of_police,"    ""Police officer""    ",15,0.40540540540540543,35
+47,police_officer,0,sub,role_of_police,"    ""Police officer""    ",14,0.3783783783783784,39
+48,police_officer,0,sub,role_of_police,"    ""Police officer""    ",21,0.5675675675675675,9
+49,police_officer,1,sub,role_of_police,"    ""Police officer""    ",13,0.35135135135135137,46
+50,police_officer,0,sub,role_of_police,"    ""Police officer""    ",17,0.4594594594594595,28
+51,police_officer,0,sub,role_of_police,"    ""Police officer""    ",18,0.4864864864864865,23
+52,police_officer,0,sub,role_of_police,"    ""Police officer""    ",21,0.5675675675675675,10
+53,police_officer,1,sub,role_of_police,"    ""Police officer""    ",18,0.4864864864864865,24
+54,police_officer,0,sub,role_of_police,"    ""Police officer""    ",13,0.35135135135135137,47
+55,police_officer,1,sub,role_of_police,"    ""Police officer""    ",13,0.35135135135135137,48
+56,police_officer,0,sub,role_of_police,"    ""Police officer""    ",14,0.3783783783783784,40
+1,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",24,0.6486486486486487,3
+2,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",14,0.3783783783783784,36
+3,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",13,0.35135135135135137,41
+4,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",9,0.24324324324324326,53
+5,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",16,0.43243243243243246,29
+6,law_enforcement,1,sub,role_of_police,"    ""Law enforcement""    ",23,0.6216216216216216,4
+7,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",13,0.35135135135135137,42
+8,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",15,0.40540540540540543,32
+9,law_enforcement,1,sub,role_of_police,"    ""Law enforcement""    ",19,0.5135135135135135,14
+10,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",10,0.2702702702702703,51
+11,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",13,0.35135135135135137,43
+12,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",20,0.5405405405405406,11
+13,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",22,0.5945945945945946,5
+14,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",14,0.3783783783783784,37
+15,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",19,0.5135135135135135,15
+16,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",16,0.43243243243243246,30
+17,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",20,0.5405405405405406,12
+18,law_enforcement,1,sub,role_of_police,"    ""Law enforcement""    ",18,0.4864864864864865,20
+19,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",17,0.4594594594594595,25
+20,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",20,0.5405405405405406,13
+21,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",14,0.3783783783783784,38
+22,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",21,0.5675675675675675,6
+23,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",15,0.40540540540540543,33
+24,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",19,0.5135135135135135,16
+25,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",18,0.4864864864864865,21
+26,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",10,0.2702702702702703,52
+27,law_enforcement,1,sub,role_of_police,"    ""Law enforcement""    ",26,0.7027027027027027,1
+28,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",17,0.4594594594594595,26
+29,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",11,0.2972972972972973,50
+30,law_enforcement,1,sub,role_of_police,"    ""Law enforcement""    ",13,0.35135135135135137,44
+31,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",21,0.5675675675675675,7
+32,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",15,0.40540540540540543,34
+33,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",25,0.6756756756756757,2
+34,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",9,0.24324324324324326,54
+35,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",8,0.21621621621621623,55
+36,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",19,0.5135135135135135,17
+37,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",16,0.43243243243243246,31
+38,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",18,0.4864864864864865,22
+39,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",12,0.32432432432432434,49
+40,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",13,0.35135135135135137,45
+41,law_enforcement,1,sub,role_of_police,"    ""Law enforcement""    ",17,0.4594594594594595,27
+42,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",19,0.5135135135135135,18
+43,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",21,0.5675675675675675,8
+44,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",19,0.5135135135135135,19
+45,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",7,0.1891891891891892,56
+46,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",15,0.40540540540540543,35
+47,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",14,0.3783783783783784,39
+48,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",21,0.5675675675675675,9
+49,law_enforcement,1,sub,role_of_police,"    ""Law enforcement""    ",13,0.35135135135135137,46
+50,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",17,0.4594594594594595,28
+51,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",18,0.4864864864864865,23
+52,law_enforcement,1,sub,role_of_police,"    ""Law enforcement""    ",21,0.5675675675675675,10
+53,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",18,0.4864864864864865,24
+54,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",13,0.35135135135135137,47
+55,law_enforcement,1,sub,role_of_police,"    ""Law enforcement""    ",13,0.35135135135135137,48
+56,law_enforcement,0,sub,role_of_police,"    ""Law enforcement""    ",14,0.3783783783783784,40
+1,role_of_police,1,main,role_of_police,Reference to the police,24,0.6486486486486487,3
+2,role_of_police,0,main,role_of_police,Reference to the police,14,0.3783783783783784,36
+3,role_of_police,1,main,role_of_police,Reference to the police,13,0.35135135135135137,41
+4,role_of_police,1,main,role_of_police,Reference to the police,9,0.24324324324324326,53
+5,role_of_police,0,main,role_of_police,Reference to the police,16,0.43243243243243246,29
+6,role_of_police,1,main,role_of_police,Reference to the police,23,0.6216216216216216,4
+7,role_of_police,0,main,role_of_police,Reference to the police,13,0.35135135135135137,42
+8,role_of_police,0,main,role_of_police,Reference to the police,15,0.40540540540540543,32
+9,role_of_police,1,main,role_of_police,Reference to the police,19,0.5135135135135135,14
+10,role_of_police,0,main,role_of_police,Reference to the police,10,0.2702702702702703,51
+11,role_of_police,1,main,role_of_police,Reference to the police,13,0.35135135135135137,43
+12,role_of_police,0,main,role_of_police,Reference to the police,20,0.5405405405405406,11
+13,role_of_police,1,main,role_of_police,Reference to the police,22,0.5945945945945946,5
+14,role_of_police,0,main,role_of_police,Reference to the police,14,0.3783783783783784,37
+15,role_of_police,1,main,role_of_police,Reference to the police,19,0.5135135135135135,15
+16,role_of_police,0,main,role_of_police,Reference to the police,16,0.43243243243243246,30
+17,role_of_police,1,main,role_of_police,Reference to the police,20,0.5405405405405406,12
+18,role_of_police,1,main,role_of_police,Reference to the police,18,0.4864864864864865,20
+19,role_of_police,0,main,role_of_police,Reference to the police,17,0.4594594594594595,25
+20,role_of_police,1,main,role_of_police,Reference to the police,20,0.5405405405405406,13
+21,role_of_police,0,main,role_of_police,Reference to the police,14,0.3783783783783784,38
+22,role_of_police,1,main,role_of_police,Reference to the police,21,0.5675675675675675,6
+23,role_of_police,1,main,role_of_police,Reference to the police,15,0.40540540540540543,33
+24,role_of_police,0,main,role_of_police,Reference to the police,19,0.5135135135135135,16
+25,role_of_police,0,main,role_of_police,Reference to the police,18,0.4864864864864865,21
+26,role_of_police,0,main,role_of_police,Reference to the police,10,0.2702702702702703,52
+27,role_of_police,1,main,role_of_police,Reference to the police,26,0.7027027027027027,1
+28,role_of_police,1,main,role_of_police,Reference to the police,17,0.4594594594594595,26
+29,role_of_police,0,main,role_of_police,Reference to the police,11,0.2972972972972973,50
+30,role_of_police,1,main,role_of_police,Reference to the police,13,0.35135135135135137,44
+31,role_of_police,0,main,role_of_police,Reference to the police,21,0.5675675675675675,7
+32,role_of_police,1,main,role_of_police,Reference to the police,15,0.40540540540540543,34
+33,role_of_police,1,main,role_of_police,Reference to the police,25,0.6756756756756757,2
+34,role_of_police,1,main,role_of_police,Reference to the police,9,0.24324324324324326,54
+35,role_of_police,0,main,role_of_police,Reference to the police,8,0.21621621621621623,55
+36,role_of_police,1,main,role_of_police,Reference to the police,19,0.5135135135135135,17
+37,role_of_police,0,main,role_of_police,Reference to the police,16,0.43243243243243246,31
+38,role_of_police,1,main,role_of_police,Reference to the police,18,0.4864864864864865,22
+39,role_of_police,0,main,role_of_police,Reference to the police,12,0.32432432432432434,49
+40,role_of_police,0,main,role_of_police,Reference to the police,13,0.35135135135135137,45
+41,role_of_police,1,main,role_of_police,Reference to the police,17,0.4594594594594595,27
+42,role_of_police,0,main,role_of_police,Reference to the police,19,0.5135135135135135,18
+43,role_of_police,1,main,role_of_police,Reference to the police,21,0.5675675675675675,8
+44,role_of_police,1,main,role_of_police,Reference to the police,19,0.5135135135135135,19
+45,role_of_police,0,main,role_of_police,Reference to the police,7,0.1891891891891892,56
+46,role_of_police,0,main,role_of_police,Reference to the police,15,0.40540540540540543,35
+47,role_of_police,0,main,role_of_police,Reference to the police,14,0.3783783783783784,39
+48,role_of_police,1,main,role_of_police,Reference to the police,21,0.5675675675675675,9
+49,role_of_police,1,main,role_of_police,Reference to the police,13,0.35135135135135137,46
+50,role_of_police,0,main,role_of_police,Reference to the police,17,0.4594594594594595,28
+51,role_of_police,0,main,role_of_police,Reference to the police,18,0.4864864864864865,23
+52,role_of_police,1,main,role_of_police,Reference to the police,21,0.5675675675675675,10
+53,role_of_police,1,main,role_of_police,Reference to the police,18,0.4864864864864865,24
+54,role_of_police,0,main,role_of_police,Reference to the police,13,0.35135135135135137,47
+55,role_of_police,1,main,role_of_police,Reference to the police,13,0.35135135135135137,48
+56,role_of_police,0,main,role_of_police,Reference to the police,14,0.3783783783783784,40
+1,murder,0,sub,describes_the_act,"    ""Murder""    ",24,0.6486486486486487,3
+2,murder,0,sub,describes_the_act,"    ""Murder""    ",14,0.3783783783783784,36
+3,murder,0,sub,describes_the_act,"    ""Murder""    ",13,0.35135135135135137,41
+4,murder,1,sub,describes_the_act,"    ""Murder""    ",9,0.24324324324324326,53
+5,murder,0,sub,describes_the_act,"    ""Murder""    ",16,0.43243243243243246,29
+6,murder,0,sub,describes_the_act,"    ""Murder""    ",23,0.6216216216216216,4
+7,murder,0,sub,describes_the_act,"    ""Murder""    ",13,0.35135135135135137,42
+8,murder,0,sub,describes_the_act,"    ""Murder""    ",15,0.40540540540540543,32
+9,murder,0,sub,describes_the_act,"    ""Murder""    ",19,0.5135135135135135,14
+10,murder,0,sub,describes_the_act,"    ""Murder""    ",10,0.2702702702702703,51
+11,murder,1,sub,describes_the_act,"    ""Murder""    ",13,0.35135135135135137,43
+12,murder,0,sub,describes_the_act,"    ""Murder""    ",20,0.5405405405405406,11
+13,murder,0,sub,describes_the_act,"    ""Murder""    ",22,0.5945945945945946,5
+14,murder,0,sub,describes_the_act,"    ""Murder""    ",14,0.3783783783783784,37
+15,murder,0,sub,describes_the_act,"    ""Murder""    ",19,0.5135135135135135,15
+16,murder,0,sub,describes_the_act,"    ""Murder""    ",16,0.43243243243243246,30
+17,murder,0,sub,describes_the_act,"    ""Murder""    ",20,0.5405405405405406,12
+18,murder,0,sub,describes_the_act,"    ""Murder""    ",18,0.4864864864864865,20
+19,murder,0,sub,describes_the_act,"    ""Murder""    ",17,0.4594594594594595,25
+20,murder,0,sub,describes_the_act,"    ""Murder""    ",20,0.5405405405405406,13
+21,murder,1,sub,describes_the_act,"    ""Murder""    ",14,0.3783783783783784,38
+22,murder,0,sub,describes_the_act,"    ""Murder""    ",21,0.5675675675675675,6
+23,murder,0,sub,describes_the_act,"    ""Murder""    ",15,0.40540540540540543,33
+24,murder,0,sub,describes_the_act,"    ""Murder""    ",19,0.5135135135135135,16
+25,murder,0,sub,describes_the_act,"    ""Murder""    ",18,0.4864864864864865,21
+26,murder,0,sub,describes_the_act,"    ""Murder""    ",10,0.2702702702702703,52
+27,murder,0,sub,describes_the_act,"    ""Murder""    ",26,0.7027027027027027,1
+28,murder,0,sub,describes_the_act,"    ""Murder""    ",17,0.4594594594594595,26
+29,murder,0,sub,describes_the_act,"    ""Murder""    ",11,0.2972972972972973,50
+30,murder,0,sub,describes_the_act,"    ""Murder""    ",13,0.35135135135135137,44
+31,murder,1,sub,describes_the_act,"    ""Murder""    ",21,0.5675675675675675,7
+32,murder,0,sub,describes_the_act,"    ""Murder""    ",15,0.40540540540540543,34
+33,murder,0,sub,describes_the_act,"    ""Murder""    ",25,0.6756756756756757,2
+34,murder,0,sub,describes_the_act,"    ""Murder""    ",9,0.24324324324324326,54
+35,murder,0,sub,describes_the_act,"    ""Murder""    ",8,0.21621621621621623,55
+36,murder,0,sub,describes_the_act,"    ""Murder""    ",19,0.5135135135135135,17
+37,murder,0,sub,describes_the_act,"    ""Murder""    ",16,0.43243243243243246,31
+38,murder,0,sub,describes_the_act,"    ""Murder""    ",18,0.4864864864864865,22
+39,murder,0,sub,describes_the_act,"    ""Murder""    ",12,0.32432432432432434,49
+40,murder,0,sub,describes_the_act,"    ""Murder""    ",13,0.35135135135135137,45
+41,murder,1,sub,describes_the_act,"    ""Murder""    ",17,0.4594594594594595,27
+42,murder,0,sub,describes_the_act,"    ""Murder""    ",19,0.5135135135135135,18
+43,murder,0,sub,describes_the_act,"    ""Murder""    ",21,0.5675675675675675,8
+44,murder,0,sub,describes_the_act,"    ""Murder""    ",19,0.5135135135135135,19
+45,murder,0,sub,describes_the_act,"    ""Murder""    ",7,0.1891891891891892,56
+46,murder,0,sub,describes_the_act,"    ""Murder""    ",15,0.40540540540540543,35
+47,murder,1,sub,describes_the_act,"    ""Murder""    ",14,0.3783783783783784,39
+48,murder,0,sub,describes_the_act,"    ""Murder""    ",21,0.5675675675675675,9
+49,murder,0,sub,describes_the_act,"    ""Murder""    ",13,0.35135135135135137,46
+50,murder,0,sub,describes_the_act,"    ""Murder""    ",17,0.4594594594594595,28
+51,murder,0,sub,describes_the_act,"    ""Murder""    ",18,0.4864864864864865,23
+52,murder,0,sub,describes_the_act,"    ""Murder""    ",21,0.5675675675675675,10
+53,murder,0,sub,describes_the_act,"    ""Murder""    ",18,0.4864864864864865,24
+54,murder,0,sub,describes_the_act,"    ""Murder""    ",13,0.35135135135135137,47
+55,murder,0,sub,describes_the_act,"    ""Murder""    ",13,0.35135135135135137,48
+56,murder,0,sub,describes_the_act,"    ""Murder""    ",14,0.3783783783783784,40
+1,killing,0,sub,describes_the_act,"    ""Killing""    ",24,0.6486486486486487,3
+2,killing,1,sub,describes_the_act,"    ""Killing""    ",14,0.3783783783783784,36
+3,killing,0,sub,describes_the_act,"    ""Killing""    ",13,0.35135135135135137,41
+4,killing,0,sub,describes_the_act,"    ""Killing""    ",9,0.24324324324324326,53
+5,killing,0,sub,describes_the_act,"    ""Killing""    ",16,0.43243243243243246,29
+6,killing,1,sub,describes_the_act,"    ""Killing""    ",23,0.6216216216216216,4
+7,killing,0,sub,describes_the_act,"    ""Killing""    ",13,0.35135135135135137,42
+8,killing,1,sub,describes_the_act,"    ""Killing""    ",15,0.40540540540540543,32
+9,killing,0,sub,describes_the_act,"    ""Killing""    ",19,0.5135135135135135,14
+10,killing,0,sub,describes_the_act,"    ""Killing""    ",10,0.2702702702702703,51
+11,killing,0,sub,describes_the_act,"    ""Killing""    ",13,0.35135135135135137,43
+12,killing,0,sub,describes_the_act,"    ""Killing""    ",20,0.5405405405405406,11
+13,killing,1,sub,describes_the_act,"    ""Killing""    ",22,0.5945945945945946,5
+14,killing,1,sub,describes_the_act,"    ""Killing""    ",14,0.3783783783783784,37
+15,killing,0,sub,describes_the_act,"    ""Killing""    ",19,0.5135135135135135,15
+16,killing,1,sub,describes_the_act,"    ""Killing""    ",16,0.43243243243243246,30
+17,killing,1,sub,describes_the_act,"    ""Killing""    ",20,0.5405405405405406,12
+18,killing,1,sub,describes_the_act,"    ""Killing""    ",18,0.4864864864864865,20
+19,killing,1,sub,describes_the_act,"    ""Killing""    ",17,0.4594594594594595,25
+20,killing,1,sub,describes_the_act,"    ""Killing""    ",20,0.5405405405405406,13
+21,killing,0,sub,describes_the_act,"    ""Killing""    ",14,0.3783783783783784,38
+22,killing,1,sub,describes_the_act,"    ""Killing""    ",21,0.5675675675675675,6
+23,killing,0,sub,describes_the_act,"    ""Killing""    ",15,0.40540540540540543,33
+24,killing,0,sub,describes_the_act,"    ""Killing""    ",19,0.5135135135135135,16
+25,killing,1,sub,describes_the_act,"    ""Killing""    ",18,0.4864864864864865,21
+26,killing,0,sub,describes_the_act,"    ""Killing""    ",10,0.2702702702702703,52
+27,killing,1,sub,describes_the_act,"    ""Killing""    ",26,0.7027027027027027,1
+28,killing,0,sub,describes_the_act,"    ""Killing""    ",17,0.4594594594594595,26
+29,killing,1,sub,describes_the_act,"    ""Killing""    ",11,0.2972972972972973,50
+30,killing,0,sub,describes_the_act,"    ""Killing""    ",13,0.35135135135135137,44
+31,killing,1,sub,describes_the_act,"    ""Killing""    ",21,0.5675675675675675,7
+32,killing,0,sub,describes_the_act,"    ""Killing""    ",15,0.40540540540540543,34
+33,killing,1,sub,describes_the_act,"    ""Killing""    ",25,0.6756756756756757,2
+34,killing,0,sub,describes_the_act,"    ""Killing""    ",9,0.24324324324324326,54
+35,killing,0,sub,describes_the_act,"    ""Killing""    ",8,0.21621621621621623,55
+36,killing,0,sub,describes_the_act,"    ""Killing""    ",19,0.5135135135135135,17
+37,killing,0,sub,describes_the_act,"    ""Killing""    ",16,0.43243243243243246,31
+38,killing,1,sub,describes_the_act,"    ""Killing""    ",18,0.4864864864864865,22
+39,killing,0,sub,describes_the_act,"    ""Killing""    ",12,0.32432432432432434,49
+40,killing,0,sub,describes_the_act,"    ""Killing""    ",13,0.35135135135135137,45
+41,killing,1,sub,describes_the_act,"    ""Killing""    ",17,0.4594594594594595,27
+42,killing,1,sub,describes_the_act,"    ""Killing""    ",19,0.5135135135135135,18
+43,killing,1,sub,describes_the_act,"    ""Killing""    ",21,0.5675675675675675,8
+44,killing,0,sub,describes_the_act,"    ""Killing""    ",19,0.5135135135135135,19
+45,killing,0,sub,describes_the_act,"    ""Killing""    ",7,0.1891891891891892,56
+46,killing,0,sub,describes_the_act,"    ""Killing""    ",15,0.40540540540540543,35
+47,killing,0,sub,describes_the_act,"    ""Killing""    ",14,0.3783783783783784,39
+48,killing,0,sub,describes_the_act,"    ""Killing""    ",21,0.5675675675675675,9
+49,killing,0,sub,describes_the_act,"    ""Killing""    ",13,0.35135135135135137,46
+50,killing,0,sub,describes_the_act,"    ""Killing""    ",17,0.4594594594594595,28
+51,killing,1,sub,describes_the_act,"    ""Killing""    ",18,0.4864864864864865,23
+52,killing,1,sub,describes_the_act,"    ""Killing""    ",21,0.5675675675675675,10
+53,killing,1,sub,describes_the_act,"    ""Killing""    ",18,0.4864864864864865,24
+54,killing,0,sub,describes_the_act,"    ""Killing""    ",13,0.35135135135135137,47
+55,killing,1,sub,describes_the_act,"    ""Killing""    ",13,0.35135135135135137,48
+56,killing,0,sub,describes_the_act,"    ""Killing""    ",14,0.3783783783783784,40
+1,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",24,0.6486486486486487,3
+2,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",14,0.3783783783783784,36
+3,suffocating,1,sub,describes_the_act,"    ""Suffocating""    ",13,0.35135135135135137,41
+4,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",9,0.24324324324324326,53
+5,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",16,0.43243243243243246,29
+6,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",23,0.6216216216216216,4
+7,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",13,0.35135135135135137,42
+8,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",15,0.40540540540540543,32
+9,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",19,0.5135135135135135,14
+10,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",10,0.2702702702702703,51
+11,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",13,0.35135135135135137,43
+12,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",20,0.5405405405405406,11
+13,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",22,0.5945945945945946,5
+14,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",14,0.3783783783783784,37
+15,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",19,0.5135135135135135,15
+16,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",16,0.43243243243243246,30
+17,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",20,0.5405405405405406,12
+18,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",18,0.4864864864864865,20
+19,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",17,0.4594594594594595,25
+20,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",20,0.5405405405405406,13
+21,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",14,0.3783783783783784,38
+22,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",21,0.5675675675675675,6
+23,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",15,0.40540540540540543,33
+24,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",19,0.5135135135135135,16
+25,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",18,0.4864864864864865,21
+26,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",10,0.2702702702702703,52
+27,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",26,0.7027027027027027,1
+28,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",17,0.4594594594594595,26
+29,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",11,0.2972972972972973,50
+30,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",13,0.35135135135135137,44
+31,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",21,0.5675675675675675,7
+32,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",15,0.40540540540540543,34
+33,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",25,0.6756756756756757,2
+34,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",9,0.24324324324324326,54
+35,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",8,0.21621621621621623,55
+36,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",19,0.5135135135135135,17
+37,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",16,0.43243243243243246,31
+38,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",18,0.4864864864864865,22
+39,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",12,0.32432432432432434,49
+40,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",13,0.35135135135135137,45
+41,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",17,0.4594594594594595,27
+42,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",19,0.5135135135135135,18
+43,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",21,0.5675675675675675,8
+44,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",19,0.5135135135135135,19
+45,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",7,0.1891891891891892,56
+46,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",15,0.40540540540540543,35
+47,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",14,0.3783783783783784,39
+48,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",21,0.5675675675675675,9
+49,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",13,0.35135135135135137,46
+50,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",17,0.4594594594594595,28
+51,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",18,0.4864864864864865,23
+52,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",21,0.5675675675675675,10
+53,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",18,0.4864864864864865,24
+54,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",13,0.35135135135135137,47
+55,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",13,0.35135135135135137,48
+56,suffocating,0,sub,describes_the_act,"    ""Suffocating""    ",14,0.3783783783783784,40
+1,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",24,0.6486486486486487,3
+2,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",14,0.3783783783783784,36
+3,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",13,0.35135135135135137,41
+4,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",9,0.24324324324324326,53
+5,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",16,0.43243243243243246,29
+6,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",23,0.6216216216216216,4
+7,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",13,0.35135135135135137,42
+8,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",15,0.40540540540540543,32
+9,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",19,0.5135135135135135,14
+10,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",10,0.2702702702702703,51
+11,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",13,0.35135135135135137,43
+12,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",20,0.5405405405405406,11
+13,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",22,0.5945945945945946,5
+14,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",14,0.3783783783783784,37
+15,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",19,0.5135135135135135,15
+16,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",16,0.43243243243243246,30
+17,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",20,0.5405405405405406,12
+18,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",18,0.4864864864864865,20
+19,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",17,0.4594594594594595,25
+20,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",20,0.5405405405405406,13
+21,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",14,0.3783783783783784,38
+22,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",21,0.5675675675675675,6
+23,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",15,0.40540540540540543,33
+24,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",19,0.5135135135135135,16
+25,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",18,0.4864864864864865,21
+26,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",10,0.2702702702702703,52
+27,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",26,0.7027027027027027,1
+28,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",17,0.4594594594594595,26
+29,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",11,0.2972972972972973,50
+30,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",13,0.35135135135135137,44
+31,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",21,0.5675675675675675,7
+32,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",15,0.40540540540540543,34
+33,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",25,0.6756756756756757,2
+34,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",9,0.24324324324324326,54
+35,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",8,0.21621621621621623,55
+36,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",19,0.5135135135135135,17
+37,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",16,0.43243243243243246,31
+38,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",18,0.4864864864864865,22
+39,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",12,0.32432432432432434,49
+40,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",13,0.35135135135135137,45
+41,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",17,0.4594594594594595,27
+42,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",19,0.5135135135135135,18
+43,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",21,0.5675675675675675,8
+44,kneeling_on_neck,1,sub,describes_the_act,"    ""Kneeling on neck""    ",19,0.5135135135135135,19
+45,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",7,0.1891891891891892,56
+46,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",15,0.40540540540540543,35
+47,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",14,0.3783783783783784,39
+48,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",21,0.5675675675675675,9
+49,kneeling_on_neck,1,sub,describes_the_act,"    ""Kneeling on neck""    ",13,0.35135135135135137,46
+50,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",17,0.4594594594594595,28
+51,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",18,0.4864864864864865,23
+52,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",21,0.5675675675675675,10
+53,kneeling_on_neck,1,sub,describes_the_act,"    ""Kneeling on neck""    ",18,0.4864864864864865,24
+54,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",13,0.35135135135135137,47
+55,kneeling_on_neck,1,sub,describes_the_act,"    ""Kneeling on neck""    ",13,0.35135135135135137,48
+56,kneeling_on_neck,0,sub,describes_the_act,"    ""Kneeling on neck""    ",14,0.3783783783783784,40
+1,describes_the_act,0,main,describes_the_act,Specifies the act,24,0.6486486486486487,3
+2,describes_the_act,1,main,describes_the_act,Specifies the act,14,0.3783783783783784,36
+3,describes_the_act,1,main,describes_the_act,Specifies the act,13,0.35135135135135137,41
+4,describes_the_act,1,main,describes_the_act,Specifies the act,9,0.24324324324324326,53
+5,describes_the_act,0,main,describes_the_act,Specifies the act,16,0.43243243243243246,29
+6,describes_the_act,1,main,describes_the_act,Specifies the act,23,0.6216216216216216,4
+7,describes_the_act,0,main,describes_the_act,Specifies the act,13,0.35135135135135137,42
+8,describes_the_act,1,main,describes_the_act,Specifies the act,15,0.40540540540540543,32
+9,describes_the_act,0,main,describes_the_act,Specifies the act,19,0.5135135135135135,14
+10,describes_the_act,0,main,describes_the_act,Specifies the act,10,0.2702702702702703,51
+11,describes_the_act,1,main,describes_the_act,Specifies the act,13,0.35135135135135137,43
+12,describes_the_act,0,main,describes_the_act,Specifies the act,20,0.5405405405405406,11
+13,describes_the_act,1,main,describes_the_act,Specifies the act,22,0.5945945945945946,5
+14,describes_the_act,1,main,describes_the_act,Specifies the act,14,0.3783783783783784,37
+15,describes_the_act,0,main,describes_the_act,Specifies the act,19,0.5135135135135135,15
+16,describes_the_act,1,main,describes_the_act,Specifies the act,16,0.43243243243243246,30
+17,describes_the_act,1,main,describes_the_act,Specifies the act,20,0.5405405405405406,12
+18,describes_the_act,1,main,describes_the_act,Specifies the act,18,0.4864864864864865,20
+19,describes_the_act,1,main,describes_the_act,Specifies the act,17,0.4594594594594595,25
+20,describes_the_act,1,main,describes_the_act,Specifies the act,20,0.5405405405405406,13
+21,describes_the_act,1,main,describes_the_act,Specifies the act,14,0.3783783783783784,38
+22,describes_the_act,1,main,describes_the_act,Specifies the act,21,0.5675675675675675,6
+23,describes_the_act,0,main,describes_the_act,Specifies the act,15,0.40540540540540543,33
+24,describes_the_act,0,main,describes_the_act,Specifies the act,19,0.5135135135135135,16
+25,describes_the_act,1,main,describes_the_act,Specifies the act,18,0.4864864864864865,21
+26,describes_the_act,0,main,describes_the_act,Specifies the act,10,0.2702702702702703,52
+27,describes_the_act,1,main,describes_the_act,Specifies the act,26,0.7027027027027027,1
+28,describes_the_act,0,main,describes_the_act,Specifies the act,17,0.4594594594594595,26
+29,describes_the_act,1,main,describes_the_act,Specifies the act,11,0.2972972972972973,50
+30,describes_the_act,0,main,describes_the_act,Specifies the act,13,0.35135135135135137,44
+31,describes_the_act,1,main,describes_the_act,Specifies the act,21,0.5675675675675675,7
+32,describes_the_act,0,main,describes_the_act,Specifies the act,15,0.40540540540540543,34
+33,describes_the_act,1,main,describes_the_act,Specifies the act,25,0.6756756756756757,2
+34,describes_the_act,0,main,describes_the_act,Specifies the act,9,0.24324324324324326,54
+35,describes_the_act,0,main,describes_the_act,Specifies the act,8,0.21621621621621623,55
+36,describes_the_act,0,main,describes_the_act,Specifies the act,19,0.5135135135135135,17
+37,describes_the_act,0,main,describes_the_act,Specifies the act,16,0.43243243243243246,31
+38,describes_the_act,1,main,describes_the_act,Specifies the act,18,0.4864864864864865,22
+39,describes_the_act,0,main,describes_the_act,Specifies the act,12,0.32432432432432434,49
+40,describes_the_act,0,main,describes_the_act,Specifies the act,13,0.35135135135135137,45
+41,describes_the_act,1,main,describes_the_act,Specifies the act,17,0.4594594594594595,27
+42,describes_the_act,1,main,describes_the_act,Specifies the act,19,0.5135135135135135,18
+43,describes_the_act,1,main,describes_the_act,Specifies the act,21,0.5675675675675675,8
+44,describes_the_act,1,main,describes_the_act,Specifies the act,19,0.5135135135135135,19
+45,describes_the_act,0,main,describes_the_act,Specifies the act,7,0.1891891891891892,56
+46,describes_the_act,0,main,describes_the_act,Specifies the act,15,0.40540540540540543,35
+47,describes_the_act,1,main,describes_the_act,Specifies the act,14,0.3783783783783784,39
+48,describes_the_act,0,main,describes_the_act,Specifies the act,21,0.5675675675675675,9
+49,describes_the_act,1,main,describes_the_act,Specifies the act,13,0.35135135135135137,46
+50,describes_the_act,0,main,describes_the_act,Specifies the act,17,0.4594594594594595,28
+51,describes_the_act,1,main,describes_the_act,Specifies the act,18,0.4864864864864865,23
+52,describes_the_act,1,main,describes_the_act,Specifies the act,21,0.5675675675675675,10
+53,describes_the_act,1,main,describes_the_act,Specifies the act,18,0.4864864864864865,24
+54,describes_the_act,0,main,describes_the_act,Specifies the act,13,0.35135135135135137,47
+55,describes_the_act,1,main,describes_the_act,Specifies the act,13,0.35135135135135137,48
+56,describes_the_act,0,main,describes_the_act,Specifies the act,14,0.3783783783783784,40
+1,racist,0,sub,role_of_racism,"    ""Racist""    ",24,0.6486486486486487,3
+2,racist,0,sub,role_of_racism,"    ""Racist""    ",14,0.3783783783783784,36
+3,racist,0,sub,role_of_racism,"    ""Racist""    ",13,0.35135135135135137,41
+4,racist,0,sub,role_of_racism,"    ""Racist""    ",9,0.24324324324324326,53
+5,racist,0,sub,role_of_racism,"    ""Racist""    ",16,0.43243243243243246,29
+6,racist,0,sub,role_of_racism,"    ""Racist""    ",23,0.6216216216216216,4
+7,racist,0,sub,role_of_racism,"    ""Racist""    ",13,0.35135135135135137,42
+8,racist,0,sub,role_of_racism,"    ""Racist""    ",15,0.40540540540540543,32
+9,racist,0,sub,role_of_racism,"    ""Racist""    ",19,0.5135135135135135,14
+10,racist,0,sub,role_of_racism,"    ""Racist""    ",10,0.2702702702702703,51
+11,racist,1,sub,role_of_racism,"    ""Racist""    ",13,0.35135135135135137,43
+12,racist,0,sub,role_of_racism,"    ""Racist""    ",20,0.5405405405405406,11
+13,racist,0,sub,role_of_racism,"    ""Racist""    ",22,0.5945945945945946,5
+14,racist,0,sub,role_of_racism,"    ""Racist""    ",14,0.3783783783783784,37
+15,racist,0,sub,role_of_racism,"    ""Racist""    ",19,0.5135135135135135,15
+16,racist,0,sub,role_of_racism,"    ""Racist""    ",16,0.43243243243243246,30
+17,racist,1,sub,role_of_racism,"    ""Racist""    ",20,0.5405405405405406,12
+18,racist,0,sub,role_of_racism,"    ""Racist""    ",18,0.4864864864864865,20
+19,racist,1,sub,role_of_racism,"    ""Racist""    ",17,0.4594594594594595,25
+20,racist,1,sub,role_of_racism,"    ""Racist""    ",20,0.5405405405405406,13
+21,racist,0,sub,role_of_racism,"    ""Racist""    ",14,0.3783783783783784,38
+22,racist,1,sub,role_of_racism,"    ""Racist""    ",21,0.5675675675675675,6
+23,racist,0,sub,role_of_racism,"    ""Racist""    ",15,0.40540540540540543,33
+24,racist,0,sub,role_of_racism,"    ""Racist""    ",19,0.5135135135135135,16
+25,racist,0,sub,role_of_racism,"    ""Racist""    ",18,0.4864864864864865,21
+26,racist,0,sub,role_of_racism,"    ""Racist""    ",10,0.2702702702702703,52
+27,racist,1,sub,role_of_racism,"    ""Racist""    ",26,0.7027027027027027,1
+28,racist,0,sub,role_of_racism,"    ""Racist""    ",17,0.4594594594594595,26
+29,racist,0,sub,role_of_racism,"    ""Racist""    ",11,0.2972972972972973,50
+30,racist,0,sub,role_of_racism,"    ""Racist""    ",13,0.35135135135135137,44
+31,racist,0,sub,role_of_racism,"    ""Racist""    ",21,0.5675675675675675,7
+32,racist,0,sub,role_of_racism,"    ""Racist""    ",15,0.40540540540540543,34
+33,racist,0,sub,role_of_racism,"    ""Racist""    ",25,0.6756756756756757,2
+34,racist,0,sub,role_of_racism,"    ""Racist""    ",9,0.24324324324324326,54
+35,racist,0,sub,role_of_racism,"    ""Racist""    ",8,0.21621621621621623,55
+36,racist,0,sub,role_of_racism,"    ""Racist""    ",19,0.5135135135135135,17
+37,racist,0,sub,role_of_racism,"    ""Racist""    ",16,0.43243243243243246,31
+38,racist,0,sub,role_of_racism,"    ""Racist""    ",18,0.4864864864864865,22
+39,racist,0,sub,role_of_racism,"    ""Racist""    ",12,0.32432432432432434,49
+40,racist,0,sub,role_of_racism,"    ""Racist""    ",13,0.35135135135135137,45
+41,racist,0,sub,role_of_racism,"    ""Racist""    ",17,0.4594594594594595,27
+42,racist,0,sub,role_of_racism,"    ""Racist""    ",19,0.5135135135135135,18
+43,racist,1,sub,role_of_racism,"    ""Racist""    ",21,0.5675675675675675,8
+44,racist,0,sub,role_of_racism,"    ""Racist""    ",19,0.5135135135135135,19
+45,racist,0,sub,role_of_racism,"    ""Racist""    ",7,0.1891891891891892,56
+46,racist,0,sub,role_of_racism,"    ""Racist""    ",15,0.40540540540540543,35
+47,racist,0,sub,role_of_racism,"    ""Racist""    ",14,0.3783783783783784,39
+48,racist,0,sub,role_of_racism,"    ""Racist""    ",21,0.5675675675675675,9
+49,racist,0,sub,role_of_racism,"    ""Racist""    ",13,0.35135135135135137,46
+50,racist,0,sub,role_of_racism,"    ""Racist""    ",17,0.4594594594594595,28
+51,racist,0,sub,role_of_racism,"    ""Racist""    ",18,0.4864864864864865,23
+52,racist,0,sub,role_of_racism,"    ""Racist""    ",21,0.5675675675675675,10
+53,racist,0,sub,role_of_racism,"    ""Racist""    ",18,0.4864864864864865,24
+54,racist,0,sub,role_of_racism,"    ""Racist""    ",13,0.35135135135135137,47
+55,racist,0,sub,role_of_racism,"    ""Racist""    ",13,0.35135135135135137,48
+56,racist,0,sub,role_of_racism,"    ""Racist""    ",14,0.3783783783783784,40
+1,racism,1,sub,role_of_racism,"    ""Racism""    ",24,0.6486486486486487,3
+2,racism,0,sub,role_of_racism,"    ""Racism""    ",14,0.3783783783783784,36
+3,racism,0,sub,role_of_racism,"    ""Racism""    ",13,0.35135135135135137,41
+4,racism,0,sub,role_of_racism,"    ""Racism""    ",9,0.24324324324324326,53
+5,racism,1,sub,role_of_racism,"    ""Racism""    ",16,0.43243243243243246,29
+6,racism,1,sub,role_of_racism,"    ""Racism""    ",23,0.6216216216216216,4
+7,racism,1,sub,role_of_racism,"    ""Racism""    ",13,0.35135135135135137,42
+8,racism,0,sub,role_of_racism,"    ""Racism""    ",15,0.40540540540540543,32
+9,racism,1,sub,role_of_racism,"    ""Racism""    ",19,0.5135135135135135,14
+10,racism,1,sub,role_of_racism,"    ""Racism""    ",10,0.2702702702702703,51
+11,racism,1,sub,role_of_racism,"    ""Racism""    ",13,0.35135135135135137,43
+12,racism,1,sub,role_of_racism,"    ""Racism""    ",20,0.5405405405405406,11
+13,racism,0,sub,role_of_racism,"    ""Racism""    ",22,0.5945945945945946,5
+14,racism,0,sub,role_of_racism,"    ""Racism""    ",14,0.3783783783783784,37
+15,racism,0,sub,role_of_racism,"    ""Racism""    ",19,0.5135135135135135,15
+16,racism,1,sub,role_of_racism,"    ""Racism""    ",16,0.43243243243243246,30
+17,racism,1,sub,role_of_racism,"    ""Racism""    ",20,0.5405405405405406,12
+18,racism,1,sub,role_of_racism,"    ""Racism""    ",18,0.4864864864864865,20
+19,racism,0,sub,role_of_racism,"    ""Racism""    ",17,0.4594594594594595,25
+20,racism,1,sub,role_of_racism,"    ""Racism""    ",20,0.5405405405405406,13
+21,racism,1,sub,role_of_racism,"    ""Racism""    ",14,0.3783783783783784,38
+22,racism,1,sub,role_of_racism,"    ""Racism""    ",21,0.5675675675675675,6
+23,racism,1,sub,role_of_racism,"    ""Racism""    ",15,0.40540540540540543,33
+24,racism,1,sub,role_of_racism,"    ""Racism""    ",19,0.5135135135135135,16
+25,racism,1,sub,role_of_racism,"    ""Racism""    ",18,0.4864864864864865,21
+26,racism,1,sub,role_of_racism,"    ""Racism""    ",10,0.2702702702702703,52
+27,racism,1,sub,role_of_racism,"    ""Racism""    ",26,0.7027027027027027,1
+28,racism,1,sub,role_of_racism,"    ""Racism""    ",17,0.4594594594594595,26
+29,racism,0,sub,role_of_racism,"    ""Racism""    ",11,0.2972972972972973,50
+30,racism,0,sub,role_of_racism,"    ""Racism""    ",13,0.35135135135135137,44
+31,racism,1,sub,role_of_racism,"    ""Racism""    ",21,0.5675675675675675,7
+32,racism,1,sub,role_of_racism,"    ""Racism""    ",15,0.40540540540540543,34
+33,racism,1,sub,role_of_racism,"    ""Racism""    ",25,0.6756756756756757,2
+34,racism,0,sub,role_of_racism,"    ""Racism""    ",9,0.24324324324324326,54
+35,racism,1,sub,role_of_racism,"    ""Racism""    ",8,0.21621621621621623,55
+36,racism,1,sub,role_of_racism,"    ""Racism""    ",19,0.5135135135135135,17
+37,racism,1,sub,role_of_racism,"    ""Racism""    ",16,0.43243243243243246,31
+38,racism,1,sub,role_of_racism,"    ""Racism""    ",18,0.4864864864864865,22
+39,racism,1,sub,role_of_racism,"    ""Racism""    ",12,0.32432432432432434,49
+40,racism,1,sub,role_of_racism,"    ""Racism""    ",13,0.35135135135135137,45
+41,racism,1,sub,role_of_racism,"    ""Racism""    ",17,0.4594594594594595,27
+42,racism,1,sub,role_of_racism,"    ""Racism""    ",19,0.5135135135135135,18
+43,racism,1,sub,role_of_racism,"    ""Racism""    ",21,0.5675675675675675,8
+44,racism,1,sub,role_of_racism,"    ""Racism""    ",19,0.5135135135135135,19
+45,racism,0,sub,role_of_racism,"    ""Racism""    ",7,0.1891891891891892,56
+46,racism,1,sub,role_of_racism,"    ""Racism""    ",15,0.40540540540540543,35
+47,racism,1,sub,role_of_racism,"    ""Racism""    ",14,0.3783783783783784,39
+48,racism,1,sub,role_of_racism,"    ""Racism""    ",21,0.5675675675675675,9
+49,racism,1,sub,role_of_racism,"    ""Racism""    ",13,0.35135135135135137,46
+50,racism,1,sub,role_of_racism,"    ""Racism""    ",17,0.4594594594594595,28
+51,racism,1,sub,role_of_racism,"    ""Racism""    ",18,0.4864864864864865,23
+52,racism,1,sub,role_of_racism,"    ""Racism""    ",21,0.5675675675675675,10
+53,racism,0,sub,role_of_racism,"    ""Racism""    ",18,0.4864864864864865,24
+54,racism,1,sub,role_of_racism,"    ""Racism""    ",13,0.35135135135135137,47
+55,racism,0,sub,role_of_racism,"    ""Racism""    ",13,0.35135135135135137,48
+56,racism,1,sub,role_of_racism,"    ""Racism""    ",14,0.3783783783783784,40
+1,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",24,0.6486486486486487,3
+2,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",14,0.3783783783783784,36
+3,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",13,0.35135135135135137,41
+4,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",9,0.24324324324324326,53
+5,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",16,0.43243243243243246,29
+6,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",23,0.6216216216216216,4
+7,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",13,0.35135135135135137,42
+8,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",15,0.40540540540540543,32
+9,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",19,0.5135135135135135,14
+10,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",10,0.2702702702702703,51
+11,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",13,0.35135135135135137,43
+12,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",20,0.5405405405405406,11
+13,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",22,0.5945945945945946,5
+14,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",14,0.3783783783783784,37
+15,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",19,0.5135135135135135,15
+16,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",16,0.43243243243243246,30
+17,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",20,0.5405405405405406,12
+18,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",18,0.4864864864864865,20
+19,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",17,0.4594594594594595,25
+20,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",20,0.5405405405405406,13
+21,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",14,0.3783783783783784,38
+22,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",21,0.5675675675675675,6
+23,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",15,0.40540540540540543,33
+24,white_supremacy,1,sub,role_of_racism,"    ""White supremacy""    ",19,0.5135135135135135,16
+25,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",18,0.4864864864864865,21
+26,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",10,0.2702702702702703,52
+27,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",26,0.7027027027027027,1
+28,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",17,0.4594594594594595,26
+29,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",11,0.2972972972972973,50
+30,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",13,0.35135135135135137,44
+31,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",21,0.5675675675675675,7
+32,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",15,0.40540540540540543,34
+33,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",25,0.6756756756756757,2
+34,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",9,0.24324324324324326,54
+35,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",8,0.21621621621621623,55
+36,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",19,0.5135135135135135,17
+37,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",16,0.43243243243243246,31
+38,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",18,0.4864864864864865,22
+39,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",12,0.32432432432432434,49
+40,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",13,0.35135135135135137,45
+41,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",17,0.4594594594594595,27
+42,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",19,0.5135135135135135,18
+43,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",21,0.5675675675675675,8
+44,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",19,0.5135135135135135,19
+45,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",7,0.1891891891891892,56
+46,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",15,0.40540540540540543,35
+47,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",14,0.3783783783783784,39
+48,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",21,0.5675675675675675,9
+49,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",13,0.35135135135135137,46
+50,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",17,0.4594594594594595,28
+51,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",18,0.4864864864864865,23
+52,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",21,0.5675675675675675,10
+53,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",18,0.4864864864864865,24
+54,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",13,0.35135135135135137,47
+55,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",13,0.35135135135135137,48
+56,white_supremacy,0,sub,role_of_racism,"    ""White supremacy""    ",14,0.3783783783783784,40
+1,role_of_racism,1,main,role_of_racism,Explicitly names racism,24,0.6486486486486487,3
+2,role_of_racism,0,main,role_of_racism,Explicitly names racism,14,0.3783783783783784,36
+3,role_of_racism,0,main,role_of_racism,Explicitly names racism,13,0.35135135135135137,41
+4,role_of_racism,0,main,role_of_racism,Explicitly names racism,9,0.24324324324324326,53
+5,role_of_racism,1,main,role_of_racism,Explicitly names racism,16,0.43243243243243246,29
+6,role_of_racism,1,main,role_of_racism,Explicitly names racism,23,0.6216216216216216,4
+7,role_of_racism,1,main,role_of_racism,Explicitly names racism,13,0.35135135135135137,42
+8,role_of_racism,0,main,role_of_racism,Explicitly names racism,15,0.40540540540540543,32
+9,role_of_racism,1,main,role_of_racism,Explicitly names racism,19,0.5135135135135135,14
+10,role_of_racism,1,main,role_of_racism,Explicitly names racism,10,0.2702702702702703,51
+11,role_of_racism,1,main,role_of_racism,Explicitly names racism,13,0.35135135135135137,43
+12,role_of_racism,1,main,role_of_racism,Explicitly names racism,20,0.5405405405405406,11
+13,role_of_racism,0,main,role_of_racism,Explicitly names racism,22,0.5945945945945946,5
+14,role_of_racism,0,main,role_of_racism,Explicitly names racism,14,0.3783783783783784,37
+15,role_of_racism,0,main,role_of_racism,Explicitly names racism,19,0.5135135135135135,15
+16,role_of_racism,1,main,role_of_racism,Explicitly names racism,16,0.43243243243243246,30
+17,role_of_racism,1,main,role_of_racism,Explicitly names racism,20,0.5405405405405406,12
+18,role_of_racism,1,main,role_of_racism,Explicitly names racism,18,0.4864864864864865,20
+19,role_of_racism,1,main,role_of_racism,Explicitly names racism,17,0.4594594594594595,25
+20,role_of_racism,1,main,role_of_racism,Explicitly names racism,20,0.5405405405405406,13
+21,role_of_racism,1,main,role_of_racism,Explicitly names racism,14,0.3783783783783784,38
+22,role_of_racism,1,main,role_of_racism,Explicitly names racism,21,0.5675675675675675,6
+23,role_of_racism,1,main,role_of_racism,Explicitly names racism,15,0.40540540540540543,33
+24,role_of_racism,1,main,role_of_racism,Explicitly names racism,19,0.5135135135135135,16
+25,role_of_racism,1,main,role_of_racism,Explicitly names racism,18,0.4864864864864865,21
+26,role_of_racism,1,main,role_of_racism,Explicitly names racism,10,0.2702702702702703,52
+27,role_of_racism,1,main,role_of_racism,Explicitly names racism,26,0.7027027027027027,1
+28,role_of_racism,1,main,role_of_racism,Explicitly names racism,17,0.4594594594594595,26
+29,role_of_racism,0,main,role_of_racism,Explicitly names racism,11,0.2972972972972973,50
+30,role_of_racism,0,main,role_of_racism,Explicitly names racism,13,0.35135135135135137,44
+31,role_of_racism,1,main,role_of_racism,Explicitly names racism,21,0.5675675675675675,7
+32,role_of_racism,1,main,role_of_racism,Explicitly names racism,15,0.40540540540540543,34
+33,role_of_racism,1,main,role_of_racism,Explicitly names racism,25,0.6756756756756757,2
+34,role_of_racism,0,main,role_of_racism,Explicitly names racism,9,0.24324324324324326,54
+35,role_of_racism,1,main,role_of_racism,Explicitly names racism,8,0.21621621621621623,55
+36,role_of_racism,1,main,role_of_racism,Explicitly names racism,19,0.5135135135135135,17
+37,role_of_racism,1,main,role_of_racism,Explicitly names racism,16,0.43243243243243246,31
+38,role_of_racism,1,main,role_of_racism,Explicitly names racism,18,0.4864864864864865,22
+39,role_of_racism,1,main,role_of_racism,Explicitly names racism,12,0.32432432432432434,49
+40,role_of_racism,1,main,role_of_racism,Explicitly names racism,13,0.35135135135135137,45
+41,role_of_racism,1,main,role_of_racism,Explicitly names racism,17,0.4594594594594595,27
+42,role_of_racism,1,main,role_of_racism,Explicitly names racism,19,0.5135135135135135,18
+43,role_of_racism,1,main,role_of_racism,Explicitly names racism,21,0.5675675675675675,8
+44,role_of_racism,1,main,role_of_racism,Explicitly names racism,19,0.5135135135135135,19
+45,role_of_racism,0,main,role_of_racism,Explicitly names racism,7,0.1891891891891892,56
+46,role_of_racism,1,main,role_of_racism,Explicitly names racism,15,0.40540540540540543,35
+47,role_of_racism,1,main,role_of_racism,Explicitly names racism,14,0.3783783783783784,39
+48,role_of_racism,1,main,role_of_racism,Explicitly names racism,21,0.5675675675675675,9
+49,role_of_racism,1,main,role_of_racism,Explicitly names racism,13,0.35135135135135137,46
+50,role_of_racism,1,main,role_of_racism,Explicitly names racism,17,0.4594594594594595,28
+51,role_of_racism,1,main,role_of_racism,Explicitly names racism,18,0.4864864864864865,23
+52,role_of_racism,1,main,role_of_racism,Explicitly names racism,21,0.5675675675675675,10
+53,role_of_racism,0,main,role_of_racism,Explicitly names racism,18,0.4864864864864865,24
+54,role_of_racism,1,main,role_of_racism,Explicitly names racism,13,0.35135135135135137,47
+55,role_of_racism,0,main,role_of_racism,Explicitly names racism,13,0.35135135135135137,48
+56,role_of_racism,1,main,role_of_racism,Explicitly names racism,14,0.3783783783783784,40
+1,antiracism,1,sub,active_support,"    ""Antiracism""    ",24,0.6486486486486487,3
+2,antiracism,0,sub,active_support,"    ""Antiracism""    ",14,0.3783783783783784,36
+3,antiracism,0,sub,active_support,"    ""Antiracism""    ",13,0.35135135135135137,41
+4,antiracism,0,sub,active_support,"    ""Antiracism""    ",9,0.24324324324324326,53
+5,antiracism,0,sub,active_support,"    ""Antiracism""    ",16,0.43243243243243246,29
+6,antiracism,0,sub,active_support,"    ""Antiracism""    ",23,0.6216216216216216,4
+7,antiracism,0,sub,active_support,"    ""Antiracism""    ",13,0.35135135135135137,42
+8,antiracism,0,sub,active_support,"    ""Antiracism""    ",15,0.40540540540540543,32
+9,antiracism,0,sub,active_support,"    ""Antiracism""    ",19,0.5135135135135135,14
+10,antiracism,0,sub,active_support,"    ""Antiracism""    ",10,0.2702702702702703,51
+11,antiracism,1,sub,active_support,"    ""Antiracism""    ",13,0.35135135135135137,43
+12,antiracism,0,sub,active_support,"    ""Antiracism""    ",20,0.5405405405405406,11
+13,antiracism,0,sub,active_support,"    ""Antiracism""    ",22,0.5945945945945946,5
+14,antiracism,0,sub,active_support,"    ""Antiracism""    ",14,0.3783783783783784,37
+15,antiracism,0,sub,active_support,"    ""Antiracism""    ",19,0.5135135135135135,15
+16,antiracism,0,sub,active_support,"    ""Antiracism""    ",16,0.43243243243243246,30
+17,antiracism,0,sub,active_support,"    ""Antiracism""    ",20,0.5405405405405406,12
+18,antiracism,0,sub,active_support,"    ""Antiracism""    ",18,0.4864864864864865,20
+19,antiracism,0,sub,active_support,"    ""Antiracism""    ",17,0.4594594594594595,25
+20,antiracism,0,sub,active_support,"    ""Antiracism""    ",20,0.5405405405405406,13
+21,antiracism,0,sub,active_support,"    ""Antiracism""    ",14,0.3783783783783784,38
+22,antiracism,0,sub,active_support,"    ""Antiracism""    ",21,0.5675675675675675,6
+23,antiracism,0,sub,active_support,"    ""Antiracism""    ",15,0.40540540540540543,33
+24,antiracism,0,sub,active_support,"    ""Antiracism""    ",19,0.5135135135135135,16
+25,antiracism,0,sub,active_support,"    ""Antiracism""    ",18,0.4864864864864865,21
+26,antiracism,0,sub,active_support,"    ""Antiracism""    ",10,0.2702702702702703,52
+27,antiracism,1,sub,active_support,"    ""Antiracism""    ",26,0.7027027027027027,1
+28,antiracism,0,sub,active_support,"    ""Antiracism""    ",17,0.4594594594594595,26
+29,antiracism,0,sub,active_support,"    ""Antiracism""    ",11,0.2972972972972973,50
+30,antiracism,0,sub,active_support,"    ""Antiracism""    ",13,0.35135135135135137,44
+31,antiracism,0,sub,active_support,"    ""Antiracism""    ",21,0.5675675675675675,7
+32,antiracism,0,sub,active_support,"    ""Antiracism""    ",15,0.40540540540540543,34
+33,antiracism,0,sub,active_support,"    ""Antiracism""    ",25,0.6756756756756757,2
+34,antiracism,0,sub,active_support,"    ""Antiracism""    ",9,0.24324324324324326,54
+35,antiracism,0,sub,active_support,"    ""Antiracism""    ",8,0.21621621621621623,55
+36,antiracism,0,sub,active_support,"    ""Antiracism""    ",19,0.5135135135135135,17
+37,antiracism,0,sub,active_support,"    ""Antiracism""    ",16,0.43243243243243246,31
+38,antiracism,0,sub,active_support,"    ""Antiracism""    ",18,0.4864864864864865,22
+39,antiracism,0,sub,active_support,"    ""Antiracism""    ",12,0.32432432432432434,49
+40,antiracism,0,sub,active_support,"    ""Antiracism""    ",13,0.35135135135135137,45
+41,antiracism,0,sub,active_support,"    ""Antiracism""    ",17,0.4594594594594595,27
+42,antiracism,0,sub,active_support,"    ""Antiracism""    ",19,0.5135135135135135,18
+43,antiracism,1,sub,active_support,"    ""Antiracism""    ",21,0.5675675675675675,8
+44,antiracism,0,sub,active_support,"    ""Antiracism""    ",19,0.5135135135135135,19
+45,antiracism,0,sub,active_support,"    ""Antiracism""    ",7,0.1891891891891892,56
+46,antiracism,0,sub,active_support,"    ""Antiracism""    ",15,0.40540540540540543,35
+47,antiracism,0,sub,active_support,"    ""Antiracism""    ",14,0.3783783783783784,39
+48,antiracism,0,sub,active_support,"    ""Antiracism""    ",21,0.5675675675675675,9
+49,antiracism,0,sub,active_support,"    ""Antiracism""    ",13,0.35135135135135137,46
+50,antiracism,1,sub,active_support,"    ""Antiracism""    ",17,0.4594594594594595,28
+51,antiracism,0,sub,active_support,"    ""Antiracism""    ",18,0.4864864864864865,23
+52,antiracism,0,sub,active_support,"    ""Antiracism""    ",21,0.5675675675675675,10
+53,antiracism,0,sub,active_support,"    ""Antiracism""    ",18,0.4864864864864865,24
+54,antiracism,0,sub,active_support,"    ""Antiracism""    ",13,0.35135135135135137,47
+55,antiracism,0,sub,active_support,"    ""Antiracism""    ",13,0.35135135135135137,48
+56,antiracism,0,sub,active_support,"    ""Antiracism""    ",14,0.3783783783783784,40
+1,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",24,0.6486486486486487,3
+2,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",14,0.3783783783783784,36
+3,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",13,0.35135135135135137,41
+4,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",9,0.24324324324324326,53
+5,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",16,0.43243243243243246,29
+6,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",23,0.6216216216216216,4
+7,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",13,0.35135135135135137,42
+8,black_lives_matter,1,sub,active_support,"    ""Black Lives Matter""    ",15,0.40540540540540543,32
+9,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",19,0.5135135135135135,14
+10,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",10,0.2702702702702703,51
+11,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",13,0.35135135135135137,43
+12,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",20,0.5405405405405406,11
+13,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",22,0.5945945945945946,5
+14,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",14,0.3783783783783784,37
+15,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",19,0.5135135135135135,15
+16,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",16,0.43243243243243246,30
+17,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",20,0.5405405405405406,12
+18,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",18,0.4864864864864865,20
+19,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",17,0.4594594594594595,25
+20,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",20,0.5405405405405406,13
+21,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",14,0.3783783783783784,38
+22,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",21,0.5675675675675675,6
+23,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",15,0.40540540540540543,33
+24,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",19,0.5135135135135135,16
+25,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",18,0.4864864864864865,21
+26,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",10,0.2702702702702703,52
+27,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",26,0.7027027027027027,1
+28,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",17,0.4594594594594595,26
+29,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",11,0.2972972972972973,50
+30,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",13,0.35135135135135137,44
+31,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",21,0.5675675675675675,7
+32,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",15,0.40540540540540543,34
+33,black_lives_matter,1,sub,active_support,"    ""Black Lives Matter""    ",25,0.6756756756756757,2
+34,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",9,0.24324324324324326,54
+35,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",8,0.21621621621621623,55
+36,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",19,0.5135135135135135,17
+37,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",16,0.43243243243243246,31
+38,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",18,0.4864864864864865,22
+39,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",12,0.32432432432432434,49
+40,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",13,0.35135135135135137,45
+41,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",17,0.4594594594594595,27
+42,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",19,0.5135135135135135,18
+43,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",21,0.5675675675675675,8
+44,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",19,0.5135135135135135,19
+45,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",7,0.1891891891891892,56
+46,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",15,0.40540540540540543,35
+47,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",14,0.3783783783783784,39
+48,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",21,0.5675675675675675,9
+49,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",13,0.35135135135135137,46
+50,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",17,0.4594594594594595,28
+51,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",18,0.4864864864864865,23
+52,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",21,0.5675675675675675,10
+53,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",18,0.4864864864864865,24
+54,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",13,0.35135135135135137,47
+55,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",13,0.35135135135135137,48
+56,black_lives_matter,0,sub,active_support,"    ""Black Lives Matter""    ",14,0.3783783783783784,40
+1,active_support,1,main,active_support,Active support,24,0.6486486486486487,3
+2,active_support,0,main,active_support,Active support,14,0.3783783783783784,36
+3,active_support,0,main,active_support,Active support,13,0.35135135135135137,41
+4,active_support,0,main,active_support,Active support,9,0.24324324324324326,53
+5,active_support,0,main,active_support,Active support,16,0.43243243243243246,29
+6,active_support,0,main,active_support,Active support,23,0.6216216216216216,4
+7,active_support,0,main,active_support,Active support,13,0.35135135135135137,42
+8,active_support,1,main,active_support,Active support,15,0.40540540540540543,32
+9,active_support,0,main,active_support,Active support,19,0.5135135135135135,14
+10,active_support,0,main,active_support,Active support,10,0.2702702702702703,51
+11,active_support,1,main,active_support,Active support,13,0.35135135135135137,43
+12,active_support,0,main,active_support,Active support,20,0.5405405405405406,11
+13,active_support,0,main,active_support,Active support,22,0.5945945945945946,5
+14,active_support,0,main,active_support,Active support,14,0.3783783783783784,37
+15,active_support,0,main,active_support,Active support,19,0.5135135135135135,15
+16,active_support,0,main,active_support,Active support,16,0.43243243243243246,30
+17,active_support,0,main,active_support,Active support,20,0.5405405405405406,12
+18,active_support,0,main,active_support,Active support,18,0.4864864864864865,20
+19,active_support,0,main,active_support,Active support,17,0.4594594594594595,25
+20,active_support,0,main,active_support,Active support,20,0.5405405405405406,13
+21,active_support,0,main,active_support,Active support,14,0.3783783783783784,38
+22,active_support,0,main,active_support,Active support,21,0.5675675675675675,6
+23,active_support,0,main,active_support,Active support,15,0.40540540540540543,33
+24,active_support,0,main,active_support,Active support,19,0.5135135135135135,16
+25,active_support,0,main,active_support,Active support,18,0.4864864864864865,21
+26,active_support,0,main,active_support,Active support,10,0.2702702702702703,52
+27,active_support,1,main,active_support,Active support,26,0.7027027027027027,1
+28,active_support,0,main,active_support,Active support,17,0.4594594594594595,26
+29,active_support,0,main,active_support,Active support,11,0.2972972972972973,50
+30,active_support,0,main,active_support,Active support,13,0.35135135135135137,44
+31,active_support,0,main,active_support,Active support,21,0.5675675675675675,7
+32,active_support,0,main,active_support,Active support,15,0.40540540540540543,34
+33,active_support,1,main,active_support,Active support,25,0.6756756756756757,2
+34,active_support,0,main,active_support,Active support,9,0.24324324324324326,54
+35,active_support,0,main,active_support,Active support,8,0.21621621621621623,55
+36,active_support,0,main,active_support,Active support,19,0.5135135135135135,17
+37,active_support,0,main,active_support,Active support,16,0.43243243243243246,31
+38,active_support,0,main,active_support,Active support,18,0.4864864864864865,22
+39,active_support,0,main,active_support,Active support,12,0.32432432432432434,49
+40,active_support,0,main,active_support,Active support,13,0.35135135135135137,45
+41,active_support,0,main,active_support,Active support,17,0.4594594594594595,27
+42,active_support,0,main,active_support,Active support,19,0.5135135135135135,18
+43,active_support,1,main,active_support,Active support,21,0.5675675675675675,8
+44,active_support,0,main,active_support,Active support,19,0.5135135135135135,19
+45,active_support,0,main,active_support,Active support,7,0.1891891891891892,56
+46,active_support,0,main,active_support,Active support,15,0.40540540540540543,35
+47,active_support,0,main,active_support,Active support,14,0.3783783783783784,39
+48,active_support,0,main,active_support,Active support,21,0.5675675675675675,9
+49,active_support,0,main,active_support,Active support,13,0.35135135135135137,46
+50,active_support,1,main,active_support,Active support,17,0.4594594594594595,28
+51,active_support,0,main,active_support,Active support,18,0.4864864864864865,23
+52,active_support,0,main,active_support,Active support,21,0.5675675675675675,10
+53,active_support,0,main,active_support,Active support,18,0.4864864864864865,24
+54,active_support,0,main,active_support,Active support,13,0.35135135135135137,47
+55,active_support,0,main,active_support,Active support,13,0.35135135135135137,48
+56,active_support,0,main,active_support,Active support,14,0.3783783783783784,40
+1,inequality,0,sub,enemy_words,"    ""Inequality""    ",24,0.6486486486486487,3
+2,inequality,0,sub,enemy_words,"    ""Inequality""    ",14,0.3783783783783784,36
+3,inequality,0,sub,enemy_words,"    ""Inequality""    ",13,0.35135135135135137,41
+4,inequality,0,sub,enemy_words,"    ""Inequality""    ",9,0.24324324324324326,53
+5,inequality,1,sub,enemy_words,"    ""Inequality""    ",16,0.43243243243243246,29
+6,inequality,0,sub,enemy_words,"    ""Inequality""    ",23,0.6216216216216216,4
+7,inequality,0,sub,enemy_words,"    ""Inequality""    ",13,0.35135135135135137,42
+8,inequality,0,sub,enemy_words,"    ""Inequality""    ",15,0.40540540540540543,32
+9,inequality,0,sub,enemy_words,"    ""Inequality""    ",19,0.5135135135135135,14
+10,inequality,1,sub,enemy_words,"    ""Inequality""    ",10,0.2702702702702703,51
+11,inequality,0,sub,enemy_words,"    ""Inequality""    ",13,0.35135135135135137,43
+12,inequality,1,sub,enemy_words,"    ""Inequality""    ",20,0.5405405405405406,11
+13,inequality,0,sub,enemy_words,"    ""Inequality""    ",22,0.5945945945945946,5
+14,inequality,0,sub,enemy_words,"    ""Inequality""    ",14,0.3783783783783784,37
+15,inequality,0,sub,enemy_words,"    ""Inequality""    ",19,0.5135135135135135,15
+16,inequality,1,sub,enemy_words,"    ""Inequality""    ",16,0.43243243243243246,30
+17,inequality,0,sub,enemy_words,"    ""Inequality""    ",20,0.5405405405405406,12
+18,inequality,1,sub,enemy_words,"    ""Inequality""    ",18,0.4864864864864865,20
+19,inequality,0,sub,enemy_words,"    ""Inequality""    ",17,0.4594594594594595,25
+20,inequality,0,sub,enemy_words,"    ""Inequality""    ",20,0.5405405405405406,13
+21,inequality,0,sub,enemy_words,"    ""Inequality""    ",14,0.3783783783783784,38
+22,inequality,0,sub,enemy_words,"    ""Inequality""    ",21,0.5675675675675675,6
+23,inequality,0,sub,enemy_words,"    ""Inequality""    ",15,0.40540540540540543,33
+24,inequality,0,sub,enemy_words,"    ""Inequality""    ",19,0.5135135135135135,16
+25,inequality,0,sub,enemy_words,"    ""Inequality""    ",18,0.4864864864864865,21
+26,inequality,0,sub,enemy_words,"    ""Inequality""    ",10,0.2702702702702703,52
+27,inequality,0,sub,enemy_words,"    ""Inequality""    ",26,0.7027027027027027,1
+28,inequality,0,sub,enemy_words,"    ""Inequality""    ",17,0.4594594594594595,26
+29,inequality,1,sub,enemy_words,"    ""Inequality""    ",11,0.2972972972972973,50
+30,inequality,0,sub,enemy_words,"    ""Inequality""    ",13,0.35135135135135137,44
+31,inequality,1,sub,enemy_words,"    ""Inequality""    ",21,0.5675675675675675,7
+32,inequality,0,sub,enemy_words,"    ""Inequality""    ",15,0.40540540540540543,34
+33,inequality,0,sub,enemy_words,"    ""Inequality""    ",25,0.6756756756756757,2
+34,inequality,0,sub,enemy_words,"    ""Inequality""    ",9,0.24324324324324326,54
+35,inequality,0,sub,enemy_words,"    ""Inequality""    ",8,0.21621621621621623,55
+36,inequality,0,sub,enemy_words,"    ""Inequality""    ",19,0.5135135135135135,17
+37,inequality,0,sub,enemy_words,"    ""Inequality""    ",16,0.43243243243243246,31
+38,inequality,1,sub,enemy_words,"    ""Inequality""    ",18,0.4864864864864865,22
+39,inequality,0,sub,enemy_words,"    ""Inequality""    ",12,0.32432432432432434,49
+40,inequality,0,sub,enemy_words,"    ""Inequality""    ",13,0.35135135135135137,45
+41,inequality,0,sub,enemy_words,"    ""Inequality""    ",17,0.4594594594594595,27
+42,inequality,0,sub,enemy_words,"    ""Inequality""    ",19,0.5135135135135135,18
+43,inequality,0,sub,enemy_words,"    ""Inequality""    ",21,0.5675675675675675,8
+44,inequality,0,sub,enemy_words,"    ""Inequality""    ",19,0.5135135135135135,19
+45,inequality,0,sub,enemy_words,"    ""Inequality""    ",7,0.1891891891891892,56
+46,inequality,1,sub,enemy_words,"    ""Inequality""    ",15,0.40540540540540543,35
+47,inequality,0,sub,enemy_words,"    ""Inequality""    ",14,0.3783783783783784,39
+48,inequality,0,sub,enemy_words,"    ""Inequality""    ",21,0.5675675675675675,9
+49,inequality,0,sub,enemy_words,"    ""Inequality""    ",13,0.35135135135135137,46
+50,inequality,0,sub,enemy_words,"    ""Inequality""    ",17,0.4594594594594595,28
+51,inequality,0,sub,enemy_words,"    ""Inequality""    ",18,0.4864864864864865,23
+52,inequality,1,sub,enemy_words,"    ""Inequality""    ",21,0.5675675675675675,10
+53,inequality,0,sub,enemy_words,"    ""Inequality""    ",18,0.4864864864864865,24
+54,inequality,0,sub,enemy_words,"    ""Inequality""    ",13,0.35135135135135137,47
+55,inequality,0,sub,enemy_words,"    ""Inequality""    ",13,0.35135135135135137,48
+56,inequality,0,sub,enemy_words,"    ""Inequality""    ",14,0.3783783783783784,40
+1,injustice,1,sub,enemy_words,"    ""Injustice""    ",24,0.6486486486486487,3
+2,injustice,1,sub,enemy_words,"    ""Injustice""    ",14,0.3783783783783784,36
+3,injustice,0,sub,enemy_words,"    ""Injustice""    ",13,0.35135135135135137,41
+4,injustice,0,sub,enemy_words,"    ""Injustice""    ",9,0.24324324324324326,53
+5,injustice,1,sub,enemy_words,"    ""Injustice""    ",16,0.43243243243243246,29
+6,injustice,0,sub,enemy_words,"    ""Injustice""    ",23,0.6216216216216216,4
+7,injustice,0,sub,enemy_words,"    ""Injustice""    ",13,0.35135135135135137,42
+8,injustice,0,sub,enemy_words,"    ""Injustice""    ",15,0.40540540540540543,32
+9,injustice,0,sub,enemy_words,"    ""Injustice""    ",19,0.5135135135135135,14
+10,injustice,1,sub,enemy_words,"    ""Injustice""    ",10,0.2702702702702703,51
+11,injustice,0,sub,enemy_words,"    ""Injustice""    ",13,0.35135135135135137,43
+12,injustice,1,sub,enemy_words,"    ""Injustice""    ",20,0.5405405405405406,11
+13,injustice,1,sub,enemy_words,"    ""Injustice""    ",22,0.5945945945945946,5
+14,injustice,0,sub,enemy_words,"    ""Injustice""    ",14,0.3783783783783784,37
+15,injustice,1,sub,enemy_words,"    ""Injustice""    ",19,0.5135135135135135,15
+16,injustice,1,sub,enemy_words,"    ""Injustice""    ",16,0.43243243243243246,30
+17,injustice,0,sub,enemy_words,"    ""Injustice""    ",20,0.5405405405405406,12
+18,injustice,0,sub,enemy_words,"    ""Injustice""    ",18,0.4864864864864865,20
+19,injustice,0,sub,enemy_words,"    ""Injustice""    ",17,0.4594594594594595,25
+20,injustice,1,sub,enemy_words,"    ""Injustice""    ",20,0.5405405405405406,13
+21,injustice,0,sub,enemy_words,"    ""Injustice""    ",14,0.3783783783783784,38
+22,injustice,1,sub,enemy_words,"    ""Injustice""    ",21,0.5675675675675675,6
+23,injustice,1,sub,enemy_words,"    ""Injustice""    ",15,0.40540540540540543,33
+24,injustice,0,sub,enemy_words,"    ""Injustice""    ",19,0.5135135135135135,16
+25,injustice,1,sub,enemy_words,"    ""Injustice""    ",18,0.4864864864864865,21
+26,injustice,1,sub,enemy_words,"    ""Injustice""    ",10,0.2702702702702703,52
+27,injustice,1,sub,enemy_words,"    ""Injustice""    ",26,0.7027027027027027,1
+28,injustice,1,sub,enemy_words,"    ""Injustice""    ",17,0.4594594594594595,26
+29,injustice,1,sub,enemy_words,"    ""Injustice""    ",11,0.2972972972972973,50
+30,injustice,0,sub,enemy_words,"    ""Injustice""    ",13,0.35135135135135137,44
+31,injustice,1,sub,enemy_words,"    ""Injustice""    ",21,0.5675675675675675,7
+32,injustice,0,sub,enemy_words,"    ""Injustice""    ",15,0.40540540540540543,34
+33,injustice,1,sub,enemy_words,"    ""Injustice""    ",25,0.6756756756756757,2
+34,injustice,1,sub,enemy_words,"    ""Injustice""    ",9,0.24324324324324326,54
+35,injustice,0,sub,enemy_words,"    ""Injustice""    ",8,0.21621621621621623,55
+36,injustice,0,sub,enemy_words,"    ""Injustice""    ",19,0.5135135135135135,17
+37,injustice,1,sub,enemy_words,"    ""Injustice""    ",16,0.43243243243243246,31
+38,injustice,1,sub,enemy_words,"    ""Injustice""    ",18,0.4864864864864865,22
+39,injustice,0,sub,enemy_words,"    ""Injustice""    ",12,0.32432432432432434,49
+40,injustice,0,sub,enemy_words,"    ""Injustice""    ",13,0.35135135135135137,45
+41,injustice,0,sub,enemy_words,"    ""Injustice""    ",17,0.4594594594594595,27
+42,injustice,0,sub,enemy_words,"    ""Injustice""    ",19,0.5135135135135135,18
+43,injustice,1,sub,enemy_words,"    ""Injustice""    ",21,0.5675675675675675,8
+44,injustice,0,sub,enemy_words,"    ""Injustice""    ",19,0.5135135135135135,19
+45,injustice,1,sub,enemy_words,"    ""Injustice""    ",7,0.1891891891891892,56
+46,injustice,1,sub,enemy_words,"    ""Injustice""    ",15,0.40540540540540543,35
+47,injustice,1,sub,enemy_words,"    ""Injustice""    ",14,0.3783783783783784,39
+48,injustice,1,sub,enemy_words,"    ""Injustice""    ",21,0.5675675675675675,9
+49,injustice,0,sub,enemy_words,"    ""Injustice""    ",13,0.35135135135135137,46
+50,injustice,1,sub,enemy_words,"    ""Injustice""    ",17,0.4594594594594595,28
+51,injustice,0,sub,enemy_words,"    ""Injustice""    ",18,0.4864864864864865,23
+52,injustice,1,sub,enemy_words,"    ""Injustice""    ",21,0.5675675675675675,10
+53,injustice,0,sub,enemy_words,"    ""Injustice""    ",18,0.4864864864864865,24
+54,injustice,1,sub,enemy_words,"    ""Injustice""    ",13,0.35135135135135137,47
+55,injustice,0,sub,enemy_words,"    ""Injustice""    ",13,0.35135135135135137,48
+56,injustice,0,sub,enemy_words,"    ""Injustice""    ",14,0.3783783783783784,40
+1,inequity,1,sub,enemy_words,"    ""Inequity""    ",24,0.6486486486486487,3
+2,inequity,1,sub,enemy_words,"    ""Inequity""    ",14,0.3783783783783784,36
+3,inequity,0,sub,enemy_words,"    ""Inequity""    ",13,0.35135135135135137,41
+4,inequity,0,sub,enemy_words,"    ""Inequity""    ",9,0.24324324324324326,53
+5,inequity,1,sub,enemy_words,"    ""Inequity""    ",16,0.43243243243243246,29
+6,inequity,1,sub,enemy_words,"    ""Inequity""    ",23,0.6216216216216216,4
+7,inequity,0,sub,enemy_words,"    ""Inequity""    ",13,0.35135135135135137,42
+8,inequity,0,sub,enemy_words,"    ""Inequity""    ",15,0.40540540540540543,32
+9,inequity,1,sub,enemy_words,"    ""Inequity""    ",19,0.5135135135135135,14
+10,inequity,0,sub,enemy_words,"    ""Inequity""    ",10,0.2702702702702703,51
+11,inequity,0,sub,enemy_words,"    ""Inequity""    ",13,0.35135135135135137,43
+12,inequity,0,sub,enemy_words,"    ""Inequity""    ",20,0.5405405405405406,11
+13,inequity,1,sub,enemy_words,"    ""Inequity""    ",22,0.5945945945945946,5
+14,inequity,0,sub,enemy_words,"    ""Inequity""    ",14,0.3783783783783784,37
+15,inequity,0,sub,enemy_words,"    ""Inequity""    ",19,0.5135135135135135,15
+16,inequity,0,sub,enemy_words,"    ""Inequity""    ",16,0.43243243243243246,30
+17,inequity,1,sub,enemy_words,"    ""Inequity""    ",20,0.5405405405405406,12
+18,inequity,0,sub,enemy_words,"    ""Inequity""    ",18,0.4864864864864865,20
+19,inequity,0,sub,enemy_words,"    ""Inequity""    ",17,0.4594594594594595,25
+20,inequity,1,sub,enemy_words,"    ""Inequity""    ",20,0.5405405405405406,13
+21,inequity,0,sub,enemy_words,"    ""Inequity""    ",14,0.3783783783783784,38
+22,inequity,0,sub,enemy_words,"    ""Inequity""    ",21,0.5675675675675675,6
+23,inequity,1,sub,enemy_words,"    ""Inequity""    ",15,0.40540540540540543,33
+24,inequity,1,sub,enemy_words,"    ""Inequity""    ",19,0.5135135135135135,16
+25,inequity,0,sub,enemy_words,"    ""Inequity""    ",18,0.4864864864864865,21
+26,inequity,0,sub,enemy_words,"    ""Inequity""    ",10,0.2702702702702703,52
+27,inequity,1,sub,enemy_words,"    ""Inequity""    ",26,0.7027027027027027,1
+28,inequity,1,sub,enemy_words,"    ""Inequity""    ",17,0.4594594594594595,26
+29,inequity,0,sub,enemy_words,"    ""Inequity""    ",11,0.2972972972972973,50
+30,inequity,0,sub,enemy_words,"    ""Inequity""    ",13,0.35135135135135137,44
+31,inequity,1,sub,enemy_words,"    ""Inequity""    ",21,0.5675675675675675,7
+32,inequity,1,sub,enemy_words,"    ""Inequity""    ",15,0.40540540540540543,34
+33,inequity,1,sub,enemy_words,"    ""Inequity""    ",25,0.6756756756756757,2
+34,inequity,0,sub,enemy_words,"    ""Inequity""    ",9,0.24324324324324326,54
+35,inequity,0,sub,enemy_words,"    ""Inequity""    ",8,0.21621621621621623,55
+36,inequity,1,sub,enemy_words,"    ""Inequity""    ",19,0.5135135135135135,17
+37,inequity,1,sub,enemy_words,"    ""Inequity""    ",16,0.43243243243243246,31
+38,inequity,1,sub,enemy_words,"    ""Inequity""    ",18,0.4864864864864865,22
+39,inequity,0,sub,enemy_words,"    ""Inequity""    ",12,0.32432432432432434,49
+40,inequity,0,sub,enemy_words,"    ""Inequity""    ",13,0.35135135135135137,45
+41,inequity,0,sub,enemy_words,"    ""Inequity""    ",17,0.4594594594594595,27
+42,inequity,1,sub,enemy_words,"    ""Inequity""    ",19,0.5135135135135135,18
+43,inequity,1,sub,enemy_words,"    ""Inequity""    ",21,0.5675675675675675,8
+44,inequity,1,sub,enemy_words,"    ""Inequity""    ",19,0.5135135135135135,19
+45,inequity,0,sub,enemy_words,"    ""Inequity""    ",7,0.1891891891891892,56
+46,inequity,0,sub,enemy_words,"    ""Inequity""    ",15,0.40540540540540543,35
+47,inequity,0,sub,enemy_words,"    ""Inequity""    ",14,0.3783783783783784,39
+48,inequity,1,sub,enemy_words,"    ""Inequity""    ",21,0.5675675675675675,9
+49,inequity,0,sub,enemy_words,"    ""Inequity""    ",13,0.35135135135135137,46
+50,inequity,1,sub,enemy_words,"    ""Inequity""    ",17,0.4594594594594595,28
+51,inequity,0,sub,enemy_words,"    ""Inequity""    ",18,0.4864864864864865,23
+52,inequity,1,sub,enemy_words,"    ""Inequity""    ",21,0.5675675675675675,10
+53,inequity,1,sub,enemy_words,"    ""Inequity""    ",18,0.4864864864864865,24
+54,inequity,0,sub,enemy_words,"    ""Inequity""    ",13,0.35135135135135137,47
+55,inequity,1,sub,enemy_words,"    ""Inequity""    ",13,0.35135135135135137,48
+56,inequity,0,sub,enemy_words,"    ""Inequity""    ",14,0.3783783783783784,40
+1,disparity,1,sub,enemy_words,"    ""Disparity""    ",24,0.6486486486486487,3
+2,disparity,0,sub,enemy_words,"    ""Disparity""    ",14,0.3783783783783784,36
+3,disparity,0,sub,enemy_words,"    ""Disparity""    ",13,0.35135135135135137,41
+4,disparity,0,sub,enemy_words,"    ""Disparity""    ",9,0.24324324324324326,53
+5,disparity,1,sub,enemy_words,"    ""Disparity""    ",16,0.43243243243243246,29
+6,disparity,1,sub,enemy_words,"    ""Disparity""    ",23,0.6216216216216216,4
+7,disparity,0,sub,enemy_words,"    ""Disparity""    ",13,0.35135135135135137,42
+8,disparity,0,sub,enemy_words,"    ""Disparity""    ",15,0.40540540540540543,32
+9,disparity,0,sub,enemy_words,"    ""Disparity""    ",19,0.5135135135135135,14
+10,disparity,0,sub,enemy_words,"    ""Disparity""    ",10,0.2702702702702703,51
+11,disparity,0,sub,enemy_words,"    ""Disparity""    ",13,0.35135135135135137,43
+12,disparity,1,sub,enemy_words,"    ""Disparity""    ",20,0.5405405405405406,11
+13,disparity,1,sub,enemy_words,"    ""Disparity""    ",22,0.5945945945945946,5
+14,disparity,0,sub,enemy_words,"    ""Disparity""    ",14,0.3783783783783784,37
+15,disparity,1,sub,enemy_words,"    ""Disparity""    ",19,0.5135135135135135,15
+16,disparity,1,sub,enemy_words,"    ""Disparity""    ",16,0.43243243243243246,30
+17,disparity,1,sub,enemy_words,"    ""Disparity""    ",20,0.5405405405405406,12
+18,disparity,1,sub,enemy_words,"    ""Disparity""    ",18,0.4864864864864865,20
+19,disparity,1,sub,enemy_words,"    ""Disparity""    ",17,0.4594594594594595,25
+20,disparity,1,sub,enemy_words,"    ""Disparity""    ",20,0.5405405405405406,13
+21,disparity,1,sub,enemy_words,"    ""Disparity""    ",14,0.3783783783783784,38
+22,disparity,0,sub,enemy_words,"    ""Disparity""    ",21,0.5675675675675675,6
+23,disparity,0,sub,enemy_words,"    ""Disparity""    ",15,0.40540540540540543,33
+24,disparity,0,sub,enemy_words,"    ""Disparity""    ",19,0.5135135135135135,16
+25,disparity,1,sub,enemy_words,"    ""Disparity""    ",18,0.4864864864864865,21
+26,disparity,1,sub,enemy_words,"    ""Disparity""    ",10,0.2702702702702703,52
+27,disparity,0,sub,enemy_words,"    ""Disparity""    ",26,0.7027027027027027,1
+28,disparity,0,sub,enemy_words,"    ""Disparity""    ",17,0.4594594594594595,26
+29,disparity,0,sub,enemy_words,"    ""Disparity""    ",11,0.2972972972972973,50
+30,disparity,1,sub,enemy_words,"    ""Disparity""    ",13,0.35135135135135137,44
+31,disparity,1,sub,enemy_words,"    ""Disparity""    ",21,0.5675675675675675,7
+32,disparity,0,sub,enemy_words,"    ""Disparity""    ",15,0.40540540540540543,34
+33,disparity,1,sub,enemy_words,"    ""Disparity""    ",25,0.6756756756756757,2
+34,disparity,0,sub,enemy_words,"    ""Disparity""    ",9,0.24324324324324326,54
+35,disparity,0,sub,enemy_words,"    ""Disparity""    ",8,0.21621621621621623,55
+36,disparity,1,sub,enemy_words,"    ""Disparity""    ",19,0.5135135135135135,17
+37,disparity,1,sub,enemy_words,"    ""Disparity""    ",16,0.43243243243243246,31
+38,disparity,1,sub,enemy_words,"    ""Disparity""    ",18,0.4864864864864865,22
+39,disparity,0,sub,enemy_words,"    ""Disparity""    ",12,0.32432432432432434,49
+40,disparity,1,sub,enemy_words,"    ""Disparity""    ",13,0.35135135135135137,45
+41,disparity,0,sub,enemy_words,"    ""Disparity""    ",17,0.4594594594594595,27
+42,disparity,1,sub,enemy_words,"    ""Disparity""    ",19,0.5135135135135135,18
+43,disparity,0,sub,enemy_words,"    ""Disparity""    ",21,0.5675675675675675,8
+44,disparity,1,sub,enemy_words,"    ""Disparity""    ",19,0.5135135135135135,19
+45,disparity,0,sub,enemy_words,"    ""Disparity""    ",7,0.1891891891891892,56
+46,disparity,0,sub,enemy_words,"    ""Disparity""    ",15,0.40540540540540543,35
+47,disparity,0,sub,enemy_words,"    ""Disparity""    ",14,0.3783783783783784,39
+48,disparity,0,sub,enemy_words,"    ""Disparity""    ",21,0.5675675675675675,9
+49,disparity,0,sub,enemy_words,"    ""Disparity""    ",13,0.35135135135135137,46
+50,disparity,0,sub,enemy_words,"    ""Disparity""    ",17,0.4594594594594595,28
+51,disparity,1,sub,enemy_words,"    ""Disparity""    ",18,0.4864864864864865,23
+52,disparity,1,sub,enemy_words,"    ""Disparity""    ",21,0.5675675675675675,10
+53,disparity,0,sub,enemy_words,"    ""Disparity""    ",18,0.4864864864864865,24
+54,disparity,1,sub,enemy_words,"    ""Disparity""    ",13,0.35135135135135137,47
+55,disparity,0,sub,enemy_words,"    ""Disparity""    ",13,0.35135135135135137,48
+56,disparity,0,sub,enemy_words,"    ""Disparity""    ",14,0.3783783783783784,40
+1,enemy_words,1,main,enemy_words,Negative sequelae,24,0.6486486486486487,3
+2,enemy_words,1,main,enemy_words,Negative sequelae,14,0.3783783783783784,36
+3,enemy_words,0,main,enemy_words,Negative sequelae,13,0.35135135135135137,41
+4,enemy_words,0,main,enemy_words,Negative sequelae,9,0.24324324324324326,53
+5,enemy_words,1,main,enemy_words,Negative sequelae,16,0.43243243243243246,29
+6,enemy_words,1,main,enemy_words,Negative sequelae,23,0.6216216216216216,4
+7,enemy_words,0,main,enemy_words,Negative sequelae,13,0.35135135135135137,42
+8,enemy_words,0,main,enemy_words,Negative sequelae,15,0.40540540540540543,32
+9,enemy_words,1,main,enemy_words,Negative sequelae,19,0.5135135135135135,14
+10,enemy_words,1,main,enemy_words,Negative sequelae,10,0.2702702702702703,51
+11,enemy_words,0,main,enemy_words,Negative sequelae,13,0.35135135135135137,43
+12,enemy_words,1,main,enemy_words,Negative sequelae,20,0.5405405405405406,11
+13,enemy_words,1,main,enemy_words,Negative sequelae,22,0.5945945945945946,5
+14,enemy_words,0,main,enemy_words,Negative sequelae,14,0.3783783783783784,37
+15,enemy_words,1,main,enemy_words,Negative sequelae,19,0.5135135135135135,15
+16,enemy_words,1,main,enemy_words,Negative sequelae,16,0.43243243243243246,30
+17,enemy_words,1,main,enemy_words,Negative sequelae,20,0.5405405405405406,12
+18,enemy_words,1,main,enemy_words,Negative sequelae,18,0.4864864864864865,20
+19,enemy_words,1,main,enemy_words,Negative sequelae,17,0.4594594594594595,25
+20,enemy_words,1,main,enemy_words,Negative sequelae,20,0.5405405405405406,13
+21,enemy_words,1,main,enemy_words,Negative sequelae,14,0.3783783783783784,38
+22,enemy_words,1,main,enemy_words,Negative sequelae,21,0.5675675675675675,6
+23,enemy_words,1,main,enemy_words,Negative sequelae,15,0.40540540540540543,33
+24,enemy_words,1,main,enemy_words,Negative sequelae,19,0.5135135135135135,16
+25,enemy_words,1,main,enemy_words,Negative sequelae,18,0.4864864864864865,21
+26,enemy_words,1,main,enemy_words,Negative sequelae,10,0.2702702702702703,52
+27,enemy_words,1,main,enemy_words,Negative sequelae,26,0.7027027027027027,1
+28,enemy_words,1,main,enemy_words,Negative sequelae,17,0.4594594594594595,26
+29,enemy_words,1,main,enemy_words,Negative sequelae,11,0.2972972972972973,50
+30,enemy_words,1,main,enemy_words,Negative sequelae,13,0.35135135135135137,44
+31,enemy_words,1,main,enemy_words,Negative sequelae,21,0.5675675675675675,7
+32,enemy_words,1,main,enemy_words,Negative sequelae,15,0.40540540540540543,34
+33,enemy_words,1,main,enemy_words,Negative sequelae,25,0.6756756756756757,2
+34,enemy_words,1,main,enemy_words,Negative sequelae,9,0.24324324324324326,54
+35,enemy_words,0,main,enemy_words,Negative sequelae,8,0.21621621621621623,55
+36,enemy_words,1,main,enemy_words,Negative sequelae,19,0.5135135135135135,17
+37,enemy_words,1,main,enemy_words,Negative sequelae,16,0.43243243243243246,31
+38,enemy_words,1,main,enemy_words,Negative sequelae,18,0.4864864864864865,22
+39,enemy_words,0,main,enemy_words,Negative sequelae,12,0.32432432432432434,49
+40,enemy_words,1,main,enemy_words,Negative sequelae,13,0.35135135135135137,45
+41,enemy_words,0,main,enemy_words,Negative sequelae,17,0.4594594594594595,27
+42,enemy_words,1,main,enemy_words,Negative sequelae,19,0.5135135135135135,18
+43,enemy_words,1,main,enemy_words,Negative sequelae,21,0.5675675675675675,8
+44,enemy_words,1,main,enemy_words,Negative sequelae,19,0.5135135135135135,19
+45,enemy_words,1,main,enemy_words,Negative sequelae,7,0.1891891891891892,56
+46,enemy_words,1,main,enemy_words,Negative sequelae,15,0.40540540540540543,35
+47,enemy_words,1,main,enemy_words,Negative sequelae,14,0.3783783783783784,39
+48,enemy_words,1,main,enemy_words,Negative sequelae,21,0.5675675675675675,9
+49,enemy_words,0,main,enemy_words,Negative sequelae,13,0.35135135135135137,46
+50,enemy_words,1,main,enemy_words,Negative sequelae,17,0.4594594594594595,28
+51,enemy_words,1,main,enemy_words,Negative sequelae,18,0.4864864864864865,23
+52,enemy_words,1,main,enemy_words,Negative sequelae,21,0.5675675675675675,10
+53,enemy_words,1,main,enemy_words,Negative sequelae,18,0.4864864864864865,24
+54,enemy_words,1,main,enemy_words,Negative sequelae,13,0.35135135135135137,47
+55,enemy_words,1,main,enemy_words,Negative sequelae,13,0.35135135135135137,48
+56,enemy_words,0,main,enemy_words,Negative sequelae,14,0.3783783783783784,40
+1,community,1,sub,hopeful_words,"    ""Community""    ",24,0.6486486486486487,3
+2,community,1,sub,hopeful_words,"    ""Community""    ",14,0.3783783783783784,36
+3,community,1,sub,hopeful_words,"    ""Community""    ",13,0.35135135135135137,41
+4,community,1,sub,hopeful_words,"    ""Community""    ",9,0.24324324324324326,53
+5,community,1,sub,hopeful_words,"    ""Community""    ",16,0.43243243243243246,29
+6,community,1,sub,hopeful_words,"    ""Community""    ",23,0.6216216216216216,4
+7,community,1,sub,hopeful_words,"    ""Community""    ",13,0.35135135135135137,42
+8,community,1,sub,hopeful_words,"    ""Community""    ",15,0.40540540540540543,32
+9,community,1,sub,hopeful_words,"    ""Community""    ",19,0.5135135135135135,14
+10,community,0,sub,hopeful_words,"    ""Community""    ",10,0.2702702702702703,51
+11,community,1,sub,hopeful_words,"    ""Community""    ",13,0.35135135135135137,43
+12,community,1,sub,hopeful_words,"    ""Community""    ",20,0.5405405405405406,11
+13,community,1,sub,hopeful_words,"    ""Community""    ",22,0.5945945945945946,5
+14,community,1,sub,hopeful_words,"    ""Community""    ",14,0.3783783783783784,37
+15,community,1,sub,hopeful_words,"    ""Community""    ",19,0.5135135135135135,15
+16,community,1,sub,hopeful_words,"    ""Community""    ",16,0.43243243243243246,30
+17,community,1,sub,hopeful_words,"    ""Community""    ",20,0.5405405405405406,12
+18,community,1,sub,hopeful_words,"    ""Community""    ",18,0.4864864864864865,20
+19,community,1,sub,hopeful_words,"    ""Community""    ",17,0.4594594594594595,25
+20,community,1,sub,hopeful_words,"    ""Community""    ",20,0.5405405405405406,13
+21,community,1,sub,hopeful_words,"    ""Community""    ",14,0.3783783783783784,38
+22,community,1,sub,hopeful_words,"    ""Community""    ",21,0.5675675675675675,6
+23,community,1,sub,hopeful_words,"    ""Community""    ",15,0.40540540540540543,33
+24,community,1,sub,hopeful_words,"    ""Community""    ",19,0.5135135135135135,16
+25,community,1,sub,hopeful_words,"    ""Community""    ",18,0.4864864864864865,21
+26,community,1,sub,hopeful_words,"    ""Community""    ",10,0.2702702702702703,52
+27,community,1,sub,hopeful_words,"    ""Community""    ",26,0.7027027027027027,1
+28,community,1,sub,hopeful_words,"    ""Community""    ",17,0.4594594594594595,26
+29,community,1,sub,hopeful_words,"    ""Community""    ",11,0.2972972972972973,50
+30,community,1,sub,hopeful_words,"    ""Community""    ",13,0.35135135135135137,44
+31,community,1,sub,hopeful_words,"    ""Community""    ",21,0.5675675675675675,7
+32,community,1,sub,hopeful_words,"    ""Community""    ",15,0.40540540540540543,34
+33,community,1,sub,hopeful_words,"    ""Community""    ",25,0.6756756756756757,2
+34,community,1,sub,hopeful_words,"    ""Community""    ",9,0.24324324324324326,54
+35,community,1,sub,hopeful_words,"    ""Community""    ",8,0.21621621621621623,55
+36,community,1,sub,hopeful_words,"    ""Community""    ",19,0.5135135135135135,17
+37,community,1,sub,hopeful_words,"    ""Community""    ",16,0.43243243243243246,31
+38,community,1,sub,hopeful_words,"    ""Community""    ",18,0.4864864864864865,22
+39,community,0,sub,hopeful_words,"    ""Community""    ",12,0.32432432432432434,49
+40,community,1,sub,hopeful_words,"    ""Community""    ",13,0.35135135135135137,45
+41,community,1,sub,hopeful_words,"    ""Community""    ",17,0.4594594594594595,27
+42,community,1,sub,hopeful_words,"    ""Community""    ",19,0.5135135135135135,18
+43,community,1,sub,hopeful_words,"    ""Community""    ",21,0.5675675675675675,8
+44,community,1,sub,hopeful_words,"    ""Community""    ",19,0.5135135135135135,19
+45,community,1,sub,hopeful_words,"    ""Community""    ",7,0.1891891891891892,56
+46,community,1,sub,hopeful_words,"    ""Community""    ",15,0.40540540540540543,35
+47,community,1,sub,hopeful_words,"    ""Community""    ",14,0.3783783783783784,39
+48,community,1,sub,hopeful_words,"    ""Community""    ",21,0.5675675675675675,9
+49,community,0,sub,hopeful_words,"    ""Community""    ",13,0.35135135135135137,46
+50,community,0,sub,hopeful_words,"    ""Community""    ",17,0.4594594594594595,28
+51,community,1,sub,hopeful_words,"    ""Community""    ",18,0.4864864864864865,23
+52,community,1,sub,hopeful_words,"    ""Community""    ",21,0.5675675675675675,10
+53,community,1,sub,hopeful_words,"    ""Community""    ",18,0.4864864864864865,24
+54,community,1,sub,hopeful_words,"    ""Community""    ",13,0.35135135135135137,47
+55,community,1,sub,hopeful_words,"    ""Community""    ",13,0.35135135135135137,48
+56,community,1,sub,hopeful_words,"    ""Community""    ",14,0.3783783783783784,40
+1,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",24,0.6486486486486487,3
+2,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",14,0.3783783783783784,36
+3,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",13,0.35135135135135137,41
+4,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",9,0.24324324324324326,53
+5,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",16,0.43243243243243246,29
+6,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",23,0.6216216216216216,4
+7,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",13,0.35135135135135137,42
+8,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",15,0.40540540540540543,32
+9,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",19,0.5135135135135135,14
+10,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",10,0.2702702702702703,51
+11,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",13,0.35135135135135137,43
+12,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",20,0.5405405405405406,11
+13,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",22,0.5945945945945946,5
+14,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",14,0.3783783783783784,37
+15,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",19,0.5135135135135135,15
+16,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",16,0.43243243243243246,30
+17,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",20,0.5405405405405406,12
+18,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",18,0.4864864864864865,20
+19,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",17,0.4594594594594595,25
+20,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",20,0.5405405405405406,13
+21,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",14,0.3783783783783784,38
+22,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",21,0.5675675675675675,6
+23,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",15,0.40540540540540543,33
+24,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",19,0.5135135135135135,16
+25,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",18,0.4864864864864865,21
+26,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",10,0.2702702702702703,52
+27,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",26,0.7027027027027027,1
+28,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",17,0.4594594594594595,26
+29,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",11,0.2972972972972973,50
+30,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",13,0.35135135135135137,44
+31,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",21,0.5675675675675675,7
+32,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",15,0.40540540540540543,34
+33,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",25,0.6756756756756757,2
+34,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",9,0.24324324324324326,54
+35,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",8,0.21621621621621623,55
+36,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",19,0.5135135135135135,17
+37,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",16,0.43243243243243246,31
+38,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",18,0.4864864864864865,22
+39,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",12,0.32432432432432434,49
+40,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",13,0.35135135135135137,45
+41,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",17,0.4594594594594595,27
+42,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",19,0.5135135135135135,18
+43,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",21,0.5675675675675675,8
+44,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",19,0.5135135135135135,19
+45,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",7,0.1891891891891892,56
+46,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",15,0.40540540540540543,35
+47,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",14,0.3783783783783784,39
+48,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",21,0.5675675675675675,9
+49,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",13,0.35135135135135137,46
+50,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",17,0.4594594594594595,28
+51,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",18,0.4864864864864865,23
+52,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",21,0.5675675675675675,10
+53,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",18,0.4864864864864865,24
+54,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",13,0.35135135135135137,47
+55,inclusion,0,sub,hopeful_words,"    ""Inclusion""    ",13,0.35135135135135137,48
+56,inclusion,1,sub,hopeful_words,"    ""Inclusion""    ",14,0.3783783783783784,40
+1,justice,1,sub,hopeful_words,"    ""Justice""    ",24,0.6486486486486487,3
+2,justice,1,sub,hopeful_words,"    ""Justice""    ",14,0.3783783783783784,36
+3,justice,1,sub,hopeful_words,"    ""Justice""    ",13,0.35135135135135137,41
+4,justice,0,sub,hopeful_words,"    ""Justice""    ",9,0.24324324324324326,53
+5,justice,1,sub,hopeful_words,"    ""Justice""    ",16,0.43243243243243246,29
+6,justice,0,sub,hopeful_words,"    ""Justice""    ",23,0.6216216216216216,4
+7,justice,1,sub,hopeful_words,"    ""Justice""    ",13,0.35135135135135137,42
+8,justice,0,sub,hopeful_words,"    ""Justice""    ",15,0.40540540540540543,32
+9,justice,0,sub,hopeful_words,"    ""Justice""    ",19,0.5135135135135135,14
+10,justice,1,sub,hopeful_words,"    ""Justice""    ",10,0.2702702702702703,51
+11,justice,0,sub,hopeful_words,"    ""Justice""    ",13,0.35135135135135137,43
+12,justice,1,sub,hopeful_words,"    ""Justice""    ",20,0.5405405405405406,11
+13,justice,1,sub,hopeful_words,"    ""Justice""    ",22,0.5945945945945946,5
+14,justice,1,sub,hopeful_words,"    ""Justice""    ",14,0.3783783783783784,37
+15,justice,1,sub,hopeful_words,"    ""Justice""    ",19,0.5135135135135135,15
+16,justice,0,sub,hopeful_words,"    ""Justice""    ",16,0.43243243243243246,30
+17,justice,1,sub,hopeful_words,"    ""Justice""    ",20,0.5405405405405406,12
+18,justice,1,sub,hopeful_words,"    ""Justice""    ",18,0.4864864864864865,20
+19,justice,0,sub,hopeful_words,"    ""Justice""    ",17,0.4594594594594595,25
+20,justice,1,sub,hopeful_words,"    ""Justice""    ",20,0.5405405405405406,13
+21,justice,0,sub,hopeful_words,"    ""Justice""    ",14,0.3783783783783784,38
+22,justice,1,sub,hopeful_words,"    ""Justice""    ",21,0.5675675675675675,6
+23,justice,1,sub,hopeful_words,"    ""Justice""    ",15,0.40540540540540543,33
+24,justice,1,sub,hopeful_words,"    ""Justice""    ",19,0.5135135135135135,16
+25,justice,1,sub,hopeful_words,"    ""Justice""    ",18,0.4864864864864865,21
+26,justice,0,sub,hopeful_words,"    ""Justice""    ",10,0.2702702702702703,52
+27,justice,1,sub,hopeful_words,"    ""Justice""    ",26,0.7027027027027027,1
+28,justice,0,sub,hopeful_words,"    ""Justice""    ",17,0.4594594594594595,26
+29,justice,0,sub,hopeful_words,"    ""Justice""    ",11,0.2972972972972973,50
+30,justice,1,sub,hopeful_words,"    ""Justice""    ",13,0.35135135135135137,44
+31,justice,1,sub,hopeful_words,"    ""Justice""    ",21,0.5675675675675675,7
+32,justice,1,sub,hopeful_words,"    ""Justice""    ",15,0.40540540540540543,34
+33,justice,1,sub,hopeful_words,"    ""Justice""    ",25,0.6756756756756757,2
+34,justice,0,sub,hopeful_words,"    ""Justice""    ",9,0.24324324324324326,54
+35,justice,0,sub,hopeful_words,"    ""Justice""    ",8,0.21621621621621623,55
+36,justice,0,sub,hopeful_words,"    ""Justice""    ",19,0.5135135135135135,17
+37,justice,0,sub,hopeful_words,"    ""Justice""    ",16,0.43243243243243246,31
+38,justice,0,sub,hopeful_words,"    ""Justice""    ",18,0.4864864864864865,22
+39,justice,1,sub,hopeful_words,"    ""Justice""    ",12,0.32432432432432434,49
+40,justice,0,sub,hopeful_words,"    ""Justice""    ",13,0.35135135135135137,45
+41,justice,1,sub,hopeful_words,"    ""Justice""    ",17,0.4594594594594595,27
+42,justice,0,sub,hopeful_words,"    ""Justice""    ",19,0.5135135135135135,18
+43,justice,0,sub,hopeful_words,"    ""Justice""    ",21,0.5675675675675675,8
+44,justice,0,sub,hopeful_words,"    ""Justice""    ",19,0.5135135135135135,19
+45,justice,0,sub,hopeful_words,"    ""Justice""    ",7,0.1891891891891892,56
+46,justice,1,sub,hopeful_words,"    ""Justice""    ",15,0.40540540540540543,35
+47,justice,0,sub,hopeful_words,"    ""Justice""    ",14,0.3783783783783784,39
+48,justice,1,sub,hopeful_words,"    ""Justice""    ",21,0.5675675675675675,9
+49,justice,0,sub,hopeful_words,"    ""Justice""    ",13,0.35135135135135137,46
+50,justice,0,sub,hopeful_words,"    ""Justice""    ",17,0.4594594594594595,28
+51,justice,1,sub,hopeful_words,"    ""Justice""    ",18,0.4864864864864865,23
+52,justice,1,sub,hopeful_words,"    ""Justice""    ",21,0.5675675675675675,10
+53,justice,0,sub,hopeful_words,"    ""Justice""    ",18,0.4864864864864865,24
+54,justice,1,sub,hopeful_words,"    ""Justice""    ",13,0.35135135135135137,47
+55,justice,0,sub,hopeful_words,"    ""Justice""    ",13,0.35135135135135137,48
+56,justice,0,sub,hopeful_words,"    ""Justice""    ",14,0.3783783783783784,40
+1,diversity,1,sub,hopeful_words,"    ""Diversity""    ",24,0.6486486486486487,3
+2,diversity,0,sub,hopeful_words,"    ""Diversity""    ",14,0.3783783783783784,36
+3,diversity,0,sub,hopeful_words,"    ""Diversity""    ",13,0.35135135135135137,41
+4,diversity,0,sub,hopeful_words,"    ""Diversity""    ",9,0.24324324324324326,53
+5,diversity,1,sub,hopeful_words,"    ""Diversity""    ",16,0.43243243243243246,29
+6,diversity,1,sub,hopeful_words,"    ""Diversity""    ",23,0.6216216216216216,4
+7,diversity,1,sub,hopeful_words,"    ""Diversity""    ",13,0.35135135135135137,42
+8,diversity,1,sub,hopeful_words,"    ""Diversity""    ",15,0.40540540540540543,32
+9,diversity,1,sub,hopeful_words,"    ""Diversity""    ",19,0.5135135135135135,14
+10,diversity,0,sub,hopeful_words,"    ""Diversity""    ",10,0.2702702702702703,51
+11,diversity,0,sub,hopeful_words,"    ""Diversity""    ",13,0.35135135135135137,43
+12,diversity,1,sub,hopeful_words,"    ""Diversity""    ",20,0.5405405405405406,11
+13,diversity,1,sub,hopeful_words,"    ""Diversity""    ",22,0.5945945945945946,5
+14,diversity,1,sub,hopeful_words,"    ""Diversity""    ",14,0.3783783783783784,37
+15,diversity,1,sub,hopeful_words,"    ""Diversity""    ",19,0.5135135135135135,15
+16,diversity,1,sub,hopeful_words,"    ""Diversity""    ",16,0.43243243243243246,30
+17,diversity,0,sub,hopeful_words,"    ""Diversity""    ",20,0.5405405405405406,12
+18,diversity,0,sub,hopeful_words,"    ""Diversity""    ",18,0.4864864864864865,20
+19,diversity,1,sub,hopeful_words,"    ""Diversity""    ",17,0.4594594594594595,25
+20,diversity,0,sub,hopeful_words,"    ""Diversity""    ",20,0.5405405405405406,13
+21,diversity,1,sub,hopeful_words,"    ""Diversity""    ",14,0.3783783783783784,38
+22,diversity,0,sub,hopeful_words,"    ""Diversity""    ",21,0.5675675675675675,6
+23,diversity,1,sub,hopeful_words,"    ""Diversity""    ",15,0.40540540540540543,33
+24,diversity,1,sub,hopeful_words,"    ""Diversity""    ",19,0.5135135135135135,16
+25,diversity,1,sub,hopeful_words,"    ""Diversity""    ",18,0.4864864864864865,21
+26,diversity,0,sub,hopeful_words,"    ""Diversity""    ",10,0.2702702702702703,52
+27,diversity,0,sub,hopeful_words,"    ""Diversity""    ",26,0.7027027027027027,1
+28,diversity,1,sub,hopeful_words,"    ""Diversity""    ",17,0.4594594594594595,26
+29,diversity,0,sub,hopeful_words,"    ""Diversity""    ",11,0.2972972972972973,50
+30,diversity,0,sub,hopeful_words,"    ""Diversity""    ",13,0.35135135135135137,44
+31,diversity,1,sub,hopeful_words,"    ""Diversity""    ",21,0.5675675675675675,7
+32,diversity,1,sub,hopeful_words,"    ""Diversity""    ",15,0.40540540540540543,34
+33,diversity,1,sub,hopeful_words,"    ""Diversity""    ",25,0.6756756756756757,2
+34,diversity,0,sub,hopeful_words,"    ""Diversity""    ",9,0.24324324324324326,54
+35,diversity,0,sub,hopeful_words,"    ""Diversity""    ",8,0.21621621621621623,55
+36,diversity,1,sub,hopeful_words,"    ""Diversity""    ",19,0.5135135135135135,17
+37,diversity,1,sub,hopeful_words,"    ""Diversity""    ",16,0.43243243243243246,31
+38,diversity,0,sub,hopeful_words,"    ""Diversity""    ",18,0.4864864864864865,22
+39,diversity,1,sub,hopeful_words,"    ""Diversity""    ",12,0.32432432432432434,49
+40,diversity,0,sub,hopeful_words,"    ""Diversity""    ",13,0.35135135135135137,45
+41,diversity,1,sub,hopeful_words,"    ""Diversity""    ",17,0.4594594594594595,27
+42,diversity,1,sub,hopeful_words,"    ""Diversity""    ",19,0.5135135135135135,18
+43,diversity,1,sub,hopeful_words,"    ""Diversity""    ",21,0.5675675675675675,8
+44,diversity,0,sub,hopeful_words,"    ""Diversity""    ",19,0.5135135135135135,19
+45,diversity,0,sub,hopeful_words,"    ""Diversity""    ",7,0.1891891891891892,56
+46,diversity,1,sub,hopeful_words,"    ""Diversity""    ",15,0.40540540540540543,35
+47,diversity,1,sub,hopeful_words,"    ""Diversity""    ",14,0.3783783783783784,39
+48,diversity,1,sub,hopeful_words,"    ""Diversity""    ",21,0.5675675675675675,9
+49,diversity,0,sub,hopeful_words,"    ""Diversity""    ",13,0.35135135135135137,46
+50,diversity,1,sub,hopeful_words,"    ""Diversity""    ",17,0.4594594594594595,28
+51,diversity,1,sub,hopeful_words,"    ""Diversity""    ",18,0.4864864864864865,23
+52,diversity,1,sub,hopeful_words,"    ""Diversity""    ",21,0.5675675675675675,10
+53,diversity,1,sub,hopeful_words,"    ""Diversity""    ",18,0.4864864864864865,24
+54,diversity,0,sub,hopeful_words,"    ""Diversity""    ",13,0.35135135135135137,47
+55,diversity,0,sub,hopeful_words,"    ""Diversity""    ",13,0.35135135135135137,48
+56,diversity,0,sub,hopeful_words,"    ""Diversity""    ",14,0.3783783783783784,40
+1,solidarity,1,sub,hopeful_words,"    ""Solidarity""    ",24,0.6486486486486487,3
+2,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",14,0.3783783783783784,36
+3,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",13,0.35135135135135137,41
+4,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",9,0.24324324324324326,53
+5,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",16,0.43243243243243246,29
+6,solidarity,1,sub,hopeful_words,"    ""Solidarity""    ",23,0.6216216216216216,4
+7,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",13,0.35135135135135137,42
+8,solidarity,1,sub,hopeful_words,"    ""Solidarity""    ",15,0.40540540540540543,32
+9,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",19,0.5135135135135135,14
+10,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",10,0.2702702702702703,51
+11,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",13,0.35135135135135137,43
+12,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",20,0.5405405405405406,11
+13,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",22,0.5945945945945946,5
+14,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",14,0.3783783783783784,37
+15,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",19,0.5135135135135135,15
+16,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",16,0.43243243243243246,30
+17,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",20,0.5405405405405406,12
+18,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",18,0.4864864864864865,20
+19,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",17,0.4594594594594595,25
+20,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",20,0.5405405405405406,13
+21,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",14,0.3783783783783784,38
+22,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",21,0.5675675675675675,6
+23,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",15,0.40540540540540543,33
+24,solidarity,1,sub,hopeful_words,"    ""Solidarity""    ",19,0.5135135135135135,16
+25,solidarity,1,sub,hopeful_words,"    ""Solidarity""    ",18,0.4864864864864865,21
+26,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",10,0.2702702702702703,52
+27,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",26,0.7027027027027027,1
+28,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",17,0.4594594594594595,26
+29,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",11,0.2972972972972973,50
+30,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",13,0.35135135135135137,44
+31,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",21,0.5675675675675675,7
+32,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",15,0.40540540540540543,34
+33,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",25,0.6756756756756757,2
+34,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",9,0.24324324324324326,54
+35,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",8,0.21621621621621623,55
+36,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",19,0.5135135135135135,17
+37,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",16,0.43243243243243246,31
+38,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",18,0.4864864864864865,22
+39,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",12,0.32432432432432434,49
+40,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",13,0.35135135135135137,45
+41,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",17,0.4594594594594595,27
+42,solidarity,1,sub,hopeful_words,"    ""Solidarity""    ",19,0.5135135135135135,18
+43,solidarity,1,sub,hopeful_words,"    ""Solidarity""    ",21,0.5675675675675675,8
+44,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",19,0.5135135135135135,19
+45,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",7,0.1891891891891892,56
+46,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",15,0.40540540540540543,35
+47,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",14,0.3783783783783784,39
+48,solidarity,1,sub,hopeful_words,"    ""Solidarity""    ",21,0.5675675675675675,9
+49,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",13,0.35135135135135137,46
+50,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",17,0.4594594594594595,28
+51,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",18,0.4864864864864865,23
+52,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",21,0.5675675675675675,10
+53,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",18,0.4864864864864865,24
+54,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",13,0.35135135135135137,47
+55,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",13,0.35135135135135137,48
+56,solidarity,0,sub,hopeful_words,"    ""Solidarity""    ",14,0.3783783783783784,40
+1,equality,1,sub,hopeful_words,"    ""Equality""    ",24,0.6486486486486487,3
+2,equality,0,sub,hopeful_words,"    ""Equality""    ",14,0.3783783783783784,36
+3,equality,0,sub,hopeful_words,"    ""Equality""    ",13,0.35135135135135137,41
+4,equality,0,sub,hopeful_words,"    ""Equality""    ",9,0.24324324324324326,53
+5,equality,0,sub,hopeful_words,"    ""Equality""    ",16,0.43243243243243246,29
+6,equality,0,sub,hopeful_words,"    ""Equality""    ",23,0.6216216216216216,4
+7,equality,0,sub,hopeful_words,"    ""Equality""    ",13,0.35135135135135137,42
+8,equality,0,sub,hopeful_words,"    ""Equality""    ",15,0.40540540540540543,32
+9,equality,0,sub,hopeful_words,"    ""Equality""    ",19,0.5135135135135135,14
+10,equality,0,sub,hopeful_words,"    ""Equality""    ",10,0.2702702702702703,51
+11,equality,0,sub,hopeful_words,"    ""Equality""    ",13,0.35135135135135137,43
+12,equality,1,sub,hopeful_words,"    ""Equality""    ",20,0.5405405405405406,11
+13,equality,0,sub,hopeful_words,"    ""Equality""    ",22,0.5945945945945946,5
+14,equality,1,sub,hopeful_words,"    ""Equality""    ",14,0.3783783783783784,37
+15,equality,0,sub,hopeful_words,"    ""Equality""    ",19,0.5135135135135135,15
+16,equality,0,sub,hopeful_words,"    ""Equality""    ",16,0.43243243243243246,30
+17,equality,1,sub,hopeful_words,"    ""Equality""    ",20,0.5405405405405406,12
+18,equality,0,sub,hopeful_words,"    ""Equality""    ",18,0.4864864864864865,20
+19,equality,0,sub,hopeful_words,"    ""Equality""    ",17,0.4594594594594595,25
+20,equality,1,sub,hopeful_words,"    ""Equality""    ",20,0.5405405405405406,13
+21,equality,0,sub,hopeful_words,"    ""Equality""    ",14,0.3783783783783784,38
+22,equality,0,sub,hopeful_words,"    ""Equality""    ",21,0.5675675675675675,6
+23,equality,0,sub,hopeful_words,"    ""Equality""    ",15,0.40540540540540543,33
+24,equality,0,sub,hopeful_words,"    ""Equality""    ",19,0.5135135135135135,16
+25,equality,0,sub,hopeful_words,"    ""Equality""    ",18,0.4864864864864865,21
+26,equality,0,sub,hopeful_words,"    ""Equality""    ",10,0.2702702702702703,52
+27,equality,0,sub,hopeful_words,"    ""Equality""    ",26,0.7027027027027027,1
+28,equality,0,sub,hopeful_words,"    ""Equality""    ",17,0.4594594594594595,26
+29,equality,0,sub,hopeful_words,"    ""Equality""    ",11,0.2972972972972973,50
+30,equality,0,sub,hopeful_words,"    ""Equality""    ",13,0.35135135135135137,44
+31,equality,0,sub,hopeful_words,"    ""Equality""    ",21,0.5675675675675675,7
+32,equality,0,sub,hopeful_words,"    ""Equality""    ",15,0.40540540540540543,34
+33,equality,0,sub,hopeful_words,"    ""Equality""    ",25,0.6756756756756757,2
+34,equality,0,sub,hopeful_words,"    ""Equality""    ",9,0.24324324324324326,54
+35,equality,0,sub,hopeful_words,"    ""Equality""    ",8,0.21621621621621623,55
+36,equality,0,sub,hopeful_words,"    ""Equality""    ",19,0.5135135135135135,17
+37,equality,0,sub,hopeful_words,"    ""Equality""    ",16,0.43243243243243246,31
+38,equality,0,sub,hopeful_words,"    ""Equality""    ",18,0.4864864864864865,22
+39,equality,0,sub,hopeful_words,"    ""Equality""    ",12,0.32432432432432434,49
+40,equality,0,sub,hopeful_words,"    ""Equality""    ",13,0.35135135135135137,45
+41,equality,0,sub,hopeful_words,"    ""Equality""    ",17,0.4594594594594595,27
+42,equality,0,sub,hopeful_words,"    ""Equality""    ",19,0.5135135135135135,18
+43,equality,0,sub,hopeful_words,"    ""Equality""    ",21,0.5675675675675675,8
+44,equality,0,sub,hopeful_words,"    ""Equality""    ",19,0.5135135135135135,19
+45,equality,0,sub,hopeful_words,"    ""Equality""    ",7,0.1891891891891892,56
+46,equality,0,sub,hopeful_words,"    ""Equality""    ",15,0.40540540540540543,35
+47,equality,0,sub,hopeful_words,"    ""Equality""    ",14,0.3783783783783784,39
+48,equality,0,sub,hopeful_words,"    ""Equality""    ",21,0.5675675675675675,9
+49,equality,0,sub,hopeful_words,"    ""Equality""    ",13,0.35135135135135137,46
+50,equality,0,sub,hopeful_words,"    ""Equality""    ",17,0.4594594594594595,28
+51,equality,0,sub,hopeful_words,"    ""Equality""    ",18,0.4864864864864865,23
+52,equality,0,sub,hopeful_words,"    ""Equality""    ",21,0.5675675675675675,10
+53,equality,1,sub,hopeful_words,"    ""Equality""    ",18,0.4864864864864865,24
+54,equality,0,sub,hopeful_words,"    ""Equality""    ",13,0.35135135135135137,47
+55,equality,0,sub,hopeful_words,"    ""Equality""    ",13,0.35135135135135137,48
+56,equality,0,sub,hopeful_words,"    ""Equality""    ",14,0.3783783783783784,40
+1,equity,1,sub,hopeful_words,"    ""Equity""    ",24,0.6486486486486487,3
+2,equity,1,sub,hopeful_words,"    ""Equity""    ",14,0.3783783783783784,36
+3,equity,0,sub,hopeful_words,"    ""Equity""    ",13,0.35135135135135137,41
+4,equity,0,sub,hopeful_words,"    ""Equity""    ",9,0.24324324324324326,53
+5,equity,1,sub,hopeful_words,"    ""Equity""    ",16,0.43243243243243246,29
+6,equity,1,sub,hopeful_words,"    ""Equity""    ",23,0.6216216216216216,4
+7,equity,1,sub,hopeful_words,"    ""Equity""    ",13,0.35135135135135137,42
+8,equity,0,sub,hopeful_words,"    ""Equity""    ",15,0.40540540540540543,32
+9,equity,1,sub,hopeful_words,"    ""Equity""    ",19,0.5135135135135135,14
+10,equity,0,sub,hopeful_words,"    ""Equity""    ",10,0.2702702702702703,51
+11,equity,0,sub,hopeful_words,"    ""Equity""    ",13,0.35135135135135137,43
+12,equity,1,sub,hopeful_words,"    ""Equity""    ",20,0.5405405405405406,11
+13,equity,0,sub,hopeful_words,"    ""Equity""    ",22,0.5945945945945946,5
+14,equity,0,sub,hopeful_words,"    ""Equity""    ",14,0.3783783783783784,37
+15,equity,1,sub,hopeful_words,"    ""Equity""    ",19,0.5135135135135135,15
+16,equity,1,sub,hopeful_words,"    ""Equity""    ",16,0.43243243243243246,30
+17,equity,0,sub,hopeful_words,"    ""Equity""    ",20,0.5405405405405406,12
+18,equity,1,sub,hopeful_words,"    ""Equity""    ",18,0.4864864864864865,20
+19,equity,1,sub,hopeful_words,"    ""Equity""    ",17,0.4594594594594595,25
+20,equity,1,sub,hopeful_words,"    ""Equity""    ",20,0.5405405405405406,13
+21,equity,1,sub,hopeful_words,"    ""Equity""    ",14,0.3783783783783784,38
+22,equity,1,sub,hopeful_words,"    ""Equity""    ",21,0.5675675675675675,6
+23,equity,1,sub,hopeful_words,"    ""Equity""    ",15,0.40540540540540543,33
+24,equity,1,sub,hopeful_words,"    ""Equity""    ",19,0.5135135135135135,16
+25,equity,1,sub,hopeful_words,"    ""Equity""    ",18,0.4864864864864865,21
+26,equity,0,sub,hopeful_words,"    ""Equity""    ",10,0.2702702702702703,52
+27,equity,1,sub,hopeful_words,"    ""Equity""    ",26,0.7027027027027027,1
+28,equity,1,sub,hopeful_words,"    ""Equity""    ",17,0.4594594594594595,26
+29,equity,0,sub,hopeful_words,"    ""Equity""    ",11,0.2972972972972973,50
+30,equity,0,sub,hopeful_words,"    ""Equity""    ",13,0.35135135135135137,44
+31,equity,0,sub,hopeful_words,"    ""Equity""    ",21,0.5675675675675675,7
+32,equity,1,sub,hopeful_words,"    ""Equity""    ",15,0.40540540540540543,34
+33,equity,0,sub,hopeful_words,"    ""Equity""    ",25,0.6756756756756757,2
+34,equity,0,sub,hopeful_words,"    ""Equity""    ",9,0.24324324324324326,54
+35,equity,1,sub,hopeful_words,"    ""Equity""    ",8,0.21621621621621623,55
+36,equity,1,sub,hopeful_words,"    ""Equity""    ",19,0.5135135135135135,17
+37,equity,1,sub,hopeful_words,"    ""Equity""    ",16,0.43243243243243246,31
+38,equity,0,sub,hopeful_words,"    ""Equity""    ",18,0.4864864864864865,22
+39,equity,1,sub,hopeful_words,"    ""Equity""    ",12,0.32432432432432434,49
+40,equity,0,sub,hopeful_words,"    ""Equity""    ",13,0.35135135135135137,45
+41,equity,1,sub,hopeful_words,"    ""Equity""    ",17,0.4594594594594595,27
+42,equity,0,sub,hopeful_words,"    ""Equity""    ",19,0.5135135135135135,18
+43,equity,0,sub,hopeful_words,"    ""Equity""    ",21,0.5675675675675675,8
+44,equity,0,sub,hopeful_words,"    ""Equity""    ",19,0.5135135135135135,19
+45,equity,0,sub,hopeful_words,"    ""Equity""    ",7,0.1891891891891892,56
+46,equity,0,sub,hopeful_words,"    ""Equity""    ",15,0.40540540540540543,35
+47,equity,1,sub,hopeful_words,"    ""Equity""    ",14,0.3783783783783784,39
+48,equity,1,sub,hopeful_words,"    ""Equity""    ",21,0.5675675675675675,9
+49,equity,0,sub,hopeful_words,"    ""Equity""    ",13,0.35135135135135137,46
+50,equity,1,sub,hopeful_words,"    ""Equity""    ",17,0.4594594594594595,28
+51,equity,1,sub,hopeful_words,"    ""Equity""    ",18,0.4864864864864865,23
+52,equity,1,sub,hopeful_words,"    ""Equity""    ",21,0.5675675675675675,10
+53,equity,1,sub,hopeful_words,"    ""Equity""    ",18,0.4864864864864865,24
+54,equity,1,sub,hopeful_words,"    ""Equity""    ",13,0.35135135135135137,47
+55,equity,0,sub,hopeful_words,"    ""Equity""    ",13,0.35135135135135137,48
+56,equity,1,sub,hopeful_words,"    ""Equity""    ",14,0.3783783783783784,40
+1,support,1,sub,hopeful_words,"    ""Support""    ",24,0.6486486486486487,3
+2,support,1,sub,hopeful_words,"    ""Support""    ",14,0.3783783783783784,36
+3,support,0,sub,hopeful_words,"    ""Support""    ",13,0.35135135135135137,41
+4,support,0,sub,hopeful_words,"    ""Support""    ",9,0.24324324324324326,53
+5,support,1,sub,hopeful_words,"    ""Support""    ",16,0.43243243243243246,29
+6,support,0,sub,hopeful_words,"    ""Support""    ",23,0.6216216216216216,4
+7,support,1,sub,hopeful_words,"    ""Support""    ",13,0.35135135135135137,42
+8,support,1,sub,hopeful_words,"    ""Support""    ",15,0.40540540540540543,32
+9,support,1,sub,hopeful_words,"    ""Support""    ",19,0.5135135135135135,14
+10,support,0,sub,hopeful_words,"    ""Support""    ",10,0.2702702702702703,51
+11,support,0,sub,hopeful_words,"    ""Support""    ",13,0.35135135135135137,43
+12,support,1,sub,hopeful_words,"    ""Support""    ",20,0.5405405405405406,11
+13,support,1,sub,hopeful_words,"    ""Support""    ",22,0.5945945945945946,5
+14,support,1,sub,hopeful_words,"    ""Support""    ",14,0.3783783783783784,37
+15,support,1,sub,hopeful_words,"    ""Support""    ",19,0.5135135135135135,15
+16,support,0,sub,hopeful_words,"    ""Support""    ",16,0.43243243243243246,30
+17,support,0,sub,hopeful_words,"    ""Support""    ",20,0.5405405405405406,12
+18,support,0,sub,hopeful_words,"    ""Support""    ",18,0.4864864864864865,20
+19,support,1,sub,hopeful_words,"    ""Support""    ",17,0.4594594594594595,25
+20,support,0,sub,hopeful_words,"    ""Support""    ",20,0.5405405405405406,13
+21,support,1,sub,hopeful_words,"    ""Support""    ",14,0.3783783783783784,38
+22,support,1,sub,hopeful_words,"    ""Support""    ",21,0.5675675675675675,6
+23,support,0,sub,hopeful_words,"    ""Support""    ",15,0.40540540540540543,33
+24,support,1,sub,hopeful_words,"    ""Support""    ",19,0.5135135135135135,16
+25,support,0,sub,hopeful_words,"    ""Support""    ",18,0.4864864864864865,21
+26,support,0,sub,hopeful_words,"    ""Support""    ",10,0.2702702702702703,52
+27,support,1,sub,hopeful_words,"    ""Support""    ",26,0.7027027027027027,1
+28,support,0,sub,hopeful_words,"    ""Support""    ",17,0.4594594594594595,26
+29,support,0,sub,hopeful_words,"    ""Support""    ",11,0.2972972972972973,50
+30,support,0,sub,hopeful_words,"    ""Support""    ",13,0.35135135135135137,44
+31,support,0,sub,hopeful_words,"    ""Support""    ",21,0.5675675675675675,7
+32,support,1,sub,hopeful_words,"    ""Support""    ",15,0.40540540540540543,34
+33,support,1,sub,hopeful_words,"    ""Support""    ",25,0.6756756756756757,2
+34,support,1,sub,hopeful_words,"    ""Support""    ",9,0.24324324324324326,54
+35,support,1,sub,hopeful_words,"    ""Support""    ",8,0.21621621621621623,55
+36,support,1,sub,hopeful_words,"    ""Support""    ",19,0.5135135135135135,17
+37,support,1,sub,hopeful_words,"    ""Support""    ",16,0.43243243243243246,31
+38,support,0,sub,hopeful_words,"    ""Support""    ",18,0.4864864864864865,22
+39,support,1,sub,hopeful_words,"    ""Support""    ",12,0.32432432432432434,49
+40,support,1,sub,hopeful_words,"    ""Support""    ",13,0.35135135135135137,45
+41,support,0,sub,hopeful_words,"    ""Support""    ",17,0.4594594594594595,27
+42,support,1,sub,hopeful_words,"    ""Support""    ",19,0.5135135135135135,18
+43,support,0,sub,hopeful_words,"    ""Support""    ",21,0.5675675675675675,8
+44,support,0,sub,hopeful_words,"    ""Support""    ",19,0.5135135135135135,19
+45,support,1,sub,hopeful_words,"    ""Support""    ",7,0.1891891891891892,56
+46,support,1,sub,hopeful_words,"    ""Support""    ",15,0.40540540540540543,35
+47,support,1,sub,hopeful_words,"    ""Support""    ",14,0.3783783783783784,39
+48,support,1,sub,hopeful_words,"    ""Support""    ",21,0.5675675675675675,9
+49,support,1,sub,hopeful_words,"    ""Support""    ",13,0.35135135135135137,46
+50,support,0,sub,hopeful_words,"    ""Support""    ",17,0.4594594594594595,28
+51,support,1,sub,hopeful_words,"    ""Support""    ",18,0.4864864864864865,23
+52,support,0,sub,hopeful_words,"    ""Support""    ",21,0.5675675675675675,10
+53,support,0,sub,hopeful_words,"    ""Support""    ",18,0.4864864864864865,24
+54,support,1,sub,hopeful_words,"    ""Support""    ",13,0.35135135135135137,47
+55,support,0,sub,hopeful_words,"    ""Support""    ",13,0.35135135135135137,48
+56,support,1,sub,hopeful_words,"    ""Support""    ",14,0.3783783783783784,40
+1,hopeful_words,1,main,hopeful_words,Hopeful language,24,0.6486486486486487,3
+2,hopeful_words,1,main,hopeful_words,Hopeful language,14,0.3783783783783784,36
+3,hopeful_words,1,main,hopeful_words,Hopeful language,13,0.35135135135135137,41
+4,hopeful_words,1,main,hopeful_words,Hopeful language,9,0.24324324324324326,53
+5,hopeful_words,1,main,hopeful_words,Hopeful language,16,0.43243243243243246,29
+6,hopeful_words,1,main,hopeful_words,Hopeful language,23,0.6216216216216216,4
+7,hopeful_words,1,main,hopeful_words,Hopeful language,13,0.35135135135135137,42
+8,hopeful_words,1,main,hopeful_words,Hopeful language,15,0.40540540540540543,32
+9,hopeful_words,1,main,hopeful_words,Hopeful language,19,0.5135135135135135,14
+10,hopeful_words,1,main,hopeful_words,Hopeful language,10,0.2702702702702703,51
+11,hopeful_words,1,main,hopeful_words,Hopeful language,13,0.35135135135135137,43
+12,hopeful_words,1,main,hopeful_words,Hopeful language,20,0.5405405405405406,11
+13,hopeful_words,1,main,hopeful_words,Hopeful language,22,0.5945945945945946,5
+14,hopeful_words,1,main,hopeful_words,Hopeful language,14,0.3783783783783784,37
+15,hopeful_words,1,main,hopeful_words,Hopeful language,19,0.5135135135135135,15
+16,hopeful_words,1,main,hopeful_words,Hopeful language,16,0.43243243243243246,30
+17,hopeful_words,1,main,hopeful_words,Hopeful language,20,0.5405405405405406,12
+18,hopeful_words,1,main,hopeful_words,Hopeful language,18,0.4864864864864865,20
+19,hopeful_words,1,main,hopeful_words,Hopeful language,17,0.4594594594594595,25
+20,hopeful_words,1,main,hopeful_words,Hopeful language,20,0.5405405405405406,13
+21,hopeful_words,1,main,hopeful_words,Hopeful language,14,0.3783783783783784,38
+22,hopeful_words,1,main,hopeful_words,Hopeful language,21,0.5675675675675675,6
+23,hopeful_words,1,main,hopeful_words,Hopeful language,15,0.40540540540540543,33
+24,hopeful_words,1,main,hopeful_words,Hopeful language,19,0.5135135135135135,16
+25,hopeful_words,1,main,hopeful_words,Hopeful language,18,0.4864864864864865,21
+26,hopeful_words,1,main,hopeful_words,Hopeful language,10,0.2702702702702703,52
+27,hopeful_words,1,main,hopeful_words,Hopeful language,26,0.7027027027027027,1
+28,hopeful_words,1,main,hopeful_words,Hopeful language,17,0.4594594594594595,26
+29,hopeful_words,1,main,hopeful_words,Hopeful language,11,0.2972972972972973,50
+30,hopeful_words,1,main,hopeful_words,Hopeful language,13,0.35135135135135137,44
+31,hopeful_words,1,main,hopeful_words,Hopeful language,21,0.5675675675675675,7
+32,hopeful_words,1,main,hopeful_words,Hopeful language,15,0.40540540540540543,34
+33,hopeful_words,1,main,hopeful_words,Hopeful language,25,0.6756756756756757,2
+34,hopeful_words,1,main,hopeful_words,Hopeful language,9,0.24324324324324326,54
+35,hopeful_words,1,main,hopeful_words,Hopeful language,8,0.21621621621621623,55
+36,hopeful_words,1,main,hopeful_words,Hopeful language,19,0.5135135135135135,17
+37,hopeful_words,1,main,hopeful_words,Hopeful language,16,0.43243243243243246,31
+38,hopeful_words,1,main,hopeful_words,Hopeful language,18,0.4864864864864865,22
+39,hopeful_words,1,main,hopeful_words,Hopeful language,12,0.32432432432432434,49
+40,hopeful_words,1,main,hopeful_words,Hopeful language,13,0.35135135135135137,45
+41,hopeful_words,1,main,hopeful_words,Hopeful language,17,0.4594594594594595,27
+42,hopeful_words,1,main,hopeful_words,Hopeful language,19,0.5135135135135135,18
+43,hopeful_words,1,main,hopeful_words,Hopeful language,21,0.5675675675675675,8
+44,hopeful_words,1,main,hopeful_words,Hopeful language,19,0.5135135135135135,19
+45,hopeful_words,1,main,hopeful_words,Hopeful language,7,0.1891891891891892,56
+46,hopeful_words,1,main,hopeful_words,Hopeful language,15,0.40540540540540543,35
+47,hopeful_words,1,main,hopeful_words,Hopeful language,14,0.3783783783783784,39
+48,hopeful_words,1,main,hopeful_words,Hopeful language,21,0.5675675675675675,9
+49,hopeful_words,1,main,hopeful_words,Hopeful language,13,0.35135135135135137,46
+50,hopeful_words,1,main,hopeful_words,Hopeful language,17,0.4594594594594595,28
+51,hopeful_words,1,main,hopeful_words,Hopeful language,18,0.4864864864864865,23
+52,hopeful_words,1,main,hopeful_words,Hopeful language,21,0.5675675675675675,10
+53,hopeful_words,1,main,hopeful_words,Hopeful language,18,0.4864864864864865,24
+54,hopeful_words,1,main,hopeful_words,Hopeful language,13,0.35135135135135137,47
+55,hopeful_words,1,main,hopeful_words,Hopeful language,13,0.35135135135135137,48
+56,hopeful_words,1,main,hopeful_words,Hopeful language,14,0.3783783783783784,40
