@@ -32,6 +32,9 @@ study*](TODO). The full citation is:
 
 ## Additional analyses
 
+Note, the HTML links below will not render interactive tables. You must
+download the file and view it locally.
+
   - [Descriptives (including list of
     institutions)](https://htmlpreview.github.io/?https://github.com/mkiang/statement_analysis/blob/master/rmds/01_descriptives.html)
     ([Source
