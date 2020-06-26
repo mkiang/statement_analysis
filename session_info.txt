@@ -1,4 +1,4 @@
-─ Session info ──────────────────────────────────────────────────────────────────────────────────────────────
+─ Session info ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
  setting  value                       
  version  R version 4.0.0 (2020-04-24)
  os       macOS Mojave 10.14.6        
@@ -8,9 +8,9 @@
  collate  en_US.UTF-8                 
  ctype    en_US.UTF-8                 
  tz       America/Los_Angeles         
- date     2020-06-23                  
+ date     2020-06-25                  
 
-─ Packages ──────────────────────────────────────────────────────────────────────────────────────────────────
+─ Packages ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
  ! package     * version date       lib source        
  P assertthat    0.2.1   2019-03-21 [?] CRAN (R 4.0.0)
  P backports     1.1.8   2020-06-17 [?] CRAN (R 4.0.0)
@@ -91,6 +91,6 @@
  P yaml          2.2.1   2020-02-01 [?] CRAN (R 4.0.0)
 
 [1] /Users/mvk/Dropbox/Projects_Active/floyd_statements/statement_analysis/renv/library/R-4.0/x86_64-apple-darwin17.0
-[2] /private/var/folders/r_/85nxnshs3pqf0q49wp0035dm0000gp/T/RtmpiZL26e/renv-system-library
+[2] /private/var/folders/r_/85nxnshs3pqf0q49wp0035dm0000gp/T/RtmpFpw855/renv-system-library
 
  P ── Loaded and on-disk path mismatch.
