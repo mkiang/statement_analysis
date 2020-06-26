@@ -675,6 +675,7 @@ p1 <- ggplot(
     ggsci::scale_fill_aaas()
 print(p1)
 ```
+
 ### Proportion of major criteria covered by each statement
 
 ```{r}
