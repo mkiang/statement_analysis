@@ -1,8 +1,8 @@
 ---
 title: | 
-  **Supplemental Materials:** Statements issued by academic medical
+  **Supplemental Materials** for "Statements issued by academic medical
   institutions after George Floyd’s killing by police and subsequent 
-  unrest in the United States: cross-sectional study'
+  unrest in the United States: cross-sectional study"
 author: Mathew V Kiang and Alexander C Tsai
 output: 
   html_document:
@@ -37,10 +37,14 @@ summary_df <- readRDS(here("data_private", "keyword_summary_df.RDS"))
 
 ## Introduction
 
-Here, we present analytic code for our paper, "Analytic code and additional analyses for 
-  *Statements issued by academic medical institutions after George Floyd’s 
+Here, we present analytic code for our paper, "Statements issued by academic medical 
+  institutions after George Floyd’s 
   killing by police and subsequent unrest in the United States: 
-  cross-sectional study". By default, the code is hidden — to view the code, simply click on the "Code" button to the right of each chunk. We used *`r R.version$version.string`* for all analyses and full session information can be viewed at the end of the document. When possible, we save the de-identified intermediate data frames in `csv` format. 
+  cross-sectional study." 
+  
+By default, the code is hidden — to view the code, simply click on the "Code" button to the right of each chunk. We used *`r R.version$version.string`* for all analyses and full session information can be viewed at `./session_info.txt`. 
+  
+When possible, we save the de-identified intermediate data frames in `csv` format. 
 
 ## About the data
 
@@ -81,7 +85,6 @@ analytic_df %>%
     col.names = c("Institution", "NIH Funding Rank (2018)", "USN&WR Rank (2021)")
   )
 ```
-
 
 Of the `r n_distinct(analytic_df$institution)` statements, `r sum(analytic_df$public == 0)` (`r sprintf("%0.1f%%", round(sum(analytic_df$public == 0) / n_distinct(analytic_df$institution) * 100, 1))`) were not easily accessible on the institution's website or official social media accounts and `r sum(!grepl("[Dd]{1}ean", analytic_df$position))` (`r sprintf("%0.1f%%", round(sum(!grepl("[Dd]{1}ean", analytic_df$position)) / n_distinct(analytic_df$institution) * 100, 1))`) were not from a medical school dean. 
 
