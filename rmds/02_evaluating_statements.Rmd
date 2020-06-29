@@ -646,7 +646,7 @@ t_faces <-
     ))
 ```
 
-```{r fig.height=7, fig.width=5}
+```{r fig.height=7, fig.width=8}
 p1 <- ggplot(
     summary_df,
     aes(
