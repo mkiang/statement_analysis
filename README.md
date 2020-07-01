@@ -14,9 +14,14 @@
 Analytic code and additional analyses for our paper, [*Statements issued
 by academic medical institutions after George Floyd’s killing by police
 and subsequent unrest in the United States: cross-sectional
-study*](TODO). The full citation is:
+study*](https://doi.org/10.1101/2020.06.22.20137844). The full citation
+is:
 
-> TODO
+> Kiang MV & Tsai AC, Statements issued by academic medical institutions
+> after George Floyd’s killing by police and subsequent unrest in the
+> United States: cross-sectional study. Preprint on *medRxiv*
+> 2020.06.22.20137844; doi:
+> [10.1101/2020.06.22.20137844](https://doi.org/10.1101/2020.06.22.20137844)
 
 ## Structure
 
