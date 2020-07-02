@@ -14,8 +14,8 @@
 Analytic code and additional analyses for our paper, [*Statements issued
 by academic medical institutions after George Floyd’s killing by police
 and subsequent unrest in the United States: cross-sectional
-study*](https://doi.org/10.1101/2020.06.22.20137844). The full citation
-is:
+study*](https://www.medrxiv.org/content/10.1101/2020.06.22.20137844v1).
+The full citation is:
 
 > Kiang MV & Tsai AC, Statements issued by academic medical institutions
 > after George Floyd’s killing by police and subsequent unrest in the

@@ -118,3 +118,16 @@ ggplot2::ggsave(
     height = 5,
     scale = 1.2
 )
+
+p1_share <-
+    p1 + labs(title = "Elements in Statements after George Floyd's Killing",
+              subtitle = "Each column is a statement made by a Top 50 medical school dean", 
+              caption = "See Kiang & Tsai for details (https://github.com/mkiang/statement_analysis)")
+ggplot2::ggsave(
+    here::here("plots", "fig1_share.jpg"),
+    p1_share,
+    dpi = 300,
+    width = 7,
+    height = 5,
+    scale = 1.2
+)
