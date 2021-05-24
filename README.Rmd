@@ -21,9 +21,11 @@ knitr::include_graphics("./plots/fig1.jpg")
 
 ## Introduction 
 
-Analytic code and additional analyses for our paper, [*Statements issued by academic medical institutions after George Floyd’s killing by police and subsequent unrest in the United States: cross-sectional study*](https://www.medrxiv.org/content/10.1101/2020.06.22.20137844v1). The full citation is:
+Analytic code and additional analyses for our *Annals of Epidemiology* paper, [*Failure of leadership in U.S. academic medicine after George Floyd's killing by police and amidst subsequent unrest*](https://doi.org/10.1016/j.annepidem.2021.04.018). The full citation is:
 
-> Kiang MV & Tsai AC, Statements issued by academic medical institutions after George Floyd's killing by police and subsequent unrest in the United States: cross-sectional study. Preprint on *medRxiv* 2020.06.22.20137844; doi: [10.1101/2020.06.22.20137844](https://doi.org/10.1101/2020.06.22.20137844)
+> Kiang MV & Tsai AC, Failure of leadership in U.S. academic medicine after George Floyd’s killing by police and amidst subsequent unrest. *Annals of Epidemiology* (May 2020), doi: [10.1101/2020.06.22.20137844](https://doi.org/10.1101/2020.06.22.20137844)
+
+The pre-print version can be found [on *medRxiv*](https://www.medrxiv.org/content/10.1101/2020.06.22.20137844v1).
 
 ## Structure
 

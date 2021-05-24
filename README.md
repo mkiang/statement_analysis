@@ -4,35 +4,35 @@
 ## Statements issued by academic medical institutions after George Floyd’s killing by police and subsequent unrest in the United States: cross-sectional study
 
 <p align="center">
-
 <img src="./plots/fig1.jpg" width="700px" style="display: block; margin: auto;" />
-
 </p>
 
 ## Introduction
 
-Analytic code and additional analyses for our paper, [*Statements issued
-by academic medical institutions after George Floyd’s killing by police
-and subsequent unrest in the United States: cross-sectional
-study*](https://www.medrxiv.org/content/10.1101/2020.06.22.20137844v1).
-The full citation is:
+Analytic code and additional analyses for our *Annals of Epidemiology*
+paper, [*Failure of leadership in U.S. academic medicine after George
+Floyd’s killing by police and amidst subsequent
+unrest*](https://doi.org/10.1016/j.annepidem.2021.04.018). The full
+citation is:
 
-> Kiang MV & Tsai AC, Statements issued by academic medical institutions
-> after George Floyd’s killing by police and subsequent unrest in the
-> United States: cross-sectional study. Preprint on *medRxiv*
-> 2020.06.22.20137844; doi:
+> Kiang MV & Tsai AC, Failure of leadership in U.S. academic medicine
+> after George Floyd’s killing by police and amidst subsequent unrest.
+> *Annals of Epidemiology* (May 2020), doi:
 > [10.1101/2020.06.22.20137844](https://doi.org/10.1101/2020.06.22.20137844)
+
+The pre-print version can be found [on
+*medRxiv*](https://www.medrxiv.org/content/10.1101/2020.06.22.20137844v1).
 
 ## Structure
 
-  - `code`: contains code files to be run in sequential order with the
+-   `code`: contains code files to be run in sequential order with the
     exception of `00_rerun_everything.R`
-  - `data`: contains publicly shareable data
-  - `data_private` (not on Github): contains full, private data
-  - `plots`: contains publicly shareable plots
-  - `plots_private` (not on Github): contains plots with identifiers for
+-   `data`: contains publicly shareable data
+-   `data_private` (not on Github): contains full, private data
+-   `plots`: contains publicly shareable plots
+-   `plots_private` (not on Github): contains plots with identifiers for
     manual verification
-  - `rmds`: contains rmarkdown files with additional analyses and/or
+-   `rmds`: contains rmarkdown files with additional analyses and/or
     explanation
 
 ## Additional analyses
@@ -40,28 +40,28 @@ The full citation is:
 Note, the HTML links below will not render interactive tables. You must
 download the file and view it locally.
 
-  - [Descriptives (including list of
+-   [Descriptives (including list of
     institutions)](https://htmlpreview.github.io/?https://github.com/mkiang/statement_analysis/blob/master/rmds/01_descriptives.html)
     ([Source
     RMD](https://github.com/mkiang/statement_analysis/blob/master/rmds/01_descriptives.Rmd)
-    | [Source
+    \| [Source
     HTML](https://github.com/mkiang/statement_analysis/blob/master/rmds/01_descriptives.html))
-  - [Evaluating
+-   [Evaluating
     statements](https://htmlpreview.github.io/?https://github.com/mkiang/statement_analysis/blob/master/rmds/02_evaluating_statements.html)
     ([Source
     RMD](https://github.com/mkiang/statement_analysis/blob/master/rmds/02_evaluating_statements.Rmd)
-    | [Source
+    \| [Source
     HTML](https://github.com/mkiang/statement_analysis/blob/master/rmds/02_evaluating_statements.html))
 
 ## Authors
 
-  - [Alexander
+-   [Alexander
     Tsai](https://connects.catalyst.harvard.edu/Profiles/display/Person/90553)
     (![Twitter](http://i.imgur.com/wWzX9uB.png):
     [@drdrtsai](https://twitter.com/drdrtsai))
-  - [Mathew Kiang](https://mathewkiang.com)
+-   [Mathew Kiang](https://mathewkiang.com)
     (![Github](http://i.imgur.com/9I6NRUm.png):
-    [mkiang](https://github.com/mkiang) |
+    [mkiang](https://github.com/mkiang) \|
     ![Twitter](http://i.imgur.com/wWzX9uB.png):
     [@mathewkiang](https://twitter.com/mathewkiang))
 
