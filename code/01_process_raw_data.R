@@ -13,8 +13,7 @@ library(janitor)
 library(SnowballC)
 
 ## Constants ----
-CURRENT_FILE_NAME <-
-    "current_download.csv"
+CURRENT_FILE_NAME <-"current_download.csv"
 MANUAL_STOPWORDS <-
     c(
         "00",
