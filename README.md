@@ -18,7 +18,7 @@ citation is:
 > Kiang MV & Tsai AC, Failure of leadership in U.S. academic medicine
 > after George Floyd’s killing by police and amidst subsequent unrest.
 > *Annals of Epidemiology* (May 2020), doi:
-> [10.1101/2020.06.22.20137844](https://doi.org/10.1101/2020.06.22.20137844)
+> [10.1101/2020.06.22.20137844](https://doi.org/10.1016/j.annepidem.2021.04.018)
 
 The pre-print version can be found [on
 *medRxiv*](https://www.medrxiv.org/content/10.1101/2020.06.22.20137844v1).
